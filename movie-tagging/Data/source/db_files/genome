@@ -1,0 +1,5199 @@
+genome_id	name_chs	name_eng	level	father_id
+1	root	root	0	0
+2	情感	Mood	1	1
+3	情节	Plot	1	1
+4	类型	Genre	1	1
+5	时代	Time/Period	1	1
+6	地点	Place	1	1
+7	警告	Flag	1	1
+8	角色	Role	1	1
+9	风格	Style	1	1
+10	基于	Based on	1	1
+11	赞誉	Praise	1	1
+12	节奏	Tempo	1	1
+13	受众	Audience	1	1
+14	视觉	Look	1	1
+15	其他关键字	Other Keywords	1	1
+16	配乐	Score	1	1
+17	积极情感	Positive emotions	2	2
+18	中性情感	Neutral emotional	2	2
+19	消极情感	Negative emotions	2	2
+20	情感其他	Other Mood	2	2
+21	幽默	Humorous	3	17
+22	动情	Emotional	3	17
+23	愉快	Feel Good	3	17
+24	真情	Sincere	3	17
+25	感人	Touching	3	17
+26	振奋	Uplifting	3	17
+27	风趣	Witty	3	17
+28	励志	Inspirational	3	17
+29	可爱	Cute	3	17
+30	勇敢	Brave	3	17
+31	浪漫	Romantic	3	17
+32	搞笑	Goofy	3	17
+33	温情	Heartfelt	3	17
+34	机智	Clever	3	17
+35	冷幽默	Dry humor	3	17
+36	轻松	Relaxing	3	17
+37	犀利	biting	3	18
+38	震撼	Exciting	3	18
+39	深刻	Contemplative	3	18
+40	费解	Mind Bending	3	18
+41	脱俗	Offbeat	3	18
+42	粗犷	Rough	3	18
+43	悬疑	Suspenseful	3	464
+44	紧张	Tense	3	18
+45	有启发	Thought Provoking	3	18
+46	怀旧	Nostalgia	3	18
+47	离奇	Quirky	3	18
+48	有争议	Controversial	3	18
+49	调侃	irreverent humor	3	18
+50	精彩	Captivating	3	18
+51	高智商	High  IQ	3	18
+52	性感	Sexual	3	18
+53	悲喜	Bittersweet	3	18
+54	爆米花	Popcorn	3	18
+55	黑色幽默	Dark Humor	3	18
+57	风格化	stylized	3	18
+58	大气	atmospheric	3	18
+59	滑稽	Silly humor	3	18
+60	讽刺	Cynical	3	19
+61	不安	Disturbing	3	19
+62	晦暗	Gloomy	3	19
+63	感伤	Sentimental	3	19
+64	黑暗	Dark	3	19
+65	颓废	Decadence	3	19
+66	吓人	Scary	3	19
+67	孤单	lonely	3	19
+68	凄凉	bleak	3	19
+69	压抑	Repressed	3	19
+70	愤怒	Angry	3	20
+71	悲哀	Sad	3	20
+72	童心	Childlike innocence	3	20
+73	百态生活	Attitudes of life	2	3
+74	暴力冲突	Violence and conflict	2	3
+75	人生	Life	2	3
+76	性格与价值观	Character and values	2	3
+77	家庭与关系	Families and Relationships	2	3
+78	社会新闻	Society and News	2	3
+79	政治战争	Politics and war	2	3
+81	情形	situations and other	2	3
+82	情节其他	Other Plot	2	3
+83	家暴	Domestic Violence	3	77
+85	舞者	dancer	3	798
+86	夜生活	Nightlife	3	73
+87	出柜	Coming Out	3	73
+88	智力游戏	mind game	3	74
+89	娱乐圈	Showbiz	3	73
+92	闹剧	slapstick	3	73
+93	失业	unemployment	3	73
+94	小大人	Child as Adult	3	73
+95	婚外恋	love affair	3	73
+96	贫富	rich and poor	3	73
+97	脱口秀	Radio Show	3	73
+98	教育	Dedicated Educator	3	73
+99	新生活	Starting Over	3	73
+100	时尚	Fashion	3	73
+101	成名	Rising To Stardom	3	73
+102	训练	Basic Training	3	73
+103	青春	adolescence vs adulthood	3	75
+104	乐队	Music Band	3	73
+105	收养	Adoption	3	73
+106	奔波	On the Run	3	73
+107	恶作剧	prank	3	73
+108	婚礼	weddings	3	73
+109	媒体	Media	3	73
+111	性关系	Sexual Relations	3	73
+112	寻求爱情	Looking for Love	3	73
+114	无奈	Life is a Bitch	3	73
+115	上瘾	Addiction	3	73
+116	生活剧变	Life Turned Upside Down	3	73
+117	非凡人生	Lifestyle	3	73
+118	耍宝 	comedy of errors 	3	73
+119	平凡生活	dull life	3	73
+120	淘气儿童	Mischievous Children	3	73
+121	苦难	Suffering	3	73
+122	演唱会	Music Concert	3	73
+124	体育	Sport Team	3	73
+127	大自然	Forces of Nature	3	73
+129	艺人生活	actor's life	3	73
+130	动物生活	animal life	3	73
+131	公司犯罪	corporate crimes	3	74
+132	暗杀	assassination	3	74
+133	性骚扰	Sexual Harassment	3	74
+134	嗜酒	Alcohol Abuse	3	74
+136	监禁	Confined	3	74
+137	骗局	Cons and Scams	3	74
+139	复仇	Vengeance	3	74
+140	文化冲突	Culture Clash	3	74
+141	性虐待	Sexual Abuse	3	74
+142	歧视	Discrimination	3	74
+143	连环杀人	Serial Killing	3	74
+144	抢劫	Heist	3	74
+145	不公	Injustice	3	74
+147	勾心斗角	workplace intrigue	3	74
+148	贩毒	Drug Dealing	3	74
+149	吸毒	Drug Abuse	3	74
+150	谋杀	Murder	3	74
+151	背叛	Betrayal	3	74
+153	军火	arms dealing 	3	74
+154	绑架 	kidnapping 	3	74
+155	叛乱	Rebellion	3	74
+156	疑犯	Protagonist as Suspect 	3	74
+157	自杀	Suicide	3	74
+159	滥用暴力	Violence Spree	3	74
+161	计划失败	Crime Gone Awry	3	74
+162	种族关系	interracial relations	3	74
+163	大恶棍	master villain	3	799
+164	悲剧	Tragedy	3	75
+165	抱负	ambition	3	75
+166	运气不好	down on your luck	3	75
+167	险境女人	woman in danger	3	75
+168	角色转换	switching roles	3	75
+170	安乐死	Mercy Killing	3	75
+171	三十而立	Thirtysomething Life	3	75
+172	外表	Outward Appearance	3	75
+173	成长	Coming of Age	3	75
+175	命运	Destiny	3	75
+176	大学生	College	3	798
+177	死亡	Dealing with death	3	75
+178	少年生活	Teenage Life	3	75
+179	追梦	Follow Your Dream	3	75
+180	童年	Childhood	3	75
+181	二十出头	Twentysomething Life	3	75
+182	希望	Hopes	3	75
+183	青春犯罪	juvenile delinquency	3	75
+184	人性	Human Nature	3	75
+185	单身	Singleness	3	75
+186	灰姑娘	Cinderella Story	3	75
+187	转世	Afterlife	3	75
+188	孤独	Isolation	3	75
+189	失忆	memory loss	3	75
+190	孤胆英雄	Lone Wolves	3	75
+191	迷失自我	Losing-it Hero	3	75
+192	抉择 	alternative 	3	75
+193	寻宝	Treasure Hunt	3	75
+194	思想灵魂	Mind and Soul	3	75
+195	坚毅英雄 	tough heroes 	3	75
+196	坚强	Strong	3	75
+197	责任	Responsibility	3	75
+198	执着追寻	Obsessive Quest	3	75
+199	信念	Belief	3	75
+200	传奇传说	Legends and Myths	3	75
+201	秘密身份	secret identity	3	75
+202	起伏	Rise and Fall	3	75
+203	走向成功	Rise To the Top	3	75
+204	初恋	first love	3	77
+205	中年危机	Midlife Crisis	3	75
+206	奇迹	Miraculous Event	3	75
+207	少年英雄	Young Heroes	3	800
+208	青年	Youth	3	75
+210	追求理想	Pursuit of their ideals	3	75
+211	葬礼	funeral	3	75
+212	蜜月	Honeymoon	3	75
+213	自省	introspection	3	75
+214	绝症	terminal illness	3	75
+215	成熟	aging	3	75
+216	高中生	High School student	3	800
+217	人格分裂	split personality	3	76
+218	法西斯	Fascism	3	76
+219	反犹太	Anti Semitism	3	76
+220	反战	Anti War	3	76
+221	变性	Transsexual	3	76
+222	犯罪英雄	Criminal Heroes	3	76
+223	偷窥	Voyeurism	3	76
+224	环保	Environmentalism	3	76
+225	英雄主义	Heroes	3	76
+226	追求自由	Freedom	3	76
+227	宗教	Religions or Cults	3	76
+228	人文主义	Human Spirit	3	76
+229	唯心主义	Idealism	3	76
+230	末日	Apocalypse	3	76
+231	怪癖 	screwball 	3	76
+232	不合群	Misfit	3	76
+233	虚荣	Vanity	3	76
+234	心理扭曲	Psychological distortions	3	76
+235	乐观主义	Optimism	3	76
+236	自闭	Autism	3	76
+237	心理	Psychological	3	76
+238	女权主义	feminism	3	76
+239	种族	Racism	3	76
+240	救赎	Redemption	3	76
+241	恐怖主义	Terrorism 	3	76
+242	心智不稳	Mentally Unstable	3	76
+243	纳粹	Nazis	3	798
+244	动物保护	Protection of Animals	3	76
+245	反人类	against humanity	3	76
+246	发现自我	self discovery	3	76
+247	冲破万难	against the odds	3	76
+248	恋人重逢	lovers reunited	3	77
+249	配偶支持	Supportive Spouse	3	77
+250	哥们	Buddies	3	77
+251	男女关系	Couple Relations	3	77
+252	重逢	Reunion	3	77
+253	夫妻	Husband and Wife	3	77
+254	家庭聚会	Family Gatherings	3	77
+255	毁灭关系	Destructive Relationship	3	77
+256	婚变	Crumbling Marriage	3	77
+257	家庭问题	Family Problems	3	77
+258	欺骗	Dishonesty	3	77
+259	家人去世	Death in the family	3	77
+262	家庭关系	Family Relations	3	77
+263	不般配	Unlikely Couple	3	77
+265	友情	Friendship	3	77
+266	怀孕	pregnancy	3	77
+267	老板烦人	obnoxious boss	3	77
+268	罗曼史	Love and Romance	3	77
+269	三角恋	Love Triangle	3	77
+270	私奔	Lovers on the Run	3	77
+271	亲情	Family bond	3	77
+272	出轨	infidelity 	3	77
+273	痴迷	Obsession	3	77
+274	异性相吸	Opposites Attract	3	77
+275	老板员工	boss and employee	3	77
+276	家庭矛盾	family in crisis	3	77
+277	两辈人	Parents and Children	3	77
+280	人际关系	Relationship	3	77
+281	自我矛盾	Ego clash	3	77
+282	搞怪	Odd Couple 	3	77
+283	忘年恋	Old loving young	3	77
+285	黄昏恋	Elderly Lovers	3	77
+286	亲子	Parents teaching children	3	77
+287	感情疏远	Estrangement 	3	77
+288	分手	Breakup	3	77
+289	主仆	Master and Servant 	3	77
+290	单亲	Single Parent	3	77
+291	师生	Teachers and Students	3	77
+292	早恋	Teenage Love	3	77
+293	母子	Mother and Son	3	77
+294	悲剧恋情	Tragic Love	3	77
+295	母女	Mother and Daughter	3	77
+296	真爱	True Love	3	77
+297	父子	Father and Son	3	77
+298	父女	Father and Daughter	3	77
+299	恋爱失败	Unfulfilled Love	3	77
+300	母爱	Maternal Love	3	77
+301	父爱	Paternal Love	3	77
+303	知己	Best Friends	3	77
+304	两性矛盾	battle of the sexes	3	77
+305	错爱	forbidden love	3	77
+306	失控科技	technology gone awry	3	78
+307	太空旅行	space travel	3	78
+308	丑闻	Scandal	3	78
+309	拍电影	Filmmaking	3	78
+310	竞选	Campaign	3	78
+311	竞赛	Contests and Competitions	3	78
+312	网络	Computers and Web	3	78
+313	灾难	Disaster	3	464
+314	毁灭	Destructive	3	78
+315	失踪	Missing Person	3	78
+316	谍战	Espionage	3	464
+317	古代神秘	Ancient Mystery	3	78
+318	追踪	Stalking	3	78
+319	改变	Changing the Past or Future	3	78
+320	人工智能	A.I.	3	78
+321	革命	Revolution	3	78
+322	道德	Moral Dilemma	3	78
+323	瘟疫	plague	3	78
+324	实验事故	Experiment Gone Awry	3	78
+325	魔术	Magic	3	78
+326	儿童失踪	Missing Child 	3	78
+327	腐朽社会	Social Decay	3	78
+328	阶层差异	Social Differences	3	78
+329	社交关系	Social Relations	3	78
+330	社会	Society	3	78
+331	商战	business	3	78
+332	贪污	Embezzlement	3	78
+333	穿越	Time travel	3	75
+334	幸存	Survival	3	78
+335	赛车	Car Race	3	78
+336	政治阴谋 	political conspiracy 	3	79
+337	种族灭绝	Genocide	3	79
+338	腐败	Corruption	3	79
+339	君王腐败	Corrupted Ruler	3	79
+340	政治动荡	Political Unrest	3	79
+341	无序	Disorder	3	79
+342	逃亡	Escapades	3	79
+343	政治	Politics	3	79
+344	大屠杀	Holocaust	3	79
+345	军队调查	army investigation	3	79
+346	政治斗争	political intrigue	3	79
+347	军事	Military	3	79
+348	军官	Officers and Cadets	3	798
+349	太空战争	space wars	3	79
+350	核战争	Nuclear War	3	79
+351	权力斗争	Power Relations	3	79
+352	突围	breakout	3	79
+353	挑战权威	Rebelliousness	3	79
+354	阴谋	Conspiracies	3	79
+355	国家事务	State Affairs	3	79
+356	时局动乱	Unstable society	3	79
+357	海战	Naval battle	3	79
+358	空战	Air war	3	79
+359	战时生活	Wartime Life	3	79
+360	战斗	battles	3	79
+361	警方调查	police investigation	3	79
+362	侦查	investigation	3	79
+363	罪犯复仇	Criminal's Revenge	3	79
+364	孤军奋战	One Man Army	3	79
+365	正义与邪恶	Good Versus Evil	3	79
+366	诬告陷害	False Accusation	3	79
+367	陷害	Frame Up	3	79
+368	推理	Riddles and Clues	3	79
+369	打击犯罪	Fighting Crime	3	79
+370	律政	Legal	3	79
+371	法律诉讼	Legal Action	3	79
+372	伸张正义	law enforcement 	3	79
+373	追查	track down	3	79
+374	幕后操纵	Manipulations	3	79
+375	法务调查	legal investigation	3	79
+376	警察腐败 	Police Corruption 	3	79
+377	追捕	manhunt	3	79
+378	伪造	forgery	3	79
+379	揭露真相	Uncover Truth	3	79
+380	劫富济贫	Robbing the rich for the poor	3	79
+381	拯救地球	save the planet	3	81
+382	诱惑	dangerous attraction	3	81
+383	追逐	Chase	3	81
+384	险境	Danger	3	81
+385	致命	Deadly	3	81
+386	拯救世界	Save the world	3	81
+387	征服自然	Challenge to conquer nature	3	81
+388	家族	Family Business	3	81
+389	追车戏	Car Chase\t	3	81
+390	反乌托邦	Dystopia 	3	78
+391	错误连连	Nothing Goes Right	3	81
+392	争分夺秒	Race Against Time	3	81
+393	救人	Rescue	3	81
+394	生死对决	Rivalry	3	81
+395	失意	Unfulfillment	3	81
+396	目击罪案	Witnessing a Crime	3	81
+397	面临选择	road not taken	3	81
+398	大胆营救	daring rescue	3	81
+399	魔法	curses spells and rituals	3	81
+400	神话	Myth	3	82
+401	意外事故	Accident	3	82
+402	小清新	Purity	3	966
+403	机战	man versus machine	3	82
+404	公路电影	Happened on the road 	3	82
+405	渴望成名	desire for fame	3	82
+406	媒体讽刺	media satire	3	82
+408	精神问题	mental illness	3	82
+409	拳击	Boxing	3	477
+410	街舞	Hip-hop	3	73
+411	现代舞	Modern dance	3	73
+412	数学	Matematics	3	82
+413	整容	plastic surgery	3	82
+414	职场	Workplace	3	82
+415	发明发现	Inventions and Discoveries	3	82
+416	梦	Dreams	3	82
+417	艾滋病	AIDs	3	82
+418	荤段子	grossout humor	3	82
+419	反英雄	Anti Heroes	3	82
+421	混乱	Chaos	3	82
+422	戏中戏	film in film	3	82
+423	破处	losing virginity	3	82
+424	冲破体制	Fighting the System	3	82
+426	治愈	rehabilitation	3	82
+427	赌博	gambling	3	82
+428	同性恋	Gays and Lesbians	3	82
+430	男扮女装	Gender Bending	3	82
+431	回家	Getting Home	3	82
+432	过往阴影	Haunted By the Past	3	82
+433	英雄使命	Heroic Mission	3	82
+434	打破规则	against the rules	3	82
+435	幻想	Imaginary	3	82
+436	虚构世界	Imaginary Kingdom	3	82
+437	迷失纯真	Innocence Lost	3	82
+439	硬凑伙伴	reluctant partners	3	82
+440	父母不在	when the parents are away	3	82
+441	医护	doctors and patients 	3	77
+443	劫持	hijacking	3	74
+444	垮台 	downfall 	3	82
+445	返乡	homecoming	3	82
+446	高科技	High Tech Equipment	3	82
+447	美梦成真	wish come true	3	82
+448	和谐世界	Parallel World	3	82
+449	美食	cooking and food	3	73
+450	搭档	Partners	3	82
+451	拘留	custody	3	82
+452	野心	blind ambition 	3	74
+453	平反错误	Righting the Wronged	3	82
+454	搞笑英雄 	Goofy Hero 	3	82
+455	 男女同居	Couple cohabitation	3	77
+456	超自然	Supernatural	3	82
+457	人情世故	Teaching the Ways of the World	3	82
+458	求爱	Wooing	3	77
+459	关爱	Care	3	77
+460	流金岁月	golden years	3	82
+461	领袖	leadership	3	798
+462	隐藏身份	hidden identity	3	82
+463	默片	Silent	3	464
+464	所有类型	All Genre	2	4
+465	Cult	Cult	3	464
+467	剧情	Drama	3	464
+468	喜剧	Comedy	3	464
+469	实验	experimental	3	464
+470	年代戏	Period	3	464
+471	戏仿	parody	3	464
+472	情色	Erotic	3	464
+473	剧场版	The Movie	3	464
+474	恶搞	Spoof	3	464
+475	古装	Traditional Costume	3	464
+476	伦理	Ethics	3	464
+477	运动	Sports	2	3
+478	枪战	Gunfight	3	464
+479	传记	Biography	3	464
+480	文艺	Art	3	464
+481	西部	Western	3	464
+482	短片	Shorts	3	464
+483	动作	Action	3	464
+484	惊悚	Thriller	3	464
+485	独立	Independent	3	464
+486	黑色电影	Film Noir	3	464
+487	魔幻	Magic	3	464
+488	功夫	kung fu	3	464
+489	恐怖	Horror	3	464
+490	战争	War	3	464
+492	警匪	Cops and robbers	3	464
+493	情节剧	Melodrama	3	464
+495	歌舞	Music	3	464
+496	纪录片	Documentary	3	464
+498	冒险	Adventure	3	464
+499	爱情	Romance	3	464
+500	好莱坞	Hollywood Tone	3	464
+501	历史	History	3	464
+502	神秘	Mystery	3	464
+503	科幻	Sci-Fi	3	464
+504	未来派	Futuristic	3	464
+505	后现代	Postmodernism	3	464
+506	动画	Animation	3	464
+507	家庭	Family	3	464
+508	犯罪	Crime	3	464
+509	宝莱坞	Bollywood	3	464
+510	奇幻	Fantasy	3	464
+511	动漫	Anime	3	464
+512	音乐	Music	3	464
+513	歌剧	opera	3	464
+514	迷你剧	mini series	3	464
+515	史诗	epic	3	464
+516	主题公园	theme park	3	464
+517	新现实主义	neo realism	3	464
+518	翻拍	remake	3	464
+519	哥特	gothic	3	464
+520	乌托邦	future dystopia	3	464
+521	海湾战争	Gulf War	3	1093
+522	古代	Ancient History	3	528
+523	15世纪	15th Century	3	1091
+524	16世纪	16th Century	3	1091
+525	17世纪	17th Century	3	1091
+526	诺曼底登陆日	D Day	3	1093
+527	中世纪	Middle Ages	3	1093
+528	所有时代	All Time/Period	2	5
+529	金融危机	Financial Crisis	3	1093
+530	法国大革命	French Revolution	3	1093
+531	越战	Vietnam War	3	1093
+532	文艺复兴	Renaissance	3	1093
+533	夏	Xia	3	1092
+534	商	Shang	3	1092
+535	周朝	Zhou	3	1092
+536	朝鲜战争	Korean War	3	1093
+537	民国	Republic of China	3	1092
+538	史前	Prehistory	3	528
+539	18世纪	18th Century	3	1091
+540	文革	Cultural Revolution	3	1092
+541	秦汉	Qing Han	3	1092
+542	三国	Three Country's Kingdom	3	1092
+543	宋朝	Song Dynasty	3	1092
+544	清朝	Ming Qing	3	1092
+545	古罗马	Ancient Rome	3	1093
+546	玛雅	Mayan era	3	1093
+547	古埃及	Egyptian pharaohs	3	1093
+548	明治维新	Showa era of Japan's Meiji Restoration	3	1093
+549	工业革命	Industrial Revolution	3	1093
+550	维多利亚	victorian	3	1093
+551	俄罗斯大公	Russian Grand Duchy era	3	1093
+552	千禧年	Millennium	3	1091
+554	19世纪	19th Century	3	1091
+555	20世纪	20th Century	3	1091
+556	21世纪	21st Century	3	1091
+557	10年代	10s	3	1091
+558	20年代	20s	3	1091
+559	30年代	30s	3	1091
+560	40年代	40s	3	1091
+561	50年代	50s	3	1091
+562	60年代	60s	3	1091
+563	70年代	70s	3	1091
+564	80年代	80s	3	1091
+565	90年代	90s	3	1091
+567	当代	Contemporary	3	528
+568	未来	Future	3	528
+569	南北战争	American Civil War	3	1093
+570	一战	World War 1	3	1093
+571	二战	World War 2	3	1093
+572	抗日	Japanese War	3	1092
+573	解放战争	Chinese Civil War	3	1092
+575	其他地点	Other locations	2	6
+576	自然地点	Natural sites	2	6
+577	生活与工作地点	Life and work locations	2	6
+578	欧洲	Europe	2	6
+579	德国	Germany	2	6
+580	非洲	Africa	2	6
+581	南美洲	South America	2	6
+582	西班牙	Spain	2	6
+583	圣土	Holy Land	3	577
+584	俄罗斯	Russia	2	6
+585	英国	Britain	2	6
+586	巴哈马	Bahamas	3	590
+588	澳大利亚	Australia	3	1094
+589	北极	Arctic	3	1095
+590	北美洲	North America	2	6
+591	美国	USA	2	6
+592	亚洲	Asia	2	6
+593	中国大陆	mainland	2	6
+594	日本	Japan	2	6
+595	罗马帝国	Roman Empire	3	578
+596	意大利	Italy	2	6
+597	哥斯达黎加	Costa Rica	3	581
+598	新西兰	New Zealand	3	1094
+599	法国	France	2	6
+600	中东	Middle East	3	592
+603	瑞士	Switzerland	3	578
+604	费城	Philadelphia	3	591
+605	加洲	California	3	591
+606	洛杉矶	Los Angeles	3	591
+607	华盛顿	Washington DC	3	591
+608	迈阿密	Miami	3	591
+609	波士顿	Boston	3	591
+610	新奥尔良	New Orleans	3	591
+611	芝加哥	Chicago	3	591
+612	拉斯维加斯	Las Vegas	3	591
+613	夏威夷	Hawaii	3	591
+614	纽约	New York	3	591
+615	西雅图	Seattle	3	591
+616	比佛利山庄	Beverly Hills	3	591
+617	旧金山	San Francisco	3	591
+618	乔治亚洲	Georgia	3	591
+619	阿拉斯加	alaska	3	591
+620	尼泊尔	Nepal	3	592
+621	马来西亚	Malaysia	3	592
+622	沙特阿拉伯	Saudi Arabia	3	592
+623	柬埔寨	Cambodia	3	592
+624	蒙古	Mongolia	3	592
+625	泰国	Thailand	3	592
+626	乌克兰	Ukraine	3	578
+627	菲律宾	The Philippines	3	592
+628	以色列	Israel	3	592
+629	缅甸	Burma	3	592
+630	越南	Vietnam	3	592
+631	巴基斯坦	Pakistan	3	592
+632	哈萨克斯坦	Kazakhstan	3	592
+633	黎巴嫩	Lebanon	3	592
+634	韩国	Korea	3	592
+635	伊拉克	Iraq	3	592
+636	伊朗	Iran	3	592
+637	喜马拉雅山	Himalaya	3	592
+638	阿富汗	Afghanistan	3	592
+639	印度	India	3	592
+640	新加坡	Singapore	3	592
+641	西藏	Tibet	3	593
+642	北京	Beijing	3	593
+643	上海	Shanghai	3	593
+644	香港	Hong Kong	3	593
+645	台湾	Taiwan	3	593
+646	重庆	chong qing	3	593
+647	北海道	Hokkaido	3	594
+648	东京	Tokyo	3	594
+649	京都	Kyoto	3	594
+650	佛罗伦萨	Florence	3	596
+651	威尼斯	Venice	3	596
+652	罗马	Rome	3	596
+653	西西里	Sicily	3	596
+654	巴黎	Paris	3	599
+655	克林姆林宫	Kremlin	3	584
+656	莫斯科	Moscow	3	584
+657	伦敦	London	3	585
+658	海地	Haiti	3	590
+659	波多黎各	Puerto Rico	3	590
+660	加拿大	Canada	3	590
+661	加勒比	Caribbean	3	590
+663	迪拜	Dubai	3	575
+664	集中营	Concentration Camp	3	575
+665	外太空	Outer Space	3	575
+666	月球	Moon	3	575
+667	太空飞船	Spacecraft	3	575
+668	乡村	Village	3	575
+669	都市	Urban	3	575
+670	乡下	Countryside	3	575
+671	校园	School	3	575
+672	战区	battle zone	3	575
+673	鬼屋	Haunted House	3	575
+674	工作环境	workplace situations	3	576
+675	坑道	Tunnel	3	576
+676	火星	Mars	3	576
+677	丛林	jungle	3	576
+678	雪山	Snow Mountain	3	576
+679	舞蹈学校	Dance school	3	576
+680	海滩	beach	3	576
+681	山 	Mountains	3	576
+682	外星球	Distant Planet	3	576
+683	荒野	wilderness	3	576
+684	小岛	Island	3	576
+685	沙漠	desert	3	576
+686	森林	Forest	3	576
+687	海洋	Ocean or Sea	3	576
+688	地铁	Subway	3	577
+689	体育馆	Stadium	3	577
+690	皇宫	Palace	3	577
+691	寺院	temples	3	577
+692	酒吧	Bar	3	577
+693	办公室	Office	3	577
+694	的士	Taxi	3	577
+695	疗养院	Retirement Home	3	577
+696	精神病院	mental institution	3	577
+697	诊所	clinic	3	577
+698	摩天大楼	skyscraper	3	577
+699	农场	farm	3	577
+700	马戏团	circus	3	577
+701	赌场	casino	3	577
+702	军事基地	Military base	3	577
+703	修道院	convent	3	577
+704	银行	bank	3	577
+705	实验室	laboratory	3	577
+706	幼儿园	Kindergarten	3	577
+707	小镇	Town	3	577
+708	妓院	Brothel	3	577
+709	封闭空间	Indoors	3	577
+710	饭店	Restaurant	3	577
+711	矿地	Mine	3	577
+712	城堡	Palaces Castles and Temples	3	577
+713	医院	Hospital	3	577
+714	教堂	Church	3	577
+715	工厂	Factory	3	577
+716	船上	Ship	3	577
+717	宫廷	Royal Place	3	577
+718	潜水艇	submarine	3	577
+719	飞机	Airplane	3	577
+720	候机厅	Terminal	3	577
+721	旅馆	Hotel	3	577
+722	火车	Train	3	577
+723	大院胡同	Compound alley	3	577
+724	监狱	Prison	3	577
+725	贫民窟	Ghetto	3	577
+726	咖啡馆	Cafe	3	577
+727	度假村	Resort	3	577
+728	法庭	Courtroom	3	577
+729	汽车	Bus	3	577
+730	庄园	Estate	3	577
+731	机场	Airport	3	577
+732	市郊	Suburbs	3	577
+733	白宫	White House	3	591
+734	夜总会	nightclub	3	577
+735	冰岛	Iceland	3	578
+736	克罗地亚	Croatia	3	578
+737	奥地利	Austria	3	578
+738	匈牙利	Hungary	3	578
+739	波兰	Poland	3	578
+741	瑞典	Sweden	3	578
+742	葡萄牙	Portugal	3	578
+743	前南斯拉夫	Former Yugoslavia	3	578
+744	荷兰	Holland	3	578
+745	爱尔兰	Ireland	3	578
+746	芬兰	Finland	3	578
+747	布鲁塞尔	Brussels	3	578
+748	罗马尼亚	Romania	3	578
+749	布拉格	Prague	3	578
+750	土耳其	Turkey	3	578
+751	希腊	Greece	3	578
+752	苏格兰	Scotland	3	578
+753	挪威	Norway	3	578
+754	比利时	Belgium	3	578
+755	丹麦	Denmark	3	578
+756	捷克	Czech Republic	3	578
+757	柏林	Berlin	3	579
+758	刚果	Congo	3	580
+759	哥伦比亚	Colombia	3	581
+760	苏丹	Sudan	3	580
+761	肯尼亚	Kenya	3	580
+762	尼日利亚	Nigeria	3	580
+763	埃及	Egypt	3	580
+764	南非	South Africa	3	580
+765	卢旺达	Rwanda	3	580
+766	摩洛哥	Morocco	3	580
+767	玻利维亚	Bolivia	3	581
+768	委内瑞拉	Venezuela	3	581
+769	智利	Chile	3	581
+770	古巴	Cuba	3	581
+771	巴西	Brazil	3	581
+773	墨西哥	Mexico	3	581
+774	阿根廷	Argentina	3	581
+775	秘鲁	Peru	3	581
+776	马德里	Madrid	3	582
+777	巴塞罗那	Barcelona	3	582
+778	南极洲	Antarctica	3	1095
+779	北冰洋	Arctic Ocean	3	1095
+780	大西洋	Atlantic Ocean	3	1095
+781	太平洋	Pacific Ocean	3	1095
+782	印度洋	Indian Ocean	3	1095
+783	草原	grassland	3	576
+784	过度暴力	Strong Violent Content	3	785
+785	所有警告	All Flag	2	7
+786	裸露	Nudity	3	785
+787	过度裸露	Strong Sexual Content	3	785
+788	轻度暴力	Mild Violent Content	3	785
+789	暴力	Violent Content	3	785
+790	毒品/嗜酒	Drugs/Alcohol	3	785
+791	性爱内容	Sexual Content	3	785
+792	过多脏话	Profanity	3	785
+793	轻度裸露	Brief Nudity	3	785
+794	克隆	cloning	3	785
+795	基因	Gene mutation	3	82
+796	触犯道德	Breach of moral	3	785
+797	动物	animal	2	8
+798	职业或工作	Occupation	2	8
+799	另类角色	Alternative role	2	8
+800	角色其他	Other Role	2	8
+804	诗人	Poet	3	798
+805	忍者	Ninja	3	799
+806	蝙蝠	bat	3	797
+807	证人	witness	3	799
+808	狗	Dog	3	797
+809	猫	Cat	3	797
+810	马	Horse	3	797
+811	宠物	Pets	3	797
+812	海豚	Dolphin	3	797
+813	鲨鱼	Shark	3	797
+814	鲸鱼	Whale	3	797
+815	老鼠	Mouse	3	797
+816	猩猩	Orangutan	3	797
+817	熊	Bear	3	797
+818	鱼	Fish	3	797
+819	企鹅	Penguin	3	797
+820	鸟	Bird	3	797
+821	拳击手	Boxer	3	798
+822	教师	Teacher	3	798
+824	记者	reporter	3	798
+825	警探	police detective	3	798
+826	医生	Doctor	3	798
+827	护士	Nurse	3	798
+828	警察	Police	3	798
+829	律师	Hotshot Lawyer	3	798
+830	士兵	Soldier	3	798
+831	赛车手	Racer	3	798
+832	保镖	Bodyguard	3	798
+833	日本武士	Samurai	3	798
+834	银行家	Banker	3	798
+836	国家元首	Head of State	3	798
+837	连环杀手	Serial Killer	3	798
+838	冒险者	Adventurer	3	798
+839	间谍	Secret Agents	3	798
+840	侦探	Detective	3	798
+841	名人	celebrity	3	798
+842	运动员	athlete	3	798
+843	演员	Actor	3	798
+844	牧师	clergy	3	798
+845	业余侦探	amateur detective	3	798
+846	疯狂科学家	mad scientist	3	798
+847	售货员	Salesman	3	798
+848	宇航员	Astronaut	3	798
+849	工程师	Engineer	3	798
+850	科学家	Scientist	3	798
+851	渔夫	Fisherman	3	798
+852	音乐人	Musician	3	798
+853	修女	nun	3	798
+854	模特	Model	3	798
+855	魔术师	Magician	3	798
+856	歌手	Singer	3	798
+857	特工	Special Agents	3	798
+858	飞行员	Pilot	3	798
+859	水手	Sailor	3	798
+861	消防员	Firefighter	3	798
+863	作家	Writer	3	798
+864	画家	painter	3	798
+865	媒体人	Media Practitioners	3	798
+867	的士司机	Taxi Driver	3	798
+868	作曲家	Composer	3	798
+869	演奏家	Performer	3	798
+870	保安	Security	3	798
+871	商人	Businessman	3	798
+872	农民	Farmer	3	798
+873	保姆	nanny	3	798
+874	建筑工人	Construction workers	3	798
+875	死囚	death row	3	799
+876	劫匪	Robber	3	799
+877	巫师	wizards and magicians	3	799
+878	异类	Alien	3	799
+879	阴阳师	Yin and Yang	3	799
+880	吸血鬼	Vampire	3	799
+881	侠客	knight	3	799
+882	木乃伊	mummy	3	799
+883	精神病人	Psychopath	3	799
+884	困境少年	Kids in Trouble	3	799
+885	致命生物	deadly creature	3	799
+886	变异人	Mutant	3	799
+887	卧底	Undercover	3	799
+888	僵尸	zombie	3	799
+889	木偶	puppets	3	799
+890	黑帮	Gangster	3	799
+891	聋哑人	mute or deaf	3	799
+892	花花公子	Womanizer	3	799
+893	英雄	Folk Hero	3	799
+894	双胞胎	Twins	3	799
+895	难民	refugees 	3	799
+896	团伙	Gang	3	799
+897	太空异形	Space and Aliens	3	799
+899	鬼	Ghost	3	799
+900	超级英雄	Superhero	3	799
+901	超级罪犯	Master Criminal	3	799
+902	机器人	Androids and Robots	3	799
+903	外星人	Extraterrestrial	3	799
+904	超人	Superman	3	799
+905	女巫	Witch	3	799
+906	哆啦A梦	Viking	3	799
+907	职业杀手	Hitman	3	799
+908	毒贩	drug dealer	3	800
+909	小偷	Thief	3	800
+910	旅行者	traveler	3	800
+911	新娘	Bride	3	800
+912	帅气	Handsome guy	3	800
+913	先知	Prophet	3	800
+914	硬汉	Tough man	3	800
+915	病童	Child Illness	3	800
+916	总统	President	3	800
+917	婴儿	Babies and Infants	3	800
+918	悲情英雄	Tragic Hero	3	800
+919	黑马	underdog	3	800
+920	寡妇	Widow	3	800
+921	海盗	pirate	3	800
+922	天才	Prodigy	3	800
+923	逃犯	fugitives	3	800
+924	人质	hostages	3	800
+925	蛇蝎美人	femme fatale	3	800
+926	赏金猎人	bounty hunter	3	800
+927	仙女	Fairy	3	800
+928	父母	Parents	3	800
+929	继母	Stepmother	3	800
+930	鳏夫	Widower	3	800
+931	移民	Immigrants	3	800
+932	妓女	Prostitute	3	800
+933	工人	Labourer	3	800
+934	工厂老板	The boss of the factory	3	800
+935	智障	Mentally Challenged	3	800
+936	和尚	Monk	3	800
+937	孤儿	Orphan	3	800
+938	皇室	Royal Family	3	800
+939	武士	Warrior	3	800
+940	兄弟姊妹	Siblings Relations	3	800
+941	美女	Beauty	3	800
+942	政客	politician	3	800
+943	小人物	Small potato	3	800
+944	儿童	Children	3	800
+947	囚犯	Prisoner	3	800
+948	皇帝	Emperor	3	800
+949	皇后	Empress	3	800
+950	老人	elderly	3	800
+951	伯爵	Count	3	800
+952	公主	Princess	3	800
+953	王子	Prince	3	800
+954	学生	Student	3	800
+955	流浪人	Homeless people	3	800
+956	庄园主	Lord of the manor	3	800
+957	打工仔	Employees	3	800
+958	牛仔	Cowboy	3	800
+959	将军	General	3	800
+962	画外音	Voice Over	3	966
+963	存档镜头	Archive Footage	3	966
+964	超现实	Surreal	3	966
+965	虚构	Fantastic	3	966
+966	所有风格	All Style	2	9
+967	全明星	Ensemble Cast	3	966
+968	话唠	talky	3	966
+969	严肃	Serious	3	966
+973	出人意料	Twists and Turns	3	966
+975	女性	Strong Female Presence	3	966
+976	松散	episodic	3	966
+978	单线叙事	Single Narrative	3	966
+979	倒叙	Flashback	3	966
+981	插叙	narration interspersed with flashbacks	3	966
+982	童话	Fairytale	3	966
+983	血腥	Gory	3	966
+984	意外结局	Surprise Ending	3	966
+985	多线叙事	Multiple Stories	3	966
+986	非线性	Nonlinear	3	966
+987	道格玛95	dogma 95	3	966
+988	武侠	Martial Arts	3	966
+989	写实	realistic	3	966
+990	传奇	saga	3	966
+992	基于	All Based On	2	10
+993	小说	Based on Novel	3	992
+994	真实故事	Based on True Story	3	992
+995	人物传记	Based on Biography	3	992
+996	民间传说	Based on Folk Tale	3	992
+997	音乐剧	Based on Musical	3	992
+998	名著	Based on Masterpiece	3	992
+999	漫画	Based on Comics	3	992
+1000	话剧	Based on Stage Play	3	992
+1001	书	Based on Book	3	992
+1002	历史题材	Based on Historical themes	3	992
+1005	圣经	Based on Bible	3	992
+1006	童话书	Based on Fairy Tale Book	3	992
+1007	现实题材	Based on Practical subject matter	3	992
+1008	短故事	Based on Short Film	3	992
+1009	游戏	Based on Video Game	3	992
+1010	戏剧	Based on Play	3	992
+1011	电视剧	Based on TV Series	3	992
+1012	所有赞誉	All Praise	2	11
+1013	开创性	groundbreaking	3	1012
+1014	大片	Blockbuster	3	1012
+1015	经典	Classic	3	1012
+1016	现代经典	Modern Classic	3	1012
+1017	原创	Original	3	1012
+1018	经典表演	classic performance	3	1012
+1019	凯撒电影节获奖	César Awards	3	1012
+1020	中国电影金鸡奖	China's Golden Rooster Awards	3	1012
+1021	大众电影百花奖	Mass Film Hundred Flowers Awards	3	1012
+1022	中国电影华表奖	China Film Hua Biao	3	1012
+1023	埃及开罗国际电影节	Cairo International Film Festival	3	1012
+1024	美国金酸莓奖	RAZZIE Awards	3	1012
+1025	加拿大蒙特利尔国际电影节	Montreal International Film Festival	3	1012
+1026	威尼斯电影节	Venice Festival Winner	3	1012
+1027	欧洲电影奖	European Film Awards	3	1012
+1028	英国电影学院奖	British Academy Awards	3	1012
+1029	日本东京国际电影节	Tokyo International Film Festival	3	1012
+1030	韩国釜山电影节	Pusan International Film Festival	3	1012
+1031	香港电影金像奖	Hong Kong Film Awards	3	1012
+1032	台湾电影金马奖	Golden Horse Award	3	1012
+1033	中国上海国际电影节	Shanghai International Film Festival	3	1012
+1034	奥斯卡	Oscar Winner	3	1012
+1035	戛纳电影节获奖	Cannes Festival Winner	3	1012
+1036	金球奖	Golden Globe Winner	3	1012
+1037	圣丹斯电影节	Sundance Festival Winner	3	1012
+1038	柏林电影节获奖	Berlin Festival Winner	3	1012
+1039	全部节奏	All Tempo	2	12
+1040	缓慢	Slow	3	1039
+1041	紧凑	Fast	3	1039
+1042	平稳	Smooth	3	1039
+1044	所有受众	All Audience	2	13
+1045	儿童片	Kids	3	1044
+1046	约会	Date Night	3	1044
+1047	女生聚会	Girls' Night	3	1044
+1048	男生聚会	Boys' Night	3	1044
+1049	全家	Family Outing	3	1044
+1050	青少年	Teens	3	1044
+1051	成年人	adult	3	1044
+1052	个人观看	Individual viewing	3	1044
+1053	学生教育	Student Education	3	1044
+1054	视觉分类	All Look	2	14
+1055	真人动画	Animation & Live Action	3	1054
+1056	微观视觉	Microscopic vision	3	1054
+1057	特效	Special Effects	3	1054
+1058	数码	Digital Video	3	1054
+1059	唯美	Beautiful	3	1054
+1060	三维动画	3D	3	1054
+1061	二维动画	2D animation	3	1054
+1062	定格动画	Stop Motion	3	1054
+1063	火爆	big scene	3	1054
+1065	手持摄影	Handheld	3	1054
+1066	电脑动画	computer animated	3	1054
+1067	黑白色调	Black and white	3	1054
+1068	复古色调	Sepia tone	3	1054
+1069	其他关键字	Other Keywords	2	15
+1070	腐	Gay	3	1069
+1071	萝莉	Lolita	3	800
+1072	迪斯尼	Disney	3	1069
+1073	皮克斯	Pixar	3	1069
+1074	梦工厂	Dreamworks	3	1069
+1075	BBC	BBC	3	1069
+1076	吉卜力	Studio Ghibli	3	1069
+1077	R&B	R&B	3	1082
+1078	Hip Hop	Hip Hop	3	1082
+1079	朋克	Punk	3	1082
+1080	重金属	Heavy Metal	3	1082
+1081	交响乐	Orchestral	3	1082
+1082	所有配乐	All Score	2	16
+1083	爵士	Jazz	3	1082
+1084	流行	Pop	3	1082
+1085	蓝调	Blues	3	1082
+1086	古典	Classic	3	1082
+1087	轻快	Brisk	3	1082
+1088	摇滚	Rock	3	1082
+1089	宏伟壮烈	Grand heroic	3	1082
+1090	二十世纪福克斯	Fox	3	1069
+1091	世纪/年代	Century/Decade	2	5
+1092	中国历史时代	Chinese Historic Period	2	5
+1093	外国历史时代	Foreign Historic Periods	2	5
+1094	大洋洲	Oceania	2	6
+1095	大洲和海洋	Continents and Oceans	2	6
+1096	病人	The Sick	3	799
+1097	残疾人	The Disabled	3	799
+1098	怪物	Monster	3	799
+1099	会计	Accountant	3	798
+1101	船长	Captain	3	798
+1102	大师	Master	3	799
+1103	巴士司机	bus driver	3	798
+1105	秘书	secretary	3	798
+1106	墓地	cemetery	3	575
+1107	HBO	HBO	3	1069
+1108	金融	Finance	3	78
+1110	咨询师	Consultant	3	798
+1113	唐朝	tang chao	3	1092
+1114	偷渡	illegal immigration 	3	78
+1115	狙击手	Sniper	3	799
+1116	乱伦	Incest	3	77
+1117	狮子	Lion	3	797
+1118	篮球	Basketball	3	477
+1119	足球	Soccer	3	477
+1120	棒球	Baseball	3	477
+1121	橄榄球	Football	3	477
+1122	蛇	Snake	3	797
+1123	离婚	Divorce	3	77
+1124	孕妇	Pregnant woman	3	800
+1125	空姐	airline stewardess	3	798
+1126	IMAX	IMAX	3	1054
+1127	围棋	The game of go	3	477
+1130	剩女	3S lady	3	800
+1132	朝鲜	Democratic People's Republic of Korea	3	592
+1133	狼	wolf	3	797
+1134	理发师	Barber	3	798
+1135	太监	Eunuch	3	799
+1136	厨师	Cook	3	798
+1137	昆虫	Insect	3	797
+1138	邮差	mailman	3	798
+1139	天使	Angel	3	800
+1140	公园	Park	3	577
+1141	警察局	Police Office	3	577
+1142	教练	Coach	3	798
+1143	博物馆	museum	3	577
+1144	相亲	Dating	3	77
+1145	军旅	armies	3	464
+1146	民乐		3	1082
+1147	书生	scholar	3	798
+1148	佣人	Servant	3	798
+1149	爆炸	Explosion	3	74
+1150	猎人	hunter	3	798
+1151	南京		3	593
+1152	飙泪		3	18
+1153	红色电影	Red movie	3	464
+1154	冷战	Cold War	3	1093
+1155	伊拉克战争	Iraq War	3	1093
+1156	明朝		3	1092
+1159	粘土动画	Clay animation	3	1054
+1160	3D	3D	3	1054
+1161	打擂台	accept the challenge	3	74
+1162	武汉		3	593
+1163	硅谷	Silicon Valley	3	591
+1164	创业	Enterpreneurship	3	75
+1165	殖民	colonization	3	73
+1167	恐龙	Dinosaurs	3	797
+1168	狼人	Werewolf	3	799
+1170	跑酷	Parkour	3	477
+1172	瀑布	waterfall	3	576
+1173	妯娌	wives of brothers	3	77
+1174	婆媳	Mother-in-law	3	77
+1176	派拉蒙	Paramount	3	1069
+1177	环球	Universal Picture	3	1069
+1178	华纳兄弟	Warner Bros	3	1069
+1179	索尼影视	Sony Pictures 	3	1069
+1180	纯爱	Pure love	3	17
+1181	圣诞	Christmas	3	528
+1183	东宝		3	1069
+1184	美亚	Mei Ah	3	1069
+1185	安乐	EDKO	3	1069
+1186	英皇娱乐集团	EEG	3	1069
+1187	寰宇	universe	3	1069
+1189	华谊兄弟	HY Brothers	3	1069
+1190	刺杀	Assassinate	3	74
+1191	光线传媒	ENLIGHT MEDIA	3	1069
+1193	保利博纳	POLYBONA	3	1069
+1194	孩之宝	Hasbro	3	1069
+1197	一夜情	One-night stand	3	75
+1198	猎头	Headhunting	3	798
+1199	维权	Rights	3	78
+1200	80后	80's	3	800
+1201	减肥	Lose weight	3	73
+1202	刺激	Thrilling	3	17
+1204	江湖	jianghu	3	575
+1205	松鼠	Squirrel	3	797
+1206	单纯	Simple	3	17
+1207	美好	fine	3	17
+1208	猛犸	Mammuthus	3	797
+1209	处女	virgin	3	800
+1210	回忆	Recall	3	75
+1211	猴子	Monkey	3	797
+1212	乐器	musical instruments	3	1069
+1213	钢琴	piano	3	1069
+1214	东北		3	593
+1216	巴尔的摩	Baltimore	3	591
+1217	黑人	Black people, Blacks, Negroes 	3	800
+1218	龙	dragon,loong	3	797
+1220	猪	pig	3	797
+1221	野蛮	savage	3	20
+1222	金钱	money	3	1069
+1223	浴室	shower bath	3	577
+1224	黑客	Hacker	3	798
+1225	骑士	Knight	3	798
+1226	死神	Death	3	800
+1227	京剧	Beijing opera	3	73
+1228	感性	perception	3	17
+1229	暗恋	unrequited love	3	77
+1230	越狱	Prison Break	3	74
+1231	宅男	Couch Potato	3	800
+1232	少女	young girl	3	75
+1233	无厘头		3	966
+1237	失恋	fall out of love	3	77
+1238	就业	get a job	3	73
+1239	邪恶	evil	3	79
+1240	舞台剧	Stage play	3	966
+1241	灵魂	Soul	3	75
+1242	番外篇	Outside of	3	464
+1245	冷兵器	cold weapon	3	528
+1246	杀手	Killer	3	798
+1247	司机	Driver	3	798
+1248	戏曲	a traditional opera 	3	73
+1249	少男	Boys	3	75
+1251	邵氏		3	1069
+1252	百老汇	百老汇	3	992
+1254	盲人	blind	3	799
+1255	婚姻	marriage	3	77
+1256	杀人	kill	3	74
+1257	土著	Indigenous	3	799
+1258	正太	shota	3	800
+1259	纯真	pure	3	18
+1260	欧美	Europe and the United States	2	1328
+1261	韩日	Japan and South Korea	2	1328
+1262	立志	to be determined to	3	75
+1263	偶像剧		3	464
+1264	主旋律		3	464
+1265	情景剧	sitcom	3	464
+1266	反腐		3	464
+1267	旱灾		3	82
+1268	重口味		3	966
+1270	荒诞		3	18
+1271	迫害		3	74
+1272	欲望		3	76
+1273	 时代变迁		3	73
+1274	热血		3	17
+1275	动物园		3	577
+1276	大叔		3	799
+1277	文艺青年		3	1044
+1278	中产阶级		3	800
+1279	屌丝		3	800
+1280	高富帅		3	800
+1281	白富美		3	800
+1282	寻亲		3	77
+1283	反类型		3	464
+1284	畸恋		3	74
+1285	虐童		3	74
+1286	亚美尼亚	The Republic of Armenia	3	592
+1287	格鲁吉亚	Georgia	3	592
+1288	乌兹别克斯坦	The Republic of Uzbekistan	3	592
+1289	前苏联	Union of Soviet Socialist Republics	3	584
+1290	东德		3	1093
+1291	西德		3	1093
+1292	保加利亚	The Republic of Bulgaria	3	578
+1293	塞黑	Serbia and Montenegro	3	578
+1294	马其顿	The Republic of Macedonia	3	578
+1295	阿尔及利亚	People's Democratic Republic of Alger	3	580
+1296	大同		3	593
+1297	贵阳		3	593
+1298	贺州		3	593
+1299	苏州		3	593
+1300	开封		3	593
+1301	蚌埠		3	593
+1302	延边		3	593
+1303	厦门		3	593
+1304	西安		3	593
+1305	广州		3	593
+1307	三亚		3	593
+1308	DC		3	1069
+1309	漫威	Marvel	3	1069
+1310	港台		3	1334
+1311	虐待	illtreat	3	74
+1312	肥皂剧	Soap Opera	3	464
+1313	伪纪录片	Fake Documentary	3	464
+1314	哲理	philosophy]	3	76
+1315	轻喜剧	light comedy	3	464
+1316	降头		3	74
+1317	耽美		3	966
+1319	真人秀		3	464
+1320	益智		3	464
+1321	后宫		3	464
+1322	百合		3	464
+1323	反特		3	74
+1325	卡通		3	464
+1326	布袋戏		3	464
+1327	导演	director	3	798
+1328	制片国家		1	1
+1329	美国		3	1393
+1330	欧洲		2	1328
+1331	法国		3	1330
+1332	英国		3	1330
+1333	俄罗斯		3	1330
+1334	亚洲		2	1328
+1335	印度		3	1334
+1336	泰国		3	1334
+1337	韩国		3	1334
+1338	日本		3	1334
+1339	国产		3	1334
+1340	香港		3	1334
+1341	台湾		3	1334
+1343	西班牙		3	1330
+1344	德国		3	1330
+1345	澳大利亚		3	1471
+1346	意大利		3	1330
+1347	伊朗		3	1334
+1348	冰岛		3	1330
+1349	克罗地亚		3	1330
+1350	奥地利		3	1330
+1351	匈牙利		3	1330
+1352	波兰		3	1330
+1353	瑞典		3	1330
+1354	葡萄牙		3	1330
+1355	南斯拉夫		3	1330
+1356	荷兰		3	1330
+1357	爱尔兰		3	1330
+1358	芬兰		3	1330
+1359	布鲁塞尔		3	1330
+1360	罗马尼亚		3	1330
+1361	土耳其		3	1330
+1362	希腊		3	1330
+1363	苏格兰		3	1330
+1364	挪威		3	1330
+1365	比利时		3	1330
+1366	丹麦		3	1330
+1367	捷克		3	1330
+1368	瑞士		3	1330
+1369	乌克兰		3	1330
+1370	保加利亚		3	1330
+1371	马其顿		3	1330
+1372	非洲		2	1328
+1373	刚果		3	1372
+1374	苏丹		3	1372
+1375	肯尼亚		3	1372
+1376	尼日利亚		3	1372
+1377	埃及		3	1372
+1378	南非		3	1372
+1379	卢旺达		3	1372
+1380	摩洛哥		3	1372
+1381	阿尔及利亚		3	1372
+1382	南美洲		2	1328
+1383	玻利维亚		3	1382
+1384	委内瑞拉		3	1382
+1385	智利		3	1382
+1386	古巴		3	1382
+1387	巴西		3	1382
+1388	墨西哥		3	1382
+1389	阿根廷		3	1382
+1390	秘鲁		3	1382
+1391	哥斯达黎加		3	1382
+1392	哥伦比亚		3	1382
+1393	北美洲		2	1328
+1394	海地		3	1393
+1395	波多黎各		3	1393
+1396	加拿大		3	1393
+1397	尼泊尔		3	1334
+1398	马来西亚		3	1334
+1399	沙特阿拉伯		3	1334
+1400	柬埔寨		3	1334
+1401	蒙古		3	1334
+1402	菲律宾		3	1334
+1403	以色列		3	1334
+1404	缅甸		3	1334
+1405	越南		3	1334
+1406	巴基斯坦		3	1334
+1407	哈萨克斯坦		3	1334
+1408	黎巴嫩		3	1334
+1409	伊拉克		3	1334
+1411	阿富汗		3	1334
+1412	新加坡		3	1334
+1413	朝鲜		3	1334
+1414	亚美尼亚		3	1334
+1415	格鲁吉亚		3	1334
+1416	乌兹别克斯坦		3	1334
+1417	新西兰		3	1471
+1418	其他		2	1328
+1419	阿尔及尼亚		3	1372
+1420	塞内加尔		3	1372
+1421	塞尔维亚		3	1330
+1422	阿塞拜疆		3	1334
+1423	波斯尼亚		3	1330
+1424	塔吉克斯坦		3	1334
+1425	阿鲁巴岛		3	1393
+1426	布基纳法索		3	1372
+1427	斯洛文尼亚		3	1330
+1428	喀麦隆		3	1372
+1429	津巴布韦		3	1372
+1430	印度尼西亚		3	1334
+1431	突尼斯		3	1372
+1432	约旦		3	1334
+1433	埃塞俄比亚		3	1372
+1434	坦桑尼亚		3	1372
+1435	澳门		3	1334
+1436	列支敦士登		3	1330
+1437	卢森堡		3	1330
+1438	西德		3	1330
+1439	利比亚		3	1372
+1440	阿联酋		3	1334
+1441	博兹瓦纳		3	1372
+1442	塞浦路斯		3	1330
+1443	尼加拉瓜		3	1393
+1444	立陶宛		3	1330
+1445	波黑		3	1330
+1446	阿尔巴尼亚		3	1330
+1447	加蓬		3	1372
+1448	厄瓜多尔		3	1382
+1449	摩纳哥		3	1330
+1450	牙买加		3	1393
+1451	巴哈马		3	1393
+1452	毛里塔尼亚		3	1372
+1453	乌拉圭		3	1382
+1454	吉尔吉斯斯坦		3	1372
+1455	佛兰芒		3	1330
+1456	利比里亚		3	1372
+1457	黑塞哥维那		3	1330
+1458	不丹		3	1334
+1459	东德		3	1330
+1460	博茨瓦纳		3	1372
+1461	马里		3	1372
+1462	格陵兰		3	1330
+1463	老挝		3	1334
+1464	白俄罗斯		3	1330
+1465	爱沙尼亚		3	1330
+1466	伯利兹		3	1393
+1467	苏联		3	1418
+1468	巴拿马		3	1382
+1469	孟加拉国		3	1334
+1470	加纳		3	1372
+1471	大洋洲	Oceania	2	1328
+1472	日韩		2	1328
+1473	知青		3	799
+1474	盗窃		3	78
+1475	春秋战国		3	1092
+1476	元朝		3	1092
+1477	魏晋		3	1092
+1478	南北朝		3	1092
+1479	日本战国		3	1093
+1480	日本幕府		3	1093
+1481	跑步		3	477
+1482	网球		3	477
+1483	萌		3	17
+1484	游泳		3	477
+1485	天津		3	593
+1486	摄影师		3	798
+1487	科普		3	464
+1489	灵异		3	464
+1490	特摄		3	464
+1491	露点	Bare breasts	3	1069
+1492	曼哈顿	Manhattan	3	591
+1494	摩托车	motocycle	3	73
+1495	艺术家	artist	3	798
+1496	口交	oral sex	3	785
+1497	花絮	feature	2	4
+1498	深圳		3	593
+1499	成都		3	593
+1500	白领		3	798
+1501	云南		3	593
+1502	虐心		3	19
+1503	老虎		3	797
+1504	米高梅	 Metro-Goldwyn-Mayer (MGM)	3	1069
+1505	哥伦比亚影业		3	1069
+1506	盗墓		3	78
+1507	冷门		3	1069
+1508	澳门		3	593
+4875	主持人	NULL	1	0
+4876	电视台	NULL	1	0
+4877	地区	NULL	1	0
+4878	情感	NULL	1	0
+4879	搞笑	NULL	2	4878
+4880	幽默	NULL	2	4878
+4881	励志	NULL	2	4878
+4882	感人	NULL	2	4878
+4883	犀利	NULL	2	4878
+4884	有启发	NULL	2	4878
+4885	讽刺	NULL	2	4878
+4886	滑稽	NULL	2	4878
+4887	调侃	NULL	2	4878
+4888	机智	NULL	2	4878
+4889	深刻	NULL	2	4878
+4890	愉快	NULL	2	4878
+4891	刺激	NULL	2	4878
+4892	轻松	NULL	2	4878
+4893	严肃	NULL	2	4878
+4894	类型	NULL	1	0
+4895	选秀	NULL	2	4894
+4896	访谈	NULL	2	4894
+4897	真人秀	NULL	2	4894
+4898	脱口秀	NULL	2	4894
+4899	求职	NULL	2	4894
+4900	互动	NULL	2	4894
+4901	颁奖典礼	NULL	2	4894
+4902	晚会	NULL	2	4894
+4903	曲艺	NULL	2	4894
+4904	公开课	NULL	2	4894
+4905	演唱会	NULL	2	4894
+4906	科教	NULL	2	4894
+4907	纪实	NULL	2	4894
+4908	益智	NULL	2	4894
+4909	文化	NULL	2	4894
+4910	娱乐	NULL	2	4894
+4911	模仿秀	NULL	2	4894
+4912	嘉宾	NULL	1	0
+4913	影视明星	NULL	2	4912
+4914	情侣	NULL	2	4912
+4915	普通人	NULL	2	4912
+4916	专家学者	NULL	2	4912
+4917	企业家	NULL	2	4912
+4918	单身	NULL	2	4912
+4919	名人	NULL	2	4912
+4920	歌手	NULL	2	4912
+4921	受众	NULL	1	0
+4922	个人	NULL	2	4921
+4923	儿童	NULL	2	4921
+4924	男生聚会	NULL	2	4921
+4925	女生聚会	NULL	2	4921
+4926	全家	NULL	2	4921
+4927	青少年	NULL	2	4921
+4928	成年人	NULL	2	4921
+4929	内容	NULL	1	0
+4930	音乐	NULL	2	4929
+4931	相亲	NULL	2	4929
+4932	歌舞	NULL	2	4929
+4933	养生	NULL	2	4929
+4934	法制	NULL	2	4929
+4935	旅游	NULL	2	4929
+4936	财经	NULL	2	4929
+4937	美食	NULL	2	4929
+4938	军事	NULL	2	4929
+4939	教育	NULL	2	4929
+4940	新闻	NULL	2	4929
+4941	时尚	NULL	2	4929
+4942	汽车	NULL	2	4929
+4943	情感	NULL	2	4929
+4944	游戏	NULL	2	4929
+4945	历史	NULL	2	4929
+4946	动物	NULL	2	4929
+4947	影视	NULL	2	4929
+4948	竞赛	NULL	2	4929
+4949	生活	NULL	2	4929
+4950	魔术	NULL	2	4929
+4951	亲子		2	4929
+4952	内地	NULL	2	4877
+4953	欣娜	NULL	2	4875
+4954	曹景行	NULL	2	4875
+4955	河北卫视	NULL	2	4876
+4956	汪涵	NULL	2	4875
+4957	山东卫视	NULL	2	4876
+4958	周瑾	NULL	2	4875
+4959	陈国庆	NULL	2	4875
+4960	上海新娱乐	NULL	2	4876
+4961	浙江卫视	NULL	2	4876
+4962	曹颖	NULL	2	4875
+4963	陈正飞	NULL	2	4875
+4964	湖南卫视	NULL	2	4876
+4965	爱奇艺	NULL	2	4876
+4966	海峡卫视	NULL	2	4876
+4967	寇乃馨	NULL	2	4875
+4968	中华卫视	NULL	2	4876
+4969	台湾	NULL	2	4877
+4970	张小燕	NULL	2	4875
+4971	中天综合	NULL	2	4876
+4972	王彩桦	NULL	2	4875
+4973	林昆峰	NULL	2	4875
+4974	华少	NULL	2	4875
+4975	朱丹	NULL	2	4875
+4976	天悦	NULL	2	4875
+4977	子文	NULL	2	4875
+4978	陈汉典	NULL	2	4875
+4979	李响	NULL	2	4875
+4980	彭宇	NULL	2	4875
+4981	纳豆	NULL	2	4875
+4982	赵川	NULL	2	4875
+4983	天津卫视	NULL	2	4876
+4984	大冰	NULL	2	4875
+4985	沈涛	NULL	2	4875
+4986	雷明	NULL	2	4875
+4987	戴军	NULL	2	4875
+4988	阿萨	NULL	2	4875
+4989	杜沁怡	NULL	2	4875
+4990	李波儿	NULL	2	4875
+4991	肖旭	NULL	2	4875
+4992	黑龙江卫视	NULL	2	4876
+4993	马可	NULL	2	4875
+4994	明道	NULL	2	4875
+4995	张扬果而	NULL	2	4875
+4996	李静	NULL	2	4875
+4997	王小川	NULL	2	4875
+4998	余声	NULL	2	4875
+4999	安徽卫视	NULL	2	4876
+5000	周群	NULL	2	4875
+5001	罗彬	NULL	2	4875
+5002	任良韵	NULL	2	4875
+5003	洪涛	NULL	2	4875
+5004	贵州卫视	NULL	2	4876
+5005	仇晓	NULL	2	4875
+5006	熊晓雯	NULL	2	4875
+5007	孟非	NULL	2	4875
+5008	蔡康永	NULL	2	4875
+5009	江苏卫视	NULL	2	4876
+5010	谢娜	NULL	2	4875
+5011	侯佩岑	NULL	2	4875
+5012	何炅	NULL	2	4875
+5013	方琼	NULL	2	4875
+5014	文清	NULL	2	4875
+5015	李维嘉	NULL	2	4875
+5016	眭澔平	NULL	2	4875
+5017	程雷	NULL	2	4875
+5018	倪琳	NULL	2	4875
+5019	骆新	NULL	2	4875
+5020	东方卫视	NULL	2	4876
+5021	宁远	NULL	2	4875
+5022	张丹丹	NULL	2	4875
+5023	李湘	NULL	2	4875
+5024	王姬	NULL	2	4875
+5025	陆立	NULL	2	4875
+5026	魏哲浩	NULL	2	4875
+5027	白冰冰	NULL	2	4875
+5028	中天娱乐	NULL	2	4876
+5029	香港	NULL	2	4877
+5030	陈志云	NULL	2	4875
+5031	廖碧儿	NULL	2	4875
+5032	陈键锋	NULL	2	4875
+5033	谢安琪	NULL	2	4875
+5034	香港无线电视	NULL	2	4876
+5035	袁鸣	NULL	2	4875
+5036	宁夏卫视	NULL	2	4876
+5037	杨铱	NULL	2	4875
+5038	赵靓	NULL	2	4875
+5039	刘烨	NULL	2	4875
+5040	赵屹鸥	NULL	2	4875
+5041	黄健翔	NULL	2	4875
+5042	颜强	NULL	2	4875
+5043	乐嘉	NULL	2	4875
+5044	樊登	NULL	2	4875
+5045	东南卫视	NULL	2	4876
+5046	王牧笛	NULL	2	4875
+5047	郎咸平	NULL	2	4875
+5048	广东卫视	NULL	2	4876
+5049	阿丘	NULL	2	4875
+5050	路一鸣	NULL	2	4875
+5051	潮东	NULL	2	4875
+5052	张晓楠	NULL	2	4875
+5053	央视文化精品频道	NULL	2	4876
+5054	蔡澜	NULL	2	4875
+5055	深圳卫视	NULL	2	4876
+5056	文杰	NULL	2	4875
+5057	辽宁北方频道	NULL	2	4876
+5058	张无砚	NULL	2	4875
+5059	林青虹	NULL	2	4875
+5060	厦门卫视	NULL	2	4876
+5061	利菁	NULL	2	4875
+5062	三立都会台	NULL	2	4876
+5063	陶晶莹	NULL	2	4875
+5064	陈辰	NULL	2	4875
+5065	上海娱乐频道	NULL	2	4876
+5066	陈蓉	NULL	2	4875
+5067	方龄	NULL	2	4875
+5068	华婧	NULL	2	4875
+5069	袁帅	NULL	2	4875
+5070	芦一洲	NULL	2	4875
+5071	程程	NULL	2	4875
+5072	郑琳	NULL	2	4875
+5073	立青	NULL	2	4875
+5074	上海电视台生活频道	NULL	2	4876
+5075	柏栩栩	NULL	2	4875
+5076	湖北卫视	NULL	2	4876
+5077	伊一	NULL	2	4875
+5078	温雅	NULL	2	4875
+5079	那威	NULL	2	4875
+5080	孙迅	NULL	2	4875
+5081	央视财经	NULL	2	4876
+5082	金飞	NULL	2	4875
+5083	江西卫视	NULL	2	4876
+5084	王俐	NULL	2	4875
+5085	程成	NULL	2	4875
+5086	刘涛	NULL	2	4875
+5087	河北农民频道	NULL	2	4876
+5088	谭汗青	NULL	2	4875
+5089	郭德纲	NULL	2	4875
+5090	北京佳韵社	NULL	2	4876
+5091	毛威	NULL	2	4875
+5092	李好	NULL	2	4875
+5093	赵忠祥	NULL	2	4875
+5094	大左	NULL	2	4875
+5095	谢楠	NULL	2	4875
+5096	吉林卫视	NULL	2	4876
+5097	王旭东	NULL	2	4875
+5098	栗坤	NULL	2	4875
+5099	北京卫视	NULL	2	4876
+5100	阿Ken	NULL	2	4875
+5101	中天电视	NULL	2	4876
+5102	曾宝仪	NULL	2	4875
+5103	谭杰希	NULL	2	4875
+5104	方家翊	NULL	2	4875
+5105	王一鸣	NULL	2	4875
+5106	史俊杰	NULL	2	4875
+5107	播视网	NULL	2	4876
+5108	张林	NULL	2	4875
+5109	吴大维	NULL	2	4875
+5110	李晨	NULL	2	4875
+5111	刘硕	NULL	2	4875
+5112	郑凡	NULL	2	4875
+5113	Linda	NULL	2	4875
+5114	旅游卫视	NULL	2	4876
+5115	阿雅	NULL	2	4875
+5116	李承铉	NULL	2	4875
+5117	申东靖	NULL	2	4875
+5118	魏凌洁	NULL	2	4875
+5119	董路	NULL	2	4875
+5120	刘婧	NULL	2	4875
+5121	王芳	NULL	2	4875
+5122	宋秋熠	NULL	2	4875
+5123	夏柏	NULL	2	4875
+5124	王乐乐	NULL	2	4875
+5125	索妮	NULL	2	4875
+5126	包文婧	NULL	2	4875
+5127	北京电视台文艺频道	NULL	2	4876
+5128	金炜	NULL	2	4875
+5129	伊能静	NULL	2	4875
+5130	曹可凡	NULL	2	4875
+5131	吉雪萍	NULL	2	4875
+5132	高原	NULL	2	4875
+5133	海燕	NULL	2	4875
+5134	画神闲	NULL	2	4875
+5135	安琥	NULL	2	4875
+5136	买红妹	NULL	2	4875
+5137	曹扬	NULL	2	4875
+5138	蔡紫	NULL	2	4875
+5139	BTV青少	NULL	2	4876
+5140	林海	NULL	2	4875
+5141	庄蕊	NULL	2	4875
+5142	辽宁卫视	NULL	2	4876
+5143	廖杰	NULL	2	4875
+5144	周立波	NULL	2	4875
+5145	李晗	NULL	2	4875
+5146	孙亮	NULL	2	4875
+5147	吴宗宪	NULL	2	4875
+5148	董殊	NULL	2	4875
+5149	陈笑	NULL	2	4875
+5150	王惠	NULL	2	4875
+5151	张达	NULL	2	4875
+5152	刘茗茗	NULL	2	4875
+5153	郑裕玲	NULL	2	4875
+5154	Donald	NULL	2	4875
+5155	阿占	NULL	2	4875
+5156	tvb	NULL	2	4876
+5157	陈欢	NULL	2	4875
+5158	王一	NULL	2	4875
+5159	影视娱乐	NULL	2	4876
+5160	昕原	NULL	2	4875
+5161	中国教育1台	NULL	2	4876
+5162	崔大笨	NULL	2	4875
+5163	曾祥程	NULL	2	4875
+5164	李锐	NULL	2	4875
+5165	黄征	NULL	2	4875
+5166	胖哥	NULL	2	4875
+5167	马睿	NULL	2	4875
+5168	尹能静	NULL	2	4875
+5169	黄子佼	NULL	2	4875
+5170	刘伟	NULL	2	4875
+5171	古晓	NULL	2	4875
+5172	王辛	NULL	2	4875
+5173	王宁	NULL	2	4875
+5174	宫铃	NULL	2	4875
+5175	航悦	NULL	2	4875
+5176	上海电视台新娱乐频道	NULL	2	4876
+5177	强子	NULL	2	4875
+5178	杨逸飞	NULL	2	4875
+5179	陈小敏	NULL	2	4875
+5180	王东岳	NULL	2	4875
+5181	谭薇	NULL	2	4875
+5182	小飞豆	NULL	2	4875
+5183	小飞猪	NULL	2	4875
+5184	金鹰卡通	NULL	2	4876
+5185	小燕子	NULL	2	4875
+5186	青蛙哥哥	NULL	2	4875
+5187	刘刚	NULL	2	4875
+5188	密密	NULL	2	4875
+5189	于洋	NULL	2	4875
+5190	英达	NULL	2	4875
+5191	BTV科教	NULL	2	4876
+5192	马跃	NULL	2	4875
+5193	中国教育电视台	NULL	2	4876
+5194	孙慧雪	NULL	2	4875
+5195	黄卓慧	NULL	2	4875
+5196	香港无线生活台、无线翡翠台	NULL	2	4876
+5197	蒋宏杰	NULL	2	4875
+5198	YOYO	NULL	2	4875
+5199	金小鱼	NULL	2	4875
+5200	刘畅	NULL	2	4875
+5201	严宽	NULL	2	4875
+5202	向真	NULL	2	4875
+5203	BTV文艺	NULL	2	4876
+5204	柳岩	NULL	2	4875
+5205	中国教育电视台三套	NULL	2	4876
+5206	郭麒麟	NULL	2	4875
+5207	张鹤伦	NULL	2	4875
+5208	闫鹤祥	NULL	2	4875
+5209	罗志祥	NULL	2	4875
+5210	黄鸿升	NULL	2	4875
+5211	蝴蝶姐姐	NULL	2	4875
+5212	八大综合台	NULL	2	4876
+5213	林志玲	NULL	2	4875
+5214	郑元畅	NULL	2	4875
+5215	李宇春	NULL	2	4875
+5216	刘嘉玲	NULL	2	4875
+5217	光线传媒	NULL	2	4876
+5218	钱锐	NULL	2	4875
+5219	金于宸	NULL	2	4875
+5220	田忻	NULL	2	4875
+5221	潘丹	NULL	2	4875
+5222	赵子琪	NULL	2	4875
+5223	贝倩妮	NULL	2	4875
+5224	马杰	NULL	2	4875
+5225	赵博元	NULL	2	4875
+5226	陆晟	NULL	2	4875
+5227	刘倩	NULL	2	4875
+5228	王萌萌	NULL	2	4875
+5229	朱奕静	NULL	2	4875
+5230	柯以敏	NULL	2	4875
+5231	郭涛	NULL	2	4875
+5232	芭乐传媒	NULL	2	4876
+5233	杨乐乐	NULL	2	4875
+5234	李慧玲	NULL	2	4875
+5235	柯豆	NULL	2	4875
+5236	李斯羽	NULL	2	4875
+5237	方青卓	NULL	2	4875
+5238	董璐	NULL	2	4875
+5239	扎西顿珠	NULL	2	4875
+5240	四川卫视	NULL	2	4876
+5241	佟彤	NULL	2	4875
+5242	田媛媛	NULL	2	4875
+5243	边策	NULL	2	4875
+5244	雅淇	NULL	2	4875
+5245	云南卫视	NULL	2	4876
+5246	悦悦	NULL	2	4875
+5247	北京电视台科教频道	NULL	2	4876
+5248	广西卫视	NULL	2	4876
+5249	吉杰	NULL	2	4875
+5250	柏万青	NULL	2	4875
+5251	郭晓敏	NULL	2	4875
+5252	大兵	NULL	2	4875
+5253	蔡博	NULL	2	4875
+5254	乐文	NULL	2	4875
+5255	晨阳	NULL	2	4875
+5256	姜华	NULL	2	4875
+5257	春妮	NULL	2	4875
+5258	玛利亚	NULL	2	4875
+5259	金小鱼大卫·威廉姆森	NULL	2	4875
+5260	朱桢	NULL	2	4875
+5261	王冠	NULL	2	4875
+5262	宋佳其	NULL	2	4875
+5263	吴采妮	NULL	2	4875
+5264	钟刚	NULL	2	4875
+5265	郭蕾	NULL	2	4875
+5266	李佳	NULL	2	4875
+5267	李彬	NULL	2	4875
+5268	周巍	NULL	2	4875
+5269	翟毓红	NULL	2	4875
+5270	陈聪	NULL	2	4875
+5271	姜多	NULL	2	4875
+5272	罗景昕	NULL	2	4875
+5273	付饶	NULL	2	4875
+5274	杨澜	NULL	2	4875
+5275	马力	NULL	2	4875
+5276	孙汀娟	NULL	2	4875
+5277	姜剑	NULL	2	4875
+5278	欧弟	NULL	2	4875
+5279	孟飞	NULL	2	4875
+5280	李艾	NULL	2	4875
+5281	姜昆	NULL	2	4875
+5282	张明	NULL	2	4875
+5283	薛林	NULL	2	4875
+5284	王旭	NULL	2	4875
+5285	璐璐	NULL	2	4875
+5286	陈密	NULL	2	4875
+5287	张美曦	NULL	2	4875
+5288	胡一虎	NULL	2	4875
+5289	朱平林	NULL	2	4875
+5290	林铭	NULL	2	4875
+5291	胡瓜	NULL	2	4875
+5292	朱军	NULL	2	4875
+5293	欧阳夏丹	NULL	2	4875
+5294	任鲁豫	NULL	2	4875
+5295	张泽群	NULL	2	4875
+5296	董卿	NULL	2	4875
+5297	周涛	NULL	2	4875
+5298	CCTV	NULL	2	4876
+5299	李咏	NULL	2	4875
+5300	撒贝宁	NULL	2	4875
+5301	李思思	NULL	2	4875
+5302	毕福剑	NULL	2	4875
+5303	潘丽	NULL	2	4875
+5304	冯小羊	NULL	2	4875
+5305	黄安	NULL	2	4875
+5306	李健	NULL	2	4875
+5307	宋嘉其	NULL	2	4875
+5308	罗洁	NULL	2	4875
+5309	hold住姐	NULL	2	4875
+5310	陈铎	NULL	2	4875
+5311	扬扬	NULL	2	4875
+5312	赵宇瑛	NULL	2	4875
+5313	鸥哥	NULL	2	4875
+5314	王祖蓝	NULL	2	4875
+5315	马松	NULL	2	4875
+5316	安丽	NULL	2	4875
+5317	杨林	NULL	2	4875
+5318	杨旭	NULL	2	4875
+5319	李莎莎	NULL	2	4875
+5320	王洋	NULL	2	4875
+5321	靳涛	NULL	2	4875
+5322	张齐	NULL	2	4875
+5323	崔爽	NULL	2	4875
+5324	孙俊辉	NULL	2	4875
+5325	大牛	NULL	2	4875
+5326	张鹏	NULL	2	4875
+5327	万蒂妮	NULL	2	4875
+5328	陈怡	NULL	2	4875
+5329	宁财神	NULL	2	4875
+5330	黄菡	NULL	2	4875
+5331	张栗坤	NULL	2	4875
+5332	孟凡贵	NULL	2	4875
+5333	孙国庆	NULL	2	4875
+5334	涂磊	NULL	2	4875
+5335	中央电视台数字频道	NULL	2	4876
+5336	陈舒	NULL	2	4875
+5337	唐笑	NULL	2	4875
+5338	白云峰	NULL	2	4875
+5339	三立台湾台	NULL	2	4876
+5340	李晓峰	NULL	2	4875
+5341	财经网	NULL	2	4876
+5342	伍洲彤	NULL	2	4875
+5343	楠楠	NULL	2	4875
+5344	浙江教育科技频道	NULL	2	4876
+5345	张翰	NULL	2	4875
+5346	魏晨	NULL	2	4875
+5347	朱梓骁	NULL	2	4875
+5348	俞灏明	NULL	2	4875
+5349	CCTV证券资讯频道	NULL	2	4876
+5350	CCTV证券资讯	NULL	2	4876
+5351	雨诗	NULL	2	4875
+5352	全国百家省级、省会级、地市级地方电视台	NULL	2	4876
+5353	谷智鑫	NULL	2	4875
+5354	贾毅	NULL	2	4875
+5355	姗姗	NULL	2	4875
+5356	古文智	NULL	2	4875
+5357	田歌	NULL	2	4875
+5358	BTV-文艺	NULL	2	4876
+5359	庹宗康	NULL	2	4875
+5360	屈中恒	NULL	2	4875
+5361	孙鹏	NULL	2	4875
+5362	梁冬	NULL	2	4875
+5363	北京嘉逊在线广告传播有限公司	NULL	2	4876
+5364	谢霜	NULL	2	4875
+5365	叶青林	NULL	2	4875
+5366	湖南教育台	NULL	2	4876
+5367	文怡	NULL	2	4875
+5368	新疆卫星电视台	NULL	2	4876
+5369	郭旺	NULL	2	4875
+5370	盛喆	NULL	2	4875
+5371	张小琴	NULL	2	4875
+5372	周舟	NULL	2	4875
+5373	青虹	NULL	2	4875
+5374	田源	NULL	2	4875
+5375	孙璞	NULL	2	4875
+5376	舒高	NULL	2	4875
+5377	青海卫视	NULL	2	4876
+5378	周林灯	NULL	2	4875
+5379	常锦洋	NULL	2	4875
+5380	司仪	NULL	2	4875
+5381	王烿	NULL	2	4875
+5382	舒悦	NULL	2	4875
+5383	邵文杰	NULL	2	4875
+5384	陈羽凡	NULL	2	4875
+5385	柴智屏	NULL	2	4875
+5386	阿朵	NULL	2	4875
+5387	高晓攀	NULL	2	4875
+5388	丛珊	NULL	2	4875
+5389	刘仪伟	NULL	2	4875
+5390	诚诚	NULL	2	4875
+5391	路君慈	NULL	2	4875
+5392	羽彤	NULL	2	4875
+5393	马丁	NULL	2	4875
+5394	于彬	NULL	2	4875
+5395	甘肃卫视	NULL	2	4876
+5396	梅琳	NULL	2	4875
+5397	陕西卫视	NULL	2	4876
+5398	金岩	NULL	2	4875
+5399	陈飞	NULL	2	4875
+5400	章亭	NULL	2	4875
+5401	金星	NULL	2	4875
+5402	星空卫视	NULL	2	4876
+5403	湖南卫视金鹰节	NULL	2	4876
+5404	中国金鹰电视艺术节开幕式晚会	NULL	2	4876
+5405	唐从圣	NULL	2	4875
+5406	安安	NULL	2	4875
+5407	张漫	NULL	2	4875
+5408	曹云金	NULL	2	4875
+5409	DMG娱乐传媒	NULL	2	4876
+5410	徐卓阳	NULL	2	4875
+5411	姚长盛	NULL	2	4875
+5412	徐春妮	NULL	2	4875
+5413	BTV	NULL	2	4876
+5414	梁永斌	NULL	2	4875
+5415	徐立	NULL	2	4875
+5416	巴晓光	NULL	2	4875
+5417	管艺	NULL	2	4875
+5418	丫头	NULL	2	4875
+5419	李沛旭	NULL	2	4875
+5420	唐锐	NULL	2	4875
+5421	徐熙娣	NULL	2	4875
+5422	徐熙媛	NULL	2	4875
+5423	中天综合台	NULL	2	4876
+5424	东方电视台	NULL	2	4876
+5425	新闻娱乐频道	NULL	2	4876
+5426	杜海涛	NULL	2	4875
+5427	吴昕	NULL	2	4875
+5428	赵娜	NULL	2	4875
+5429	陈海茵	NULL	2	4875
+5430	曾国城	NULL	2	4875
+5431	左岩	NULL	2	4875
+5432	杨迪	NULL	2	4875
+5433	杰妮	NULL	2	4875
+5434	闫肃	NULL	2	4875
+5435	袁哲	NULL	2	4875
+5436	刘尔金	NULL	2	4875
+5437	晋松	NULL	2	4875
+5438	苏童	NULL	2	4875
+5439	小颖子	NULL	2	4875
+5440	王喆	NULL	2	4875
+5441	潘前卫	NULL	2	4875
+5442	陈靓	NULL	2	4875
+5443	计一彪	NULL	2	4875
+5444	阿龙	NULL	2	4875
+5445	秦天	NULL	2	4875
+5446	乐乐	NULL	2	4875
+5447	齐慧	NULL	2	4875
+5448	王秉铮	NULL	2	4875
+5449	BTV生活	NULL	2	4876
+5450	阿涩	NULL	2	4875
+5451	杨悦	NULL	2	4875
+5452	纪鸿章	NULL	2	4875
+5453	梁宏达	NULL	2	4875
+5454	王馨月	NULL	2	4875
+5455	颖慧	NULL	2	4875
+5456	关枫	NULL	2	4875
+5457	朱冰	NULL	2	4875
+5458	倪宝铎	NULL	2	4875
+5459	庞晓戈	NULL	2	4875
+5460	河南卫视	NULL	2	4876
+5461	方舟子	NULL	2	4875
+5462	司马南	NULL	2	4875
+5463	余婧	NULL	2	4875
+5464	许璐璐	NULL	2	4875
+5465	石垒	NULL	2	4875
+5466	慕容雪村查	NULL	2	4875
+5467	可欣	NULL	2	4875
+5468	罗振宇	NULL	2	4875
+5469	重庆卫视	NULL	2	4876
+5470	陈鲁豫	NULL	2	4875
+5471	凤凰卫视	NULL	2	4876
+5472	王铮	NULL	2	4875
+5473	林恒	NULL	2	4875
+5474	李崑	NULL	2	4875
+5475	龙永图	NULL	2	4875
+5476	毛琳	NULL	2	4875
+5477	广东电视台珠江频道	NULL	2	4876
+5478	至上励合	NULL	2	4875
+5479	亮哲	NULL	2	4875
+5480	阿布	NULL	2	4875
+5481	王宥胜	NULL	2	4875
+5482	台湾三立都会台	NULL	2	4876
+5483	陈晨	NULL	2	4875
+5484	刘靖	NULL	2	4875
+5485	顾阳	NULL	2	4875
+5486	曹涤非	NULL	2	4875
+5487	李霞	NULL	2	4875
+5488	王涛	NULL	2	4875
+5489	晶晶	NULL	2	4875
+5490	张盛楠	NULL	2	4875
+5491	王津津	NULL	2	4875
+5492	潘磊	NULL	2	4875
+5493	王婧	NULL	2	4875
+5494	张宁	NULL	2	4875
+5495	郑中基	NULL	2	4875
+5496	方力申	NULL	2	4875
+5497	梁汉文	NULL	2	4875
+5498	TVB翡翠台	NULL	2	4876
+5499	曹洋	NULL	2	4875
+5500	马诺	NULL	2	4875
+5501	余婉宁	NULL	2	4875
+5502	夏于乔	NULL	2	4875
+5503	詹姆士	NULL	2	4875
+5504	王湘君	NULL	2	4875
+5505	卢迪	NULL	2	4875
+5506	李昕亮	NULL	2	4875
+5507	刘洪悦	NULL	2	4875
+5508	刘梦瑶	NULL	2	4875
+5509	乌金	NULL	2	4875
+5510	王利	NULL	2	4875
+5511	吕方	NULL	2	4875
+5512	叶澍堃	NULL	2	4875
+5513	路彬彬	NULL	2	4875
+5514	BTV财经频道	NULL	2	4876
+5515	尚贝迪国际文化传媒	NULL	2	4876
+5516	吕燕	NULL	2	4875
+5517	春晓	NULL	2	4875
+5518	傅正刚	NULL	2	4875
+5519	萧蔷	NULL	2	4875
+5520	王东	NULL	2	4875
+5521	曹佳	NULL	2	4875
+5522	赵一天	NULL	2	4875
+5523	刘鑫	NULL	2	4875
+5524	庾澄庆	NULL	2	4875
+5525	台湾中视	NULL	2	4876
+5526	于美人	NULL	2	4875
+5527	蓝心湄	NULL	2	4875
+5528	台湾TVBS欢乐台	NULL	2	4876
+5529	钟山	NULL	2	4875
+5530	辛唐米娜	NULL	2	4875
+5531	张杨果而	NULL	2	4875
+5532	马滢	NULL	2	4875
+5533	森美	NULL	2	4875
+5534	阮小仪	NULL	2	4875
+5535	窦文涛	NULL	2	4875
+5536	凤凰卫视中文台	NULL	2	4876
+5537	李行亮	NULL	2	4875
+5538	蒋亚楠	NULL	2	4875
+5539	湖南金鹰纪实频道	NULL	2	4876
+5540	燕子	NULL	2	4875
+5541	吉林生活频道	NULL	2	4876
+5542	叶一茜	NULL	2	4875
+5543	JR	NULL	2	4875
+5544	赵宇宁	NULL	2	4875
+5545	孙晓晓	NULL	2	4875
+5546	钱枫	NULL	2	4875
+5547	戚薇	NULL	2	4875
+5548	漆亚灵	NULL	2	4875
+5549	许小添	NULL	2	4875
+5550	新加坡	NULL	2	4877
+5551	杨志龙	NULL	2	4875
+5552	Trey	NULL	2	4875
+5553	马骧	NULL	2	4875
+5554	齐文	NULL	2	4875
+5555	赵丹军	NULL	2	4875
+5556	梁田	NULL	2	4875
+5557	脸脸	NULL	2	4875
+5558	韦至	NULL	2	4875
+5559	小么哥	NULL	2	4875
+5560	徐浩	NULL	2	4875
+5561	左溢	NULL	2	4875
+5562	朱元冰	NULL	2	4875
+5563	刘俊麟	NULL	2	4875
+5564	叶子淳	NULL	2	4875
+5565	崔文惠	NULL	2	4875
+5566	张琳玥	NULL	2	4875
+5567	杜伟	NULL	2	4875
+5568	曲洪禹	NULL	2	4875
+5569	丛薇	NULL	2	4875
+5570	BTV文艺频道	NULL	2	4876
+5571	沈春华	NULL	2	4875
+5572	廖庆学	NULL	2	4875
+5573	邓璐	NULL	2	4875
+5574	傲然	NULL	2	4875
+5575	陈宁	NULL	2	4875
+5576	项晖	NULL	2	4875
+5577	赵媛	NULL	2	4875
+5578	康间	NULL	2	4875
+5579	吴君如	NULL	2	4875
+5580	钱嘉乐	NULL	2	4875
+5581	凌晗	NULL	2	4875
+5582	伏玟晓	NULL	2	4875
+5583	李宝春	NULL	2	4875
+5584	项勇	NULL	2	4875
+5585	刘超	NULL	2	4875
+5586	更生	NULL	2	4875
+5587	蜢子	NULL	2	4875
+5588	阿亮	NULL	2	4875
+5589	曹杨	NULL	2	4875
+5590	赵本山	NULL	2	4875
+5591	小沈阳	NULL	2	4875
+5592	王乐斌	NULL	2	4875
+5593	蝈蝈	NULL	2	4875
+5594	邓志鸿	NULL	2	4875
+5595	董浩	NULL	2	4875
+5596	胡可	NULL	2	4875
+5597	张颖	NULL	2	4875
+5598	袁德旺	NULL	2	4875
+5599	大山	NULL	2	4875
+5600	上海新娱乐频道	NULL	2	4876
+5601	刘学	NULL	2	4875
+5602	王新	NULL	2	4875
+5603	刘语熙	NULL	2	4875
+5604	大王	NULL	2	4875
+5605	乔治宗	NULL	2	4875
+5606	吉林卫视家政频道	NULL	2	4876
+5607	卫芬	NULL	2	4875
+5608	大蕾	NULL	2	4875
+5609	矢野浩二	NULL	2	4875
+5610	金恩圣	NULL	2	4875
+5611	唐国强	NULL	2	4875
+5612	刘劲	NULL	2	4875
+5613	林永健	NULL	2	4875
+5614	王刚	NULL	2	4875
+5615	张大大	NULL	2	4875
+5616	大鹏	NULL	2	4875
+5617	阿喆	NULL	2	4875
+5618	大宏	NULL	2	4875
+5619	蜜蜂姐姐	NULL	2	4875
+5620	虫虫哥哥	NULL	2	4875
+5621	T哥	NULL	2	4875
+5622	E哥	NULL	2	4875
+5623	小蜜蜂	NULL	2	4875
+5624	天天	NULL	2	4875
+5625	石子光	NULL	2	4875
+5626	张曼玉	NULL	2	4875
+5627	童辉	NULL	2	4875
+5628	邓云	NULL	2	4875
+5629	王玥	NULL	2	4875
+5630	令健	NULL	2	4875
+5631	李季	NULL	2	4875
+5632	吉林电视台	NULL	2	4876
+5633	宋柯	NULL	2	4875
+5634	黄国伦	NULL	2	4875
+5635	周炜	NULL	2	4875
+5636	小蜜蜂姐姐	NULL	2	4875
+5637	晓奕	NULL	2	4875
+5638	文婷	NULL	2	4875
+5639	瞿弦和	NULL	2	4875
+5640	朱媛媛	NULL	2	4875
+5641	中央电视台	NULL	2	4876
+5642	韩国	NULL	2	4877
+5643	金正民	NULL	2	4875
+5644	MBC电视台	NULL	2	4876
+5645	优酷	NULL	2	4876
+5646	徐睿	NULL	2	4875
+5647	沈凌	NULL	2	4875
+5648	王为念	NULL	2	4875
+5649	曹启泰	NULL	2	4875
+5650	梁赫群	NULL	2	4875
+5651	包小柏	NULL	2	4875
+5652	钱江都市	NULL	2	4876
+5653	苏醒	NULL	2	4875
+5654	佟晨洁	NULL	2	4875
+5655	高军	NULL	2	4875
+5656	郭晨冬	NULL	2	4875
+5657	黄浩	NULL	2	4875
+5658	译男	NULL	2	4875
+5659	金纬	NULL	2	4875
+5660	贺毅	NULL	2	4875
+5661	林子	NULL	2	4875
+5662	龙薇薇	NULL	2	4875
+5663	浙江电视台钱江频道	NULL	2	4876
+5664	高海宁	NULL	2	4875
+5665	陈庭欣	NULL	2	4875
+5666	黄永帜	NULL	2	4875
+5667	杨秀惠	NULL	2	4875
+5668	孔庆东	NULL	2	4875
+5669	高潮东	NULL	2	4875
+5670	朱红	NULL	2	4875
+5671	王一楠	NULL	2	4875
+5672	邱启明	NULL	2	4875
+5673	CCTV-3综艺	NULL	2	4876
+5674	尹庆一	NULL	2	4875
+5675	牛尔老师	NULL	2	4875
+5676	Kelvin	NULL	2	4875
+5677	上海卫视生活时尚频道	NULL	2	4876
+5678	爱你爱美丽	NULL	2	4876
+5679	大陆	NULL	2	4877
+5680	吴佩慈	NULL	2	4875
+5681	浩天	NULL	2	4875
+5682	贝贝	NULL	2	4875
+5683	优嘉	NULL	2	4875
+5684	任玺悦	NULL	2	4875
+5685	孔洁	NULL	2	4875
+5686	BTV青少年频道	NULL	2	4876
+5687	浩角翔起	NULL	2	4875
+5688	上海电视台TVBS频道	NULL	2	4876
+5689	许戈辉	NULL	2	4875
+5690	CCTV-5	NULL	2	4876
+5691	李向显	NULL	2	4875
+5692	李佳璇	NULL	2	4875
+5693	陈波	NULL	2	4875
+5694	江苏电视台体育休闲频道	NULL	2	4876
+5695	柯蓝	NULL	2	4875
+5696	张含韵	NULL	2	4875
+5697	张卫健	NULL	2	4875
+5698	许志安	NULL	2	4875
+5699	苏永康	NULL	2	4875
+5700	罗旭	NULL	2	4875
+5701	BTV北京卫视	NULL	2	4876
+5702	赵韦至	NULL	2	4875
+5703	内地$$大陆	NULL	2	4877
+5704	孙睿琦	NULL	2	4875
+5705	小薰	NULL	2	4875
+5706	欧美	NULL	2	4877
+5707	Jeremy	NULL	2	4875
+5708	Richard	NULL	2	4875
+5709	James	NULL	2	4875
+5710	谢哲青	NULL	2	4875
+5711	高伊玲	NULL	2	4875
+5712	八大电视台	NULL	2	4876
+5713	芸萱	NULL	2	4875
+5714	雷璐	NULL	2	4875
+5715	山西卫视	NULL	2	4876
+5716	中国视频频道	NULL	2	4876
+5717	小布	NULL	2	4875
+5718	ELLETV	NULL	2	4876
+5719	李鑫	NULL	2	4875
+5720	敏健	NULL	2	4875
+5721	点点	NULL	2	4875
+5722	崔催	NULL	2	4875
+5723	蒋小涵	NULL	2	4875
+5724	CCTV-6	NULL	2	4876
+5725	澳大利亚	NULL	2	4877
+5726	Mark-Durden-Smith	NULL	2	4875
+5727	大新	NULL	2	4875
+5728	山东电视生活频道	NULL	2	4876
+5729	王栎鑫	NULL	2	4875
+5730	武艺	NULL	2	4875
+5731	湖南经视	NULL	2	4876
+5732	马东	NULL	2	4875
+5733	杨硕	NULL	2	4875
+5734	第一财经频道	NULL	2	4876
+5735	东方财经	NULL	2	4876
+5736	张菲	NULL	2	4875
+5737	中国电视	NULL	2	4876
+5738	久龄	NULL	2	4875
+5739	大樱桃	NULL	2	4875
+5740	大杨	NULL	2	4875
+5741	柯以柔	NULL	2	4875
+5742	许效舜	NULL	2	4875
+5743	澎恰恰	NULL	2	4875
+5744	黄西田	NULL	2	4875
+5745	台湾三立电视台	NULL	2	4876
+5746	骆伟瑜	NULL	2	4875
+5747	南方卫视	NULL	2	4876
+5748	港台	NULL	2	4877
+5749	姚元浩	NULL	2	4875
+5750	刘香慈	NULL	2	4875
+5751	阿庞	NULL	2	4875
+5752	林道远	NULL	2	4875
+5753	民视	NULL	2	4876
+5754	NikiTaylor	NULL	2	4875
+5755	TysonBeckford	NULL	2	4875
+5756	Bravo电视台	NULL	2	4876
+5757	刘尚明	NULL	2	4875
+5758	姚凡阳	NULL	2	4875
+5759	韩晓燕	NULL	2	4875
+5760	上海卫视	NULL	2	4876
+5761	李呈媛	NULL	2	4875
+5762	其他	NULL	2	4876
+5763	中国教育1套以	NULL	2	4876
+5764	小小彬	NULL	2	4875
+5765	大小姐组合	NULL	2	4875
+5766	纬来综合台	NULL	2	4876
+5767	钟欣凌	NULL	2	4875
+5768	隋棠	NULL	2	4875
+5769	东风卫星电视台	NULL	2	4876
+5770	湖南电视剧频道	NULL	2	4876
+5771	张馨	NULL	2	4875
+5772	台湾卫视	NULL	2	4876
+5773	韩佳	NULL	2	4875
+5774	河南电视台卫星频道	NULL	2	4876
+5775	荒野求生团队	NULL	2	4875
+5776	海南卫视	NULL	2	4876
+5777	陈建州	NULL	2	4875
+5778	ChannelV	NULL	2	4876
+5779	JPM	NULL	2	4875
+5780	孔淳浩	NULL	2	4875
+5781	汪洋	NULL	2	4875
+5782	暂无	NULL	2	4875
+5783	刘蔚	NULL	2	4875
+5784	刘悦	NULL	2	4875
+5785	秋晨	NULL	2	4875
+5786	郭凯	NULL	2	4875
+5787	李伟建	NULL	2	4875
+5788	高晓松	NULL	2	4875
+5789	蔡国庆	NULL	2	4875
+5790	孟庭苇	NULL	2	4875
+5791	胡东	NULL	2	4875
+5792	许孟哲	NULL	2	4875
+5793	王仁甫	NULL	2	4875
+5794	王绍伟	NULL	2	4875
+5795	张善为	NULL	2	4875
+5796	怀秋	NULL	2	4875
+5797	钟舒祺	NULL	2	4875
+5798	石凉	NULL	2	4875
+5799	赵立新	NULL	2	4875
+5800	张弓	NULL	2	4875
+5801	谭江海	NULL	2	4875
+5802	戈登.拉姆齐	NULL	2	4875
+5803	FOX	NULL	2	4876
+5804	于莎莎	NULL	2	4875
+5805	搜狐视频	NULL	2	4876
+5806	黄锐	NULL	2	4875
+5807	林鹏	NULL	2	4875
+5808	颜行书	NULL	2	4875
+5809	林奇葳	NULL	2	4875
+5810	台湾年代电视台	NULL	2	4876
+5811	Discovery探索频道	NULL	2	4876
+5812	岳云鹏	NULL	2	4875
+5813	辰亦儒	NULL	2	4875
+5814	台湾MTV	NULL	2	4876
+5815	茗茗	NULL	2	4875
+5816	爱戴	NULL	2	4875
+5817	阿忆	NULL	2	4875
+5818	金喆	NULL	2	4875
+5819	杨新颖	NULL	2	4875
+5820	日本	NULL	2	4877
+5821	田村淳	NULL	2	4875
+5822	田村亮	NULL	2	4875
+5823	田野	NULL	2	4875
+5824	刘谦	NULL	2	4875
+5825	陈冠霖	NULL	2	4875
+5826	大勇	NULL	2	4875
+5827	董成鹏	NULL	2	4875
+5828	宋鹏	NULL	2	4875
+5829	李希	NULL	2	4875
+5830	细龟	NULL	2	4875
+5831	曾文翰	NULL	2	4875
+5832	南方电视台综艺频道	NULL	2	4876
+5833	所乔治	NULL	2	4875
+5834	焦志方	NULL	2	4875
+5835	东风卫视	NULL	2	4876
+5836	台湾东森综合	NULL	2	4876
+5837	迅猛龙	NULL	2	4875
+5838	安心亚	NULL	2	4875
+5839	梦梦	NULL	2	4875
+5840	漾漾	NULL	2	4875
+5841	朱晓铮	NULL	2	4875
+5842	广东南方电视台	NULL	2	4876
+5843	曹一楠	NULL	2	4875
+5844	应宁	NULL	2	4875
+5845	王洁实	NULL	2	4875
+5846	胡宁	NULL	2	4875
+5847	波波	NULL	2	4875
+5848	南方卫视TVS2	NULL	2	4876
+5849	徐维孝	NULL	2	4875
+5850	徐爱心	NULL	2	4875
+5851	雪琨	NULL	2	4875
+5852	李晓博	NULL	2	4875
+5853	张凤书	NULL	2	4875
+5854	港台$$香港$$台湾	NULL	2	4877
+5855	天心	NULL	2	4875
+5856	姚舜	NULL	2	4875
+5857	小钟	NULL	2	4875
+5858	陈静	NULL	2	4875
+5859	向兵	NULL	2	4875
+5860	新疆卫视	NULL	2	4876
+5861	嘉欣	NULL	2	4875
+5862	闵天浩	NULL	2	4875
+5863	高博	NULL	2	4875
+5864	张杨果儿	NULL	2	4875
+5865	CCTV-财经	NULL	2	4876
+5866	窦爱莉	NULL	2	4875
+5867	闫罡	NULL	2	4875
+5868	林正豪	NULL	2	4875
+5869	郭晓涛	NULL	2	4875
+5870	芭乐在线	NULL	2	4876
+5871	孙勇	NULL	2	4875
+5872	文静	NULL	2	4875
+5873	谢文婷	NULL	2	4875
+5874	曾志伟	NULL	2	4875
+5875	王冠江	NULL	2	4875
+5876	欣燕	NULL	2	4875
+5877	金璐	NULL	2	4875
+5878	优酷网	NULL	2	4876
+5879	刘彤	NULL	2	4875
+5880	黑龙江电视台文艺频道	NULL	2	4876
+5881	红豆	NULL	2	4875
+5882	黄豆	NULL	2	4875
+5883	日韩	NULL	2	4877
+5884	金勇万	NULL	2	4875
+5885	朴瑟琪	NULL	2	4875
+5886	黄济成	NULL	2	4875
+5887	韩国MBC电视台	NULL	2	4876
+5888	Tiffany	NULL	2	4875
+5889	徐贤	NULL	2	4875
+5890	泰妍	NULL	2	4875
+5891	利特	NULL	2	4875
+5892	Boom	NULL	2	4875
+5893	朴美善	NULL	2	4875
+5894	韩国SBS电视台	NULL	2	4876
+5895	黄艺馨	NULL	2	4875
+5896	史强	NULL	2	4875
+5897	大张伟	NULL	2	4875
+5898	杨旸	NULL	2	4875
+5899	杨帆	NULL	2	4875
+5900	韩娇	NULL	2	4875
+5901	李迎	NULL	2	4875
+5902	杨运	NULL	2	4875
+5903	陈浩	NULL	2	4875
+5904	李洁	NULL	2	4875
+5905	全国公交移动电视	NULL	2	4876
+5906	唐露	NULL	2	4875
+5907	田宇	NULL	2	4875
+5908	刘燕	NULL	2	4875
+5909	冯丹	NULL	2	4875
+5910	张芳	NULL	2	4875
+5911	梁枫	NULL	2	4875
+5912	翟树杰	NULL	2	4875
+5913	任曦	NULL	2	4875
+5914	林洁	NULL	2	4875
+5915	申新华	NULL	2	4875
+5916	杨秋华	NULL	2	4875
+5917	刘中志	NULL	2	4875
+5918	澳亚卫视	NULL	2	4876
+5919	董至成	NULL	2	4875
+5920	洪城阳	NULL	2	4875
+5921	钟欣怡	NULL	2	4875
+5922	湖南经济电视台综合频道	NULL	2	4876
+5923	湖南电视台金鹰卡通频道	NULL	2	4876
+5924	伍咏薇	NULL	2	4875
+5925	阮兆祥	NULL	2	4875
+5926	江苏电视台综艺频道	NULL	2	4876
+5927	方文艳	NULL	2	4875
+5928	李南	NULL	2	4875
+5929	杨光	NULL	2	4875
+5930	内蒙古卫视	NULL	2	4876
+5931	兵团卫视	NULL	2	4876
+5932	童迪	NULL	2	4875
+5933	赖丹丹	NULL	2	4875
+5934	田蕊妮	NULL	2	4875
+5935	小鱼	NULL	2	4875
+5936	秋予	NULL	2	4875
+5937	杨涛	NULL	2	4875
+5938	袁成杰	NULL	2	4875
+5939	姜昕	NULL	2	4875
+5940	王琦	NULL	2	4875
+5941	尹蓓	NULL	2	4875
+5942	罗凯文	NULL	2	4875
+5943	黄阿曼	NULL	2	4875
+5944	欧阳江岸	NULL	2	4875
+5945	李圣	NULL	2	4875
+5946	马红漫	NULL	2	4875
+5947	张晓峰	NULL	2	4875
+5948	赵涛	NULL	2	4875
+5949	朱杰	NULL	2	4875
+5950	宏义	NULL	2	4875
+5951	知蔓	NULL	2	4875
+5952	陈声	NULL	2	4875
+5953	魏翊东	NULL	2	4875
+5954	BTV体育频道	NULL	2	4876
+5955	曹莎莎	NULL	2	4875
+5956	莫微	NULL	2	4875
+5957	四川电视台新闻频道	NULL	2	4876
+5958	张亚楠	NULL	2	4875
+5959	李颖	NULL	2	4875
+5960	黄伟	NULL	2	4875
+5961	姜波	NULL	2	4875
+5962	北京电视台第一财经频道	NULL	2	4876
+5963	雪涛	NULL	2	4875
+5964	蓓蒂	NULL	2	4875
+5965	张楠	NULL	2	4875
+5966	刘锐	NULL	2	4875
+5967	喻舟	NULL	2	4875
+5968	小飞	NULL	2	4875
+5969	王菲	NULL	2	4875
+5970	山东电视台体育频道	NULL	2	4876
+5971	辛凯	NULL	2	4875
+5972	刘爽	NULL	2	4875
+5973	林立	NULL	2	4875
+5974	史林子	NULL	2	4875
+5975	梓旭	NULL	2	4875
+5976	段妍玲	NULL	2	4875
+5977	张欣	NULL	2	4875
+5978	黄胜楠	NULL	2	4875
+5979	CETV-1	NULL	2	4876
+5980	袁岳	NULL	2	4875
+5981	安龙	NULL	2	4875
+5982	高源	NULL	2	4875
+5983	马浚伟	NULL	2	4875
+5984	张绍刚	NULL	2	4875
+5985	吴瑕	NULL	2	4875
+5986	段蕊	NULL	2	4875
+5987	有才	NULL	2	4875
+5988	上海电视台艺术人文频道	NULL	2	4876
+5989	刘忠虎	NULL	2	4875
+5990	安德尊	NULL	2	4875
+5991	朱凯婷	NULL	2	4875
+5992	周子驹	NULL	2	4875
+5993	郭田葰	NULL	2	4875
+5994	陈璇	NULL	2	4875
+5995	吴刚	NULL	2	4875
+5996	汪明荃	NULL	2	4875
+5997	邓梓峰	NULL	2	4875
+5998	王浩信	NULL	2	4875
+5999	美国	NULL	2	4877
+6000	比利·克里斯托	NULL	2	4875
+6001	语鸿	NULL	2	4875
+6002	阳子	NULL	2	4875
+6003	张晓稚	NULL	2	4875
+6004	谢怡芬	NULL	2	4875
+6005	崔建邦	NULL	2	4875
+6006	宋熙年	NULL	2	4875
+6007	何傲芝	NULL	2	4875
+6008	张慧慈	NULL	2	4875
+6009	张宇	NULL	2	4875
+6010	黄小蕾	NULL	2	4875
+6011	涂经纬	NULL	2	4875
+6012	李蜜	NULL	2	4875
+6013	杨正龙	NULL	2	4875
+6014	厉蔺飞	NULL	2	4875
+6015	王超月	NULL	2	4875
+6016	唐志忠	NULL	2	4875
+6017	程诚	NULL	2	4875
+6018	王晋宁	NULL	2	4875
+6019	徐滔	NULL	2	4875
+6020	王振龙	NULL	2	4875
+6021	雅静	NULL	2	4875
+6022	小翟	NULL	2	4875
+6023	尹倩	NULL	2	4875
+6024	佐藤麻衣	NULL	2	4875
+6025	伶俐	NULL	2	4875
+6026	上海电视台星尚频道	NULL	2	4876
+6027	曹璐	NULL	2	4875
+6028	郭浩彬	NULL	2	4875
+6029	CCTV-证券资讯	NULL	2	4876
+6030	史正	NULL	2	4875
+6031	李意坚	NULL	2	4875
+6032	金妍	NULL	2	4875
+6033	白雯	NULL	2	4875
+6034	张嘉仁	NULL	2	4875
+6035	茅莹	NULL	2	4875
+6036	大项	NULL	2	4875
+6037	浙江卫视经济生活频道	NULL	2	4876
+6038	湖南经视综合频道	NULL	2	4876
+6039	小爽	NULL	2	4875
+6040	陆之瑞	NULL	2	4875
+6041	倪萍	NULL	2	4875
+6042	叶培隆	NULL	2	4875
+6043	CCTV-1	NULL	2	4876
+6044	朱艳芳	NULL	2	4875
+6045	张立栋	NULL	2	4875
+6046	冉莹颖	NULL	2	4875
+6047	CCTV证劵资讯频道	NULL	2	4876
+6048	严楷晨	NULL	2	4875
+6049	孟诚	NULL	2	4875
+6050	刘海潮	NULL	2	4875
+6051	邢航	NULL	2	4875
+6052	陈超	NULL	2	4875
+6053	王乔	NULL	2	4875
+6054	杜斌	NULL	2	4875
+6055	CCTV-证券资讯频道	NULL	2	4876
+6056	王欢	NULL	2	4875
+6057	苑治平	NULL	2	4875
+6058	沈南	NULL	2	4875
+6059	刘海杰	NULL	2	4875
+6060	辽宁电视台影视频道	NULL	2	4876
+6061	项洋	NULL	2	4875
+6062	潘长江	NULL	2	4875
+6063	阿浩	NULL	2	4875
+6064	潘阳	NULL	2	4875
+6065	张晔子	NULL	2	4875
+6066	冯晓	NULL	2	4875
+6067	董津妤	NULL	2	4875
+6068	李德华	NULL	2	4875
+6069	金圭丽	NULL	2	4875
+6070	郑恺	NULL	2	4875
+6071	伍萨	NULL	2	4875
+6072	花花	NULL	2	4875
+6073	金九拉	NULL	2	4875
+6074	李辉才	NULL	2	4875
+6075	张引	NULL	2	4875
+6076	梁小爽	NULL	2	4875
+6077	刘静	NULL	2	4875
+6078	王建萍	NULL	2	4875
+6079	陈立伟	NULL	2	4875
+6080	牟婕	NULL	2	4875
+6081	梦飞	NULL	2	4875
+6082	王云凯	NULL	2	4875
+6083	言明	NULL	2	4875
+6084	潘蔚	NULL	2	4875
+6085	刘彬	NULL	2	4875
+6086	乔兴宁	NULL	2	4875
+6087	陈颖	NULL	2	4875
+6088	宋嘉欣	NULL	2	4875
+6089	王永光	NULL	2	4875
+6090	任永全	NULL	2	4875
+6091	伍燕	NULL	2	4875
+6092	杨森	NULL	2	4875
+6093	王燕妮	NULL	2	4875
+6094	许菲	NULL	2	4875
+6095	高枫	NULL	2	4875
+6096	喻恩泰	NULL	2	4875
+6097	刘银刚	NULL	2	4875
+6098	高峰	NULL	2	4875
+6099	孔云龙	NULL	2	4875
+6100	李天刚	NULL	2	4875
+6101	嵩子	NULL	2	4875
+6102	青岛电视台都市频道	NULL	2	4876
+6103	袁野	NULL	2	4875
+6104	海滨	NULL	2	4875
+6105	海波	NULL	2	4875
+6106	SMG新闻综合频道	NULL	2	4876
+6107	艾珂竹	NULL	2	4875
+6108	薛晗喆	NULL	2	4875
+6109	庄艳	NULL	2	4875
+6110	欣然	NULL	2	4875
+6111	侯雯	NULL	2	4875
+6112	吴恙	NULL	2	4875
+6113	沈梦辰	NULL	2	4875
+6114	蒋林伶	NULL	2	4875
+6115	谢绿路	NULL	2	4875
+6116	晏维	NULL	2	4875
+6117	湖南电视台娱乐频道	NULL	2	4876
+6118	林保怡	NULL	2	4875
+6119	苏玉华	NULL	2	4875
+6120	郑融	NULL	2	4875
+6121	何昊东	NULL	2	4875
+6122	马慧	NULL	2	4875
+6123	郭鸿雁	NULL	2	4875
+6124	徐淑敏	NULL	2	4875
+6125	郑威涛	NULL	2	4875
+6126	温鹏达	NULL	2	4875
+6127	王颖	NULL	2	4875
+6128	于辉	NULL	2	4875
+6129	翟戴红	NULL	2	4875
+6130	刘高扬	NULL	2	4875
+6131	张凯丽	NULL	2	4875
+6132	郭冬临	NULL	2	4875
+6133	邓辉	NULL	2	4875
+6134	张宣	NULL	2	4875
+6135	潘晨	NULL	2	4875
+6136	杨佳	NULL	2	4875
+6137	张默	NULL	2	4875
+6138	幸晨	NULL	2	4875
+6139	汪海	NULL	2	4875
+6140	吴萤萤	NULL	2	4875
+6141	BTV公共频道	NULL	2	4876
+6142	江涛	NULL	2	4875
+6143	洪洋	NULL	2	4875
+6144	何璐	NULL	2	4875
+6145	蔡一智	NULL	2	4875
+6146	蔡一杰	NULL	2	4875
+6147	苏志威	NULL	2	4875
+6148	台湾中天娱乐台	NULL	2	4876
+6149	陈琨	NULL	2	4875
+6150	向辉	NULL	2	4875
+6151	李楠	NULL	2	4875
+6152	徐昊	NULL	2	4875
+6153	查可欣	NULL	2	4875
+6154	关栋天	NULL	2	4875
+6155	李厚霖	NULL	2	4875
+6156	左安龙	NULL	2	4875
+6157	金国镇	NULL	2	4875
+6158	尹钟信	NULL	2	4875
+6159	圭贤	NULL	2	4875
+6160	刘世允	NULL	2	4875
+6161	杨欣	NULL	2	4875
+6162	高山峰	NULL	2	4875
+6163	司雯嘉	NULL	2	4875
+6164	邓宁	NULL	2	4875
+6165	冉旭	NULL	2	4875
+6166	张立昕	NULL	2	4875
+6167	李思宁	NULL	2	4875
+6168	赵之心	NULL	2	4875
+6169	王旭峰	NULL	2	4875
+6170	光线传媒电视网	NULL	2	4876
+6171	卫蔚	NULL	2	4875
+6172	小白	NULL	2	4875
+6173	公交移动电视台	NULL	2	4876
+6174	李苏阳	NULL	2	4875
+6175	吴家乐	NULL	2	4875
+6176	陈永业	NULL	2	4875
+6177	梁奕伦	NULL	2	4875
+6178	香港无线电视台	NULL	2	4876
+6179	黄永东	NULL	2	4875
+6180	白宾	NULL	2	4875
+6181	李涛	NULL	2	4875
+6182	老樊	NULL	2	4875
+6183	丹丹	NULL	2	4875
+6184	黄霑	NULL	2	4875
+6185	倪匡	NULL	2	4875
+6186	香港亚视	NULL	2	4876
+6187	CCTV-证劵资讯频道	NULL	2	4876
+6188	郭晨东	NULL	2	4875
+6189	周冰	NULL	2	4875
+6190	CCTV-2	NULL	2	4876
+6191	宁晓川	NULL	2	4875
+6192	李春玮	NULL	2	4875
+6193	BTV-财经频道	NULL	2	4876
+6194	李力	NULL	2	4875
+6195	尚静	NULL	2	4875
+6196	张彬	NULL	2	4875
+6197	玮琦	NULL	2	4875
+6198	海蒂·克鲁姆	NULL	2	4875
+6199	迈克尔·科尔斯	NULL	2	4875
+6200	妮娜·加西亚	NULL	2	4875
+6201	杨青	NULL	2	4875
+6202	黄品源	NULL	2	4875
+6203	薇薇安	NULL	2	4875
+6204	嘉文	NULL	2	4875
+6205	耿嘉晨	NULL	2	4875
+6206	刘洋	NULL	2	4875
+6207	王益洲	NULL	2	4875
+6208	云玮	NULL	2	4875
+6209	王海东	NULL	2	4875
+6210	施斌	NULL	2	4875
+6211	程聪	NULL	2	4875
+6212	黑龙江电视台	NULL	2	4876
+6213	胡宁扬	NULL	2	4875
+6214	钮文新	NULL	2	4875
+6215	馨研	NULL	2	4875
+6216	王若涵	NULL	2	4875
+6217	李梁	NULL	2	4875
+6218	李玉燕	NULL	2	4875
+6219	刘澳	NULL	2	4875
+6220	张泓	NULL	2	4875
+6221	陈啸	NULL	2	4875
+6222	BTV财经	NULL	2	4876
+6223	周卫星	NULL	2	4875
+6224	杨华	NULL	2	4875
+6225	文瀚	NULL	2	4875
+6226	汤面	NULL	2	4875
+6227	黄喜	NULL	2	4875
+6228	刘在石	NULL	2	4875
+6229	金媛熙	NULL	2	4875
+6230	MBC	NULL	2	4876
+6231	王新星	NULL	2	4875
+6232	魏祺	NULL	2	4875
+6233	慰笛	NULL	2	4875
+6234	上海第一财经频道	NULL	2	4876
+6235	金子	NULL	2	4875
+6236	大洋	NULL	2	4875
+6237	笑笑	NULL	2	4875
+6238	浙江电视台公共频道	NULL	2	4876
+6239	崔楠	NULL	2	4875
+6240	蜜蜜	NULL	2	4875
+6241	老杨	NULL	2	4875
+6242	叶闪	NULL	2	4875
+6243	妮妮	NULL	2	4875
+6244	上海东方卫视	NULL	2	4876
+6245	杨杨	NULL	2	4875
+6246	覃玫	NULL	2	4875
+6247	崔璨	NULL	2	4875
+6248	刘莎	NULL	2	4875
+6249	杨及千	NULL	2	4875
+6250	吴宇舒	NULL	2	4875
+6251	妈祖之光普照万方	NULL	2	4876
+6252	何云伟	NULL	2	4875
+6253	辽宁都市频道	NULL	2	4876
+6254	尉薇	NULL	2	4875
+6255	初晓敏	NULL	2	4875
+6256	马国明	NULL	2	4875
+6257	罗仲谦	NULL	2	4875
+6258	洪京民	NULL	2	4875
+6259	袁伟	NULL	2	4875
+6260	黎诺懿	NULL	2	4875
+6261	萧正楠	NULL	2	4875
+6262	霍娜	NULL	2	4875
+6263	谭易	NULL	2	4875
+6264	湖南电视台经视频道	NULL	2	4876
+6265	博林	NULL	2	4875
+6266	晨东	NULL	2	4875
+6267	BTV生活频道	NULL	2	4876
+6268	阿楠	NULL	2	4875
+6269	伊琳	NULL	2	4875
+6270	上海电视台生活时尚频道	NULL	2	4876
+6271	天津电视台科教频道	NULL	2	4876
+6272	胡克	NULL	2	4875
+6273	河北电视台经济生活频道	NULL	2	4876
+6274	刘思彤	NULL	2	4875
+6275	马国毕	NULL	2	4875
+6276	小雪	NULL	2	4875
+6277	陈志	NULL	2	4875
+6278	牛群	NULL	2	4875
+6279	乔杉	NULL	2	4875
+6280	修睿	NULL	2	4875
+6281	海阳	NULL	2	4875
+6282	任伟	NULL	2	4875
+6283	秦鸣悦	NULL	2	4875
+6284	陈豪	NULL	2	4875
+6285	金涛	NULL	2	4875
+6286	任静	NULL	2	4875
+6287	小雷	NULL	2	4875
+6288	孟一	NULL	2	4875
+6289	张雪松	NULL	2	4875
+6290	提拉·班克斯	NULL	2	4875
+6291	美国CW电视台	NULL	2	4876
+6292	蒋晏平	NULL	2	4875
+6293	迟婷	NULL	2	4875
+6294	浙江电视台民生休闲频道	NULL	2	4876
+6295	李东旭	NULL	2	4875
+6296	申东烨	NULL	2	4875
+6297	吴洁	NULL	2	4875
+6298	苗苗	NULL	2	4875
+6299	谭钧	NULL	2	4875
+6300	张珂	NULL	2	4875
+6301	马骏	NULL	2	4875
+6302	尼克·卡农	NULL	2	4875
+6303	美国NBC电视台	NULL	2	4876
+6304	吴薇	NULL	2	4875
+6305	李思捷	NULL	2	4875
+6306	李钟硕	NULL	2	4875
+6307	具荷拉	NULL	2	4875
+6308	郑妮可	NULL	2	4875
+6309	吴小莉	NULL	2	4875
+6310	梁文韬	NULL	2	4875
+6311	王君馨	NULL	2	4875
+6312	张美妮	NULL	2	4875
+6313	官恩娜	NULL	2	4875
+6314	关凌	NULL	2	4875
+6315	周诺	NULL	2	4875
+6316	盛子曰	NULL	2	4875
+6317	喜子	NULL	2	4875
+6318	小熙	NULL	2	4875
+6319	小燕	NULL	2	4875
+6320	小勇	NULL	2	4875
+6321	陈旭	NULL	2	4875
+6322	火旺	NULL	2	4875
+6323	小梅	NULL	2	4875
+6324	老乐	NULL	2	4875
+6325	张延	NULL	2	4875
+6326	洪宇	NULL	2	4875
+6327	陈子嘟	NULL	2	4875
+6328	王绒	NULL	2	4875
+6329	李晨光	NULL	2	4875
+6330	刘小庆	NULL	2	4875
+6331	时尚星光传媒	NULL	2	4876
+6332	李嘉	NULL	2	4875
+6333	马未都	NULL	2	4875
+6334	张东	NULL	2	4875
+6335	晓何	NULL	2	4875
+6336	顾颖	NULL	2	4875
+6337	李秀媛	NULL	2	4875
+6338	路璐	NULL	2	4875
+6339	褚琳	NULL	2	4875
+6340	苏施黄	NULL	2	4875
+6341	晨澜	NULL	2	4875
+6342	王剑涛	NULL	2	4875
+6343	谭文颖	NULL	2	4875
+6344	吴怡霈	NULL	2	4875
+6345	台湾东森综合台	NULL	2	4876
+6346	叶健	NULL	2	4875
+6347	四川电视台经济频道	NULL	2	4876
+6348	文振	NULL	2	4875
+6349	严雳	NULL	2	4875
+6350	四川电视台公共频道	NULL	2	4876
+6351	杨柳	NULL	2	4875
+6352	尹畅	NULL	2	4875
+6353	孙延夫	NULL	2	4875
+6354	李宗瑶	NULL	2	4875
+6355	李月	NULL	2	4875
+6356	王悦月	NULL	2	4875
+6357	王宏	NULL	2	4875
+6358	施越	NULL	2	4875
+6359	龙舜	NULL	2	4875
+6360	波涛	NULL	2	4875
+6361	徐丹	NULL	2	4875
+6362	宏海	NULL	2	4875
+6363	嘉诚	NULL	2	4875
+6364	孙媛	NULL	2	4875
+6365	鸿水	NULL	2	4875
+6366	天津电视台文艺频道	NULL	2	4876
+6367	张勤	NULL	2	4875
+6368	杨纪	NULL	2	4875
+6369	董莉	NULL	2	4875
+6370	杨宇平	NULL	2	4875
+6371	胡桦	NULL	2	4875
+6372	付琰	NULL	2	4875
+6373	浙江电视台影视娱乐频道	NULL	2	4876
+6374	津津	NULL	2	4875
+6375	波仔	NULL	2	4875
+6376	黄哲	NULL	2	4875
+6377	覃勤	NULL	2	4875
+6378	林严	NULL	2	4875
+6379	王元茹	NULL	2	4875
+6380	芳芳	NULL	2	4875
+6381	立一	NULL	2	4875
+6382	胡紫微	NULL	2	4875
+6383	文艳	NULL	2	4875
+6384	黄橙子	NULL	2	4875
+6385	吴淡如	NULL	2	4875
+6386	林慧萍	NULL	2	4875
+6387	许瑶璇	NULL	2	4875
+6388	郝颖	NULL	2	4875
+6389	雷悦	NULL	2	4875
+6390	莎莎	NULL	2	4875
+6391	伊恩·怀特	NULL	2	4875
+6392	胡紫薇	NULL	2	4875
+6393	温婷茹	NULL	2	4875
+6394	华娱卫视	NULL	2	4876
+6395	邓亚萍	NULL	2	4875
+6396	李铁钢	NULL	2	4875
+6397	李然	NULL	2	4875
+6398	程丞	NULL	2	4875
+6399	丁蓬	NULL	2	4875
+6400	李京实	NULL	2	4875
+6401	池相烈	NULL	2	4875
+6402	李准	NULL	2	4875
+6403	金泰贤	NULL	2	4875
+6404	郑朱莉	NULL	2	4875
+6405	崔贞允	NULL	2	4875
+6406	安善英	NULL	2	4875
+6407	小谷	NULL	2	4875
+6408	闻东	NULL	2	4875
+6409	天津卫视滨海频道	NULL	2	4876
+6410	BTV科教频道	NULL	2	4876
+6411	容祖儿	NULL	2	4875
+6412	徐进	NULL	2	4875
+6413	韩露	NULL	2	4875
+6414	吕慧仪	NULL	2	4875
+6415	陈百祥	NULL	2	4875
+6416	罗家英	NULL	2	4875
+6417	米雪	NULL	2	4875
+6418	湖南电视台电视剧频道	NULL	2	4876
+6419	何平	NULL	2	4875
+6420	叶檀	NULL	2	4875
+6421	陆滢	NULL	2	4875
+6422	李燕	NULL	2	4875
+6423	蔡欣一	NULL	2	4875
+6424	上海艺术人文频道	NULL	2	4876
+6425	吴沛聪	NULL	2	4875
+6426	葛晓倩	NULL	2	4875
+6427	星尚频道	NULL	2	4876
+6428	李依依	NULL	2	4875
+6429	庞博	NULL	2	4875
+6430	盛楠	NULL	2	4875
+6431	梁多	NULL	2	4875
+6432	崔永元	NULL	2	4875
+6433	许一力	NULL	2	4875
+6434	张文玥	NULL	2	4875
+6435	谷岳	NULL	2	4875
+6436	梁子	NULL	2	4875
+6437	杰夫·普罗斯特	NULL	2	4875
+6438	美国CBS电视台	NULL	2	4876
+6439	湖南经视频道	NULL	2	4876
+6440	崔艳	NULL	2	4875
+6441	翁菱	NULL	2	4875
+6442	仇芳芳	NULL	2	4875
+6443	CETV-3	NULL	2	4876
+6444	江奇霖	NULL	2	4875
+6445	尉迟琳嘉	NULL	2	4875
+6446	吴俣	NULL	2	4875
+6447	刘建宏	NULL	2	4875
+6448	周勇	NULL	2	4875
+6449	于谦	NULL	2	4875
+6450	德云社全体	NULL	2	4875
+6451	曾子墨	NULL	2	4875
+6452	莎娜	NULL	2	4875
+6453	赵雨润	NULL	2	4875
+6454	丁叮	NULL	2	4875
+6455	岳博伦	NULL	2	4875
+6456	张旭	NULL	2	4875
+6457	金刚	NULL	2	4875
+6458	胡培蔚	NULL	2	4875
+6459	李亚南	NULL	2	4875
+6460	姜文杰	NULL	2	4875
+6461	姚兵	NULL	2	4875
+6462	TVB8	NULL	2	4876
+6463	杨远昌	NULL	2	4875
+6464	张英杰	NULL	2	4875
+6465	张文静	NULL	2	4875
+6466	蒋龄萱	NULL	2	4875
+6467	李博晨	NULL	2	4875
+6468	张嘉佳	NULL	2	4875
+6469	苏志	NULL	2	4875
+6470	永邦	NULL	2	4875
+6471	楚邦	NULL	2	4875
+6472	童嘉	NULL	2	4875
+6473	KIKI	NULL	2	4875
+6474	BTV-青少	NULL	2	4876
+6475	秦溯	NULL	2	4875
+6476	张静	NULL	2	4875
+6477	张溢	NULL	2	4875
+6478	李悦	NULL	2	4875
+6479	渠昊	NULL	2	4875
+6480	黄未	NULL	2	4875
+6481	欧阳智薇	NULL	2	4875
+6482	徐涛	NULL	2	4875
+6483	陈蓓蓓	NULL	2	4875
+6484	范大姐	NULL	2	4875
+6485	邹德江	NULL	2	4875
+6486	杨周云	NULL	2	4875
+6487	王自健	NULL	2	4875
+6488	陈竞	NULL	2	4875
+6489	冯蕾	NULL	2	4875
+6490	福建-海峡卫视	NULL	2	4876
+6491	海光	NULL	2	4875
+6492	吕薇薇	NULL	2	4875
+6493	徐兴海	NULL	2	4875
+6494	许婷	NULL	2	4875
+6495	时尚汇现代女性频道	NULL	2	4876
+6496	李欣汝	NULL	2	4875
+6497	杨宓	NULL	2	4875
+6498	夏青	NULL	2	4875
+6499	刘辉	NULL	2	4875
+6500	梦雪	NULL	2	4875
+6501	张琪	NULL	2	4875
+6502	王帅	NULL	2	4875
+6503	秦原	NULL	2	4875
+6504	56网	NULL	2	4876
+6505	默默	NULL	2	4875
+6506	Lily	NULL	2	4875
+6507	佳佳	NULL	2	4875
+6508	猴子	NULL	2	4875
+6509	刘一帆	NULL	2	4875
+6510	梁子庚	NULL	2	4875
+6511	56我秀主播	NULL	2	4875
+6512	周星星	NULL	2	4875
+6513	新浪视频	NULL	2	4876
+6514	江钰婷	NULL	2	4875
+6515	钱程	NULL	2	4875
+6516	李天	NULL	2	4875
+6517	韩林	NULL	2	4875
+6518	谢小华	NULL	2	4875
+6519	江苏靓妆频道	NULL	2	4876
+6520	虎虎	NULL	2	4875
+6521	王健	NULL	2	4875
+6522	林泉	NULL	2	4875
+6523	林韦辰	NULL	2	4875
+6524	管婷婷	NULL	2	4875
+6525	土豆网	NULL	2	4876
+6526	戴君竹	NULL	2	4875
+6527	李文山	NULL	2	4875
+6528	刑文昭	NULL	2	4875
+6529	张越	NULL	2	4875
+6530	刘景庄	NULL	2	4875
+6531	李蕾	NULL	2	4875
+6532	上海电视台纪实频道	NULL	2	4876
+6533	黄舒骏	NULL	2	4875
+6534	杨坤	NULL	2	4875
+6535	胡君	NULL	2	4875
+6536	台湾八大综合台	NULL	2	4876
+6537	叶璐	NULL	2	4875
+6538	陈佩佩	NULL	2	4875
+6539	Lindesy	NULL	2	4875
+6540	美国ABC	NULL	2	4876
+6541	陈数	NULL	2	4875
+6542	沈星	NULL	2	4875
+6543	张婕	NULL	2	4875
+6544	上海星尚频道	NULL	2	4876
+6545	项飞	NULL	2	4875
+6546	天娜	NULL	2	4875
+6547	谢震武	NULL	2	4875
+6548	台湾年代MUCH台	NULL	2	4876
+6549	曹灿	NULL	2	4875
+6550	奇艺网	NULL	2	4876
+6551	释道心	NULL	2	4875
+6552	苏紫紫	NULL	2	4875
+6553	师洋	NULL	2	4875
+6554	黄韵玲	NULL	2	4875
+6555	袁惟仁	NULL	2	4875
+6556	马晓红	NULL	2	4875
+6557	萧敬腾	NULL	2	4875
+6558	程鹤麟	NULL	2	4875
+6559	黄海波	NULL	2	4875
+6560	艾毛	NULL	2	4875
+6561	浩角	NULL	2	4875
+6562	翔起	NULL	2	4875
+6563	TVBS欢乐台	NULL	2	4876
+6564	宋逸民	NULL	2	4875
+6565	龙洋	NULL	2	4875
+6566	闾丘露薇	NULL	2	4875
+6567	凤凰资讯台	NULL	2	4876
+6568	徐鸣	NULL	2	4875
+6569	优泽	NULL	2	4875
+6570	王鲁湘	NULL	2	4875
+6571	鲍春来	NULL	2	4875
+6572	其它	NULL	2	4877
+6573	瑞恩	NULL	2	4875
+6574	陈靓瑄	NULL	2	4875
+6575	周颖	NULL	2	4875
+6576	谢宛谕	NULL	2	4875
+6577	费玉清	NULL	2	4875
+6578	信	NULL	2	4875
+6579	陈慧琳	NULL	2	4875
+6580	范文芳	NULL	2	4875
+6581	陈志朋	NULL	2	4875
+6582	温岚	NULL	2	4875
+6583	胡彦斌	NULL	2	4875
+6584	郑希怡	NULL	2	4875
+6585	邵桐	NULL	2	4875
+6586	Mike隋	NULL	2	4875
+6587	关赢	NULL	2	4875
+6588	孙骁骁	NULL	2	4875
+6589	湖南娱乐频道	NULL	2	4876
+6590	徐乃麟	NULL	2	4875
+6591	邵圣懿	NULL	2	4875
+6592	甄诚	NULL	2	4875
+6593	CCTV-5体育	NULL	2	4876
+6594	尤宁	NULL	2	4875
+6595	翁晓萌	NULL	2	4875
+6596	陈滢	NULL	2	4875
+6597	贺炜	NULL	2	4875
+6598	段暄	NULL	2	4875
+6599	张路	NULL	2	4875
+6600	迟帅	NULL	2	4875
+6601	沙桐	NULL	2	4875
+6602	朱环	NULL	2	4875
+6603	董家耀	NULL	2	4875
+6604	马鼎盛	NULL	2	4875
+6605	香港凤凰卫视	NULL	2	4876
+6606	刘星宇	NULL	2	4875
+6607	王洁	NULL	2	4875
+6608	姜毅	NULL	2	4875
+6609	孙燕	NULL	2	4875
+6610	梁毅苗	NULL	2	4875
+6611	杨一	NULL	2	4875
+6612	崔征	NULL	2	4875
+6613	张虹	NULL	2	4875
+6614	宁辛	NULL	2	4875
+6615	袁文栋	NULL	2	4875
+6616	吴为	NULL	2	4875
+6617	王小节	NULL	2	4875
+6618	童可欣	NULL	2	4875
+6619	张宇东	NULL	2	4875
+6620	苏玲	NULL	2	4875
+6621	张斌	NULL	2	4875
+6622	涂经	NULL	2	4875
+6623	瑶淼	NULL	2	4875
+6624	雅妮	NULL	2	4875
+6625	CCTV-7	NULL	2	4876
+6626	CCTV-10科教	NULL	2	4876
+6627	于胜春	NULL	2	4875
+6628	CCTV-10	NULL	2	4876
+6629	王玲玲	NULL	2	4875
+6630	CCTV-9	NULL	2	4876
+6631	王欣	NULL	2	4875
+6632	唐剑	NULL	2	4875
+6633	张冬烨	NULL	2	4875
+6634	赵方	NULL	2	4875
+6635	李伟	NULL	2	4875
+6636	俞洁	NULL	2	4875
+6637	冀玉华	NULL	2	4875
+6638	张玮	NULL	2	4875
+6639	许敬晗	NULL	2	4875
+6640	丁丽	NULL	2	4875
+6641	周雷	NULL	2	4875
+6642	冯伽	NULL	2	4875
+6643	张璐	NULL	2	4875
+6644	王晓燕	NULL	2	4875
+6645	CCTV-7军事·农业	NULL	2	4876
+6646	卫晨霞	NULL	2	4875
+6647	王静	NULL	2	4875
+6648	苗博	NULL	2	4875
+6649	杨妮妮	NULL	2	4875
+6650	陆梅	NULL	2	4875
+6651	程玉婷	NULL	2	4875
+6652	李威	NULL	2	4875
+6653	李冰	NULL	2	4875
+6654	杨璐	NULL	2	4875
+6655	赵红艳	NULL	2	4875
+6656	张建华	NULL	2	4875
+6657	成璐	NULL	2	4875
+6658	陈青昊	NULL	2	4875
+6659	杜云	NULL	2	4875
+6660	王梁	NULL	2	4875
+6661	CCTV-8	NULL	2	4876
+6662	袁兵	NULL	2	4875
+6663	舒冬	NULL	2	4875
+6664	陈志峰	NULL	2	4875
+6665	黄薇	NULL	2	4875
+6666	张悦	NULL	2	4875
+6667	毕铭鑫	NULL	2	4875
+6668	王莉鑫	NULL	2	4875
+6669	肖东坡	NULL	2	4875
+6670	乔静	NULL	2	4875
+6671	刘芳菲	NULL	2	4875
+6672	冀欣	NULL	2	4875
+6673	张腾岳	NULL	2	4875
+6674	刘栋栋	NULL	2	4875
+6675	谢映玲	NULL	2	4875
+6676	燕菲	NULL	2	4875
+6677	石琼璘	NULL	2	4875
+6678	腾讯视频	NULL	2	4876
+6679	莫文蔚	NULL	2	4875
+6680	豆花妹	NULL	2	4875
+6681	台湾中华电视	NULL	2	4876
+6682	王雪纯	NULL	2	4875
+6683	严艺	NULL	2	4875
+6684	湖南卫视娱乐频道	NULL	2	4876
+6685	李佳明	NULL	2	4875
+6686	周晓萌	NULL	2	4875
+6687	江苏教育电视台	NULL	2	4876
+6688	江苏靓装频道	NULL	2	4876
+6689	金鑫	NULL	2	4875
+6690	侯丰	NULL	2	4875
+6691	肖艳	NULL	2	4875
+6692	和佳	NULL	2	4875
+6693	柴璐	NULL	2	4875
+6694	CCTV-新闻	NULL	2	4876
+6695	张喆	NULL	2	4875
+6696	CCTV-11	NULL	2	4876
+6697	吴海天	NULL	2	4875
+6698	CCTV-12社会与法	NULL	2	4876
+6699	鞠萍	NULL	2	4875
+6700	CCTV-少儿	NULL	2	4876
+6701	李晓东	NULL	2	4875
+6702	CCTV-4	NULL	2	4876
+6703	胜春	NULL	2	4875
+6704	CCTV-12	NULL	2	4876
+6705	陈彦宏	NULL	2	4875
+6706	段丽阳	NULL	2	4875
+6707	刘纯燕	NULL	2	4875
+6708	小鹿姐姐	NULL	2	4875
+6709	哆来咪	NULL	2	4875
+6710	张泉灵	NULL	2	4875
+6711	张羽	NULL	2	4875
+6712	李小萌	NULL	2	4875
+6713	CCTV-13	NULL	2	4876
+6714	曹震	NULL	2	4875
+6715	鞠萍姐姐	NULL	2	4875
+6716	CCTV-3	NULL	2	4876
+6717	陈伟鸿	NULL	2	4875
+6718	王凯	NULL	2	4875
+6719	杨波	NULL	2	4875
+6720	徐阳	NULL	2	4875
+6721	崔志刚	NULL	2	4875
+6722	黄炜	NULL	2	4875
+6723	张蕾	NULL	2	4875
+6724	CCTV-1综合	NULL	2	4876
+6725	任志宏	NULL	2	4875
+6726	赵保乐	NULL	2	4875
+6727	李红	NULL	2	4875
+6728	桑晨	NULL	2	4875
+6729	叶迎春	NULL	2	4875
+6730	CCTV-4中文国际(亚)	NULL	2	4876
+6731	朱迅	NULL	2	4875
+6732	秦方	NULL	2	4875
+6733	史小诺	NULL	2	4875
+6734	谢颖颖	NULL	2	4875
+6735	章艳	NULL	2	4875
+6736	王小骞	NULL	2	4875
+6737	姚振山	NULL	2	4875
+6738	沈竹	NULL	2	4875
+6739	严晓宁	NULL	2	4875
+6740	CCTV-2财经	NULL	2	4876
+6741	敬一丹	NULL	2	4875
+6742	王世林	NULL	2	4875
+6743	鲁健	NULL	2	4875
+6744	刚强	NULL	2	4875
+6745	王小丫	NULL	2	4875
+6746	芮成钢	NULL	2	4875
+6747	马洪涛	NULL	2	4875
+6748	赵赫	NULL	2	4875
+6749	小雨	NULL	2	4875
+6750	吴越	NULL	2	4875
+6751	雪松	NULL	2	4875
+6752	CCTV-11戏曲	NULL	2	4876
+6753	尼格买提	NULL	2	4875
+6754	柴静	NULL	2	4875
+6755	曹震叔叔	NULL	2	4875
+6756	CCTV-14	NULL	2	4876
+6757	董艺	NULL	2	4875
+6758	朱轶	NULL	2	4875
+6759	白燕升	NULL	2	4875
+6760	王筱磊	NULL	2	4875
+6761	汪文华	NULL	2	4875
+6762	元元	NULL	2	4875
+6763	孙小梅	NULL	2	4875
+6764	栗忠民	NULL	2	4875
+6765	肖薇	NULL	2	4875
+6766	张露馨	NULL	2	4875
+6767	康辉	NULL	2	4875
+6768	CCTV-13新闻	NULL	2	4876
+6769	管彤	NULL	2	4875
+6770	杨晓	NULL	2	4875
+6771	邓慧巍	NULL	2	4875
+6772	心言	NULL	2	4875
+6773	辽宁卫视北方频道	NULL	2	4876
+6774	齐奇	NULL	2	4875
+6775	彭坤	NULL	2	4875
+6776	胥午梅	NULL	2	4875
+6777	赵普等	NULL	2	4875
+6778	杨锐	NULL	2	4875
+6779	董倩	NULL	2	4875
+6780	宫岩	NULL	2	4875
+6781	熊雄	NULL	2	4875
+6782	轶男	NULL	2	4875
+6783	阿果	NULL	2	4875
+6784	白岩松	NULL	2	4875
+6785	李文静	NULL	2	4875
+6786	郎永淳	NULL	2	4875
+6787	杜悦	NULL	2	4875
+6788	林白	NULL	2	4875
+6789	路晨	NULL	2	4875
+6790	周宇	NULL	2	4875
+6791	CCTV-14少儿	NULL	2	4876
+6792	小时	NULL	2	4875
+6793	月亮姐姐	NULL	2	4875
+6794	金豆哥哥	NULL	2	4875
+6795	芝麻哥哥	NULL	2	4875
+6796	红果果	NULL	2	4875
+6797	麦小龙	NULL	2	4875
+6798	孟盛楠	NULL	2	4875
+6799	郭霁红	NULL	2	4875
+6800	毛毛	NULL	2	4875
+6801	北京文艺频道	NULL	2	4876
+6802	郝芳	NULL	2	4875
+6803	安素研	NULL	2	4875
+6804	刘晏辰	NULL	2	4875
+6805	乐视	NULL	2	4876
+6806	上海外语频道	NULL	2	4876
+6807	香港$$台湾	NULL	2	4877
+6808	王津元	NULL	2	4875
+6809	熊邦欣	NULL	2	4875
+6810	央视体育频道	NULL	2	4876
+6811	白岚	NULL	2	4875
+6812	俞迈	NULL	2	4875
+6813	河北电视台影视频道	NULL	2	4876
+6814	曲家瑞	NULL	2	4875
+6815	牛尔	NULL	2	4875
+6816	西蒙·考威尔	NULL	2	4875
+6817	英国独立电视台	NULL	2	4876
+6818	李章宇	NULL	2	4875
+6819	UIE	NULL	2	4875
+6820	韩国KBS电视台	NULL	2	4876
+6821	顾冰	NULL	2	4875
+6822	金瑜	NULL	2	4875
+6823	上海东方财经频道	NULL	2	4876
+6824	BTV-科教	NULL	2	4876
+6825	BTV-财经	NULL	2	4876
+6826	卢文龙	NULL	2	4875
+6827	路遥	NULL	2	4875
+6828	潘雷	NULL	2	4875
+6829	康咏	NULL	2	4875
+6830	冬锐	NULL	2	4875
+6831	刘晨栋	NULL	2	4875
+6832	BTV-公共	NULL	2	4876
+6833	TimGunn	NULL	2	4875
+6834	美国Lifetime电视台	NULL	2	4876
+6835	陈恳	NULL	2	4875
+6836	唐棣	NULL	2	4875
+6837	郭茜	NULL	2	4875
+6838	刘钰洁	NULL	2	4875
+6839	董大为	NULL	2	4875
+6840	马媛媛	NULL	2	4875
+6841	李琳	NULL	2	4875
+6842	潘怀宗	NULL	2	4875
+6843	路易	NULL	2	4875
+6844	富强	NULL	2	4875
+6845	肖一龙	NULL	2	4875
+6846	潘石屹	NULL	2	4875
+6847	车太贤	NULL	2	4875
+6848	成诗京	NULL	2	4875
+6849	朱元	NULL	2	4875
+6850	金承佑	NULL	2	4875
+6851	金钟民	NULL	2	4875
+6852	李秀根	NULL	2	4875
+6853	严泰雄	NULL	2	4875
+6854	李昇基	NULL	2	4875
+6855	殷志源	NULL	2	4875
+6856	崔晓静	NULL	2	4875
+6857	杨建群	NULL	2	4875
+6858	中天娱乐台	NULL	2	4876
+6859	马笑舒	NULL	2	4875
+6860	林依	NULL	2	4875
+6861	安贝拉	NULL	2	4875
+6862	江勇	NULL	2	4875
+6863	DJ小强	NULL	2	4875
+6864	章莹莹	NULL	2	4875
+6865	田龙	NULL	2	4875
+6866	但茹	NULL	2	4875
+6867	黄渤	NULL	2	4875
+6868	梦遥	NULL	2	4875
+6869	BTV-生活	NULL	2	4876
+6870	池石镇	NULL	2	4875
+6871	HAHA	NULL	2	4875
+6872	金钟国	NULL	2	4875
+6873	Gary	NULL	2	4875
+6874	宋智孝	NULL	2	4875
+6875	李光洙	NULL	2	4875
+6876	SBS电视台	NULL	2	4876
+6877	阳蕾	NULL	2	4875
+6878	乐视网	NULL	2	4876
+6879	周思雨	NULL	2	4875
+6880	李欣璐	NULL	2	4875
+6881	浙江电视台	NULL	2	4876
+6882	CCTV-15	NULL	2	4876
+6883	探索频道	NULL	2	4876
+6884	朴明秀	NULL	2	4875
+6885	申凤善	NULL	2	4875
+6886	中视无线台	NULL	2	4876
+6887	朱珠	NULL	2	4875
+6888	陈胤妃	NULL	2	4875
+6889	MTV全球音乐	NULL	2	4876
+6890	塔摩利	NULL	2	4875
+6891	竹内由恵	NULL	2	4875
+6892	华视	NULL	2	4876
+6893	张家云（花花）	NULL	2	4875
+6894	TVBS	NULL	2	4876
+6895	周志华	NULL	2	4875
+6896	安峰	NULL	2	4875
+6897	杭州电视台	NULL	2	4876
+6898	季芹	NULL	2	4875
+6899	赵正平	NULL	2	4875
+6900	HTV-6	NULL	2	4876
+6901	易中天	NULL	2	4875
+6902	阎崇年	NULL	2	4875
+6903	于丹	NULL	2	4875
+6904	王立群	NULL	2	4875
+6905	CCTV-15音乐	NULL	2	4876
+6906	小虾	NULL	2	4875
+6907	金城濠	NULL	2	4875
+6908	金方翔	NULL	2	4875
+6909	温州电视台经济科教频道	NULL	2	4876
+6910	曾瀞漪	NULL	2	4875
+6911	凤凰视频	NULL	2	4876
+6912	中国内地	NULL	2	4877
+6913	长啸	NULL	2	4875
+6914	胡蝶	NULL	2	4875
+6915	赵普	NULL	2	4875
+6916	郑天亮	NULL	2	4875
+6917	刘娜	NULL	2	4875
+6918	林剑萧	NULL	2	4875
+6919	东京电视台	NULL	2	4876
+6920	孙宇	NULL	2	4875
+6921	姚安濂	NULL	2	4875
+6922	狄莺	NULL	2	4875
+6923	赵骏亚	NULL	2	4875
+6924	张芯瑜	NULL	2	4875
+6925	台湾民视无线台	NULL	2	4876
+6926	小娴	NULL	2	4875
+6927	叶蓉	NULL	2	4875
+6928	潘涛	NULL	2	4875
+6929	秦忆	NULL	2	4875
+6930	何婕	NULL	2	4875
+6931	于飞	NULL	2	4875
+6932	福建东南卫视	NULL	2	4876
+6933	跳跳龙	NULL	2	4875
+6934	陕西电视台	NULL	2	4876
+6935	广西电视台综艺频道	NULL	2	4876
+6936	邰智源	NULL	2	4875
+6937	姜声扬	NULL	2	4875
+6938	周瑛琦	NULL	2	4875
+6939	福建	NULL	2	4877
+6940	司马春秋	NULL	2	4875
+6941	广东电视台公共频道	NULL	2	4876
+6942	于春涛	NULL	2	4875
+6943	梁思浩	NULL	2	4875
+6944	岑宝儿	NULL	2	4875
+6945	香港有线电视娱乐台	NULL	2	4876
+6946	星播客	NULL	2	4875
+6947	周静	NULL	2	4875
+6948	蒿军	NULL	2	4875
+6949	杨晨	NULL	2	4875
+6950	李浩	NULL	2	4875
+6951	王丝	NULL	2	4875
+6952	王乙艳	NULL	2	4875
+6953	姜虎东	NULL	2	4875
+6954	晓明	NULL	2	4875
+6955	丁曦	NULL	2	4875
+6956	浙江卫视民生休闲频道	NULL	2	4876
+6957	李曈曈	NULL	2	4875
+6958	水均益	NULL	2	4875
+6959	贝尔	NULL	2	4875
+6960	NGC	NULL	2	4876
+6961	贝尔·格里尔斯	NULL	2	4875
+6962	DiscoveryChannel	NULL	2	4876
+6963	林爽	NULL	2	4875
+6964	CCTV-阿拉伯	NULL	2	4876
+6965	张洪杰	NULL	2	4875
+6966	台湾$$港台	NULL	2	4877
+6967	卢琛	NULL	2	4875
+6968	西藏卫视	NULL	2	4876
+6969	纪萌	NULL	2	4875
+6970	吴鹏	NULL	2	4875
+6971	傅琳	NULL	2	4875
+6972	侯焜	NULL	2	4875
+6973	王剑	NULL	2	4875
+6974	南方电视台	NULL	2	4876
+6975	杭州电视台西湖明珠频道	NULL	2	4876
+6976	于立	NULL	2	4875
+6977	何卿	NULL	2	4875
+6978	阿丁	NULL	2	4875
+6979	尹红	NULL	2	4875
+6980	黄韵方	NULL	2	4875
+6981	陈浩民	NULL	2	4875
+6982	贾青	NULL	2	4875
+6983	中央电视台综艺频道	NULL	2	4876
+6984	陈晓楠	NULL	2	4875
+6985	日本读卖电视台	NULL	2	4876
+6986	谢忻	NULL	2	4875
+6987	邵庭	NULL	2	4875
+6988	台湾卫视中文台	NULL	2	4876
+6989	陈婷	NULL	2	4875
+6990	广州经济	NULL	2	4876
+6991	陈乔恩	NULL	2	4875
+6992	陆明君	NULL	2	4875
+6993	章伟秋	NULL	2	4875
+6994	赵彤	NULL	2	4875
+6995	吉米	NULL	2	4875
+6996	古兵	NULL	2	4875
+6997	CCTV新闻	NULL	2	4876
+6998	范玮琪	NULL	2	4875
+6999	Channel[V]	NULL	2	4876
+7000	杨舒	NULL	2	4875
+7001	郭鑫	NULL	2	4875
+7002	祝克非	NULL	2	4875
+7003	达桑	NULL	2	4875
+7004	彩虹姐姐	NULL	2	4875
+7005	慧玲姐姐	NULL	2	4875
+7006	瘦不了	NULL	2	4875
+7007	亚明	NULL	2	4875
+7008	小松鼠	NULL	2	4875
+7009	杨扉	NULL	2	4875
+7010	吕越涛	NULL	2	4875
+7011	刘芳	NULL	2	4875
+7012	侯昌明	NULL	2	4875
+7013	黄文华	NULL	2	4875
+7014	台湾超级电视台	NULL	2	4876
+7015	马如龙	NULL	2	4875
+7016	郭子乾	NULL	2	4875
+7017	台湾地区中天电视台	NULL	2	4876
+7018	李晓辉	NULL	2	4875
+7019	杨千霈	NULL	2	4875
+7020	陆虎	NULL	2	4875
+7021	包丽平	NULL	2	4875
+7022	台湾中天综合台	NULL	2	4876
+7023	阿速	NULL	2	4875
+7024	新燕	NULL	2	4875
+7025	陈曦	NULL	2	4875
+7026	黄晨昕	NULL	2	4875
+7027	汤大姐	NULL	2	4875
+7028	杭州电视台生活频道	NULL	2	4876
+7029	李伯清	NULL	2	4875
+7030	重庆电视台	NULL	2	4876
+7031	高燕	NULL	2	4875
+7032	浙江民生休闲频道	NULL	2	4876
+7033	雅兰	NULL	2	4875
+7034	台湾GTV1频道	NULL	2	4876
+7035	石齐平	NULL	2	4875
+7036	萨文	NULL	2	4875
+7037	谢亚芳	NULL	2	4875
+7038	简福疆	NULL	2	4875
+7039	倪子钧	NULL	2	4875
+7040	杨子仪	NULL	2	4875
+7041	居文沛	NULL	2	4875
+7042	李佳豫	NULL	2	4875
+7043	思琦	NULL	2	4875
+7044	黄子文	NULL	2	4875
+7045	台湾中天电视	NULL	2	4876
+7046	阿西	NULL	2	4875
+7047	阿娇	NULL	2	4875
+7048	陆建艺	NULL	2	4875
+7049	桑朝晖	NULL	2	4875
+7050	冰娴	NULL	2	4875
+7051	艾莉丝	NULL	2	4875
+7052	黄瑜娴	NULL	2	4875
+7053	裴新华	NULL	2	4875
+7054	杨丹	NULL	2	4875
+7055	李晶	NULL	2	4875
+7056	王毅	NULL	2	4875
+7057	金巍	NULL	2	4875
+7058	李辉	NULL	2	4875
+7059	杜鹃	NULL	2	4875
+7060	娜格娅	NULL	2	4875
+7061	台湾东风电视台	NULL	2	4876
+7062	周晋阳	NULL	2	4875
+7063	黑人	NULL	2	4875
+7064	大牙	NULL	2	4875
+7065	阿本	NULL	2	4875
+7066	杨丞琳	NULL	2	4875
+7067	卢洪哲	NULL	2	4875
+7068	郑亨敦	NULL	2	4875
+7069	郑俊河	NULL	2	4875
+7070	MBC韩国电视台	NULL	2	4876
+7071	张霞	NULL	2	4875
+7072	陈光	NULL	2	4875
+7073	伍志芳	NULL	2	4875
+7074	Tony	NULL	2	4875
+7075	小强	NULL	2	4875
+7076	小胡	NULL	2	4875
+7077	浙江电视台教育科技频道	NULL	2	4876
+7078	榕榕	NULL	2	4875
+7079	浙江卫视少儿频道	NULL	2	4876
+7080	绿泡泡	NULL	2	4875
+7081	陈望	NULL	2	4875
+7082	中国教育电视台三频道	NULL	2	4876
+7083	于洁丽	NULL	2	4875
+7084	马锐	NULL	2	4875
+7085	赵智杰等	NULL	2	4875
+7086	堂本刚	NULL	2	4875
+7087	堂本光一	NULL	2	4875
+7088	郭炀	NULL	2	4875
+7089	姚敏	NULL	2	4875
+7090	史竹君	NULL	2	4875
+7091	林晓晖	NULL	2	4875
+7092	福州一频道	NULL	2	4876
+7093	含微	NULL	2	4875
+7094	杭州电视台综合频道	NULL	2	4876
+7095	长江	NULL	2	4875
+7096	王志	NULL	2	4875
+7097	沈蕾	NULL	2	4875
+7098	一雯	NULL	2	4875
+7099	上海电视台	NULL	2	4876
+7100	刘珊玲	NULL	2	4875
+7101	梁茵	NULL	2	4875
+7102	凤凰卫视资讯台	NULL	2	4876
+7103	李修平	NULL	2	4875
+7104	李瑞英	NULL	2	4875
+7105	张宏民	NULL	2	4875
+7106	李梓萌	NULL	2	4875
+7107	海霞	NULL	2	4875
+7108	郭志坚	NULL	2	4875
+7109	陈扬	NULL	2	4875
+7110	广州电视台	NULL	2	4876
+7111	郑弘仪	NULL	2	4875
+7112	超级电视台	NULL	2	4876
+7113	敬思秋	NULL	2	4875
+7114	雷小雪	NULL	2	4875
+7115	杨冰	NULL	2	4875
+7116	舒静	NULL	2	4875
+7117	黄晴	NULL	2	4875
+7118	苏州广播电视总台	NULL	2	4876
+7119	张佩珊	NULL	2	4875
+7120	HeidiDugan	NULL	2	4875
+7121	卫视中文台	NULL	2	4876
+7122	CCTV-音乐	NULL	2	4876
+7123	张染	NULL	2	4875
+7124	英国	NULL	2	4877
+7125	DeclanDonnelly	NULL	2	4875
+7126	徐千惠	NULL	2	4875
+7127	王端端	NULL	2	4875
+7128	徐安妮	NULL	2	4875
+7129	白菲	NULL	2	4875
+7130	王少伟	NULL	2	4875
+7131	林伟恒	NULL	2	4875
+7132	戴家昀	NULL	2	4875
+7133	金东贤	NULL	2	4875
+7134	徐俐	NULL	2	4875
+7135	王童	NULL	2	4875
+7136	猪哥亮	NULL	2	4875
+7137	康晋荣	NULL	2	4875
+7138	许杰辉	NULL	2	4875
+7139	玛格莉特	NULL	2	4875
+7140	杨锦麟	NULL	2	4875
+7141	闾丘	NULL	2	4875
+7142	露薇	NULL	2	4875
+7143	南京卫视	NULL	2	4876
+7144	林栋甫	NULL	2	4875
+7145	黛米·洛瓦托	NULL	2	4875
+7146	布兰妮·简·斯皮尔斯	NULL	2	4875
+7147	LA雷德	NULL	2	4875
+7148	美国FOX电视台	NULL	2	4876
+7149	佟佳	NULL	2	4875
+7150	周杰伦	NULL	2	4875
+7151	杜国璋	NULL	2	4875
+7152	雪糕	NULL	2	4875
+7153	小麦	NULL	2	4875
+7154	乙黑绘理	NULL	2	4875
+7155	伊杨	NULL	2	4875
+7156	李鸣宇	NULL	2	4875
+7157	管军	NULL	2	4875
+7158	薛之谦	NULL	2	4875
+7159	曹侃	NULL	2	4875
+7160	豆豆	NULL	2	4875
+7161	徐子东	NULL	2	4875
+7162	陕西文艺频道	NULL	2	4876
+7163	CCTV-纪录	NULL	2	4876
+7164	姜建	NULL	2	4875
+7165	梁璐	NULL	2	4875
+7166	经纬	NULL	2	4875
+7167	江东虎	NULL	2	4875
+7168	蔡昌宪	NULL	2	4875
+7169	孙协志	NULL	2	4875
+7170	板野友美	NULL	2	4875
+7171	朝日台	NULL	2	4876
+7172	王伟忠	NULL	2	4875
+7173	陈亚兰	NULL	2	4875
+7174	中视	NULL	2	4876
+7175	黄宝慧	NULL	2	4875
+7176	朴秀珍	NULL	2	4875
+7177	苏东方	NULL	2	4875
+7178	郑鑫阳	NULL	2	4875
+7179	楚天	NULL	2	4875
+7180	东方电影频道	NULL	2	4876
+7181	梁静	NULL	2	4875
+7182	Mnet	NULL	2	4876
+7183	蒋东虎	NULL	2	4875
+7184	孙大植	NULL	2	4875
+7185	HughGrant	NULL	2	4875
+7186	刘俐利	NULL	2	4875
+7187	风行网	NULL	2	4876
+7188	刘欢	NULL	2	4875
+7189	那英	NULL	2	4875
+7190	亦丰	NULL	2	4875
+7191	杨孟潇	NULL	2	4875
+7192	黑龙江都市频道	NULL	2	4876
+7193	张蕙兰	NULL	2	4875
+7194	柏忠言	NULL	2	4875
+7195	莎媞雅	NULL	2	4875
+7196	芝麻	NULL	2	4875
+7197	山东齐鲁频道	NULL	2	4876
+7198	王蕃	NULL	2	4875
+7199	小S	NULL	2	4875
+7200	陈立青	NULL	2	4875
+7201	阚晓君	NULL	2	4875
+7202	马徐骏	NULL	2	4875
+7203	KelenaPoon	NULL	2	4875
+7204	ROCKY	NULL	2	4875
+7205	欣欣	NULL	2	4875
+7206	南方电视台卫星频道	NULL	2	4876
+7207	阿星	NULL	2	4875
+7208	湖北经视	NULL	2	4876
+7209	李四端	NULL	2	4875
+7210	台湾公视	NULL	2	4876
+7211	南方电视台都市频道	NULL	2	4876
+7212	林晓锋	NULL	2	4875
+7213	艺术人文	NULL	2	4876
+7214	南方都市	NULL	2	4876
+7215	李卓	NULL	2	4875
+7216	郁芳	NULL	2	4875
+7217	谭飞	NULL	2	4875
+7218	东东	NULL	2	4875
+7219	裔莎	NULL	2	4875
+7220	马赛儿	NULL	2	4875
+7221	中国教育	NULL	2	4876
+7222	新雨	NULL	2	4875
+7223	阿彦	NULL	2	4875
+7224	金桔	NULL	2	4875
+7225	向安神	NULL	2	4875
+7226	广州电视新闻台10	NULL	2	4876
+7227	李国君	NULL	2	4875
+7228	广东公共	NULL	2	4876
+7229	天天兄弟	NULL	2	4875
+7230	吴言	NULL	2	4875
+7231	史惠	NULL	2	4875
+7232	冬妮	NULL	2	4875
+7233	广州经济频道	NULL	2	4876
+7234	朱天华	NULL	2	4875
+7235	南方综艺	NULL	2	4876
+7236	张绍金	NULL	2	4875
+7237	小祯	NULL	2	4875
+7238	佩甄	NULL	2	4875
+7239	曹雪晴	NULL	2	4875
+7240	钟莹莹	NULL	2	4875
+7241	广州电视台综合频道	NULL	2	4876
+7242	安神	NULL	2	4875
+7243	加飞	NULL	2	4875
+7244	广州电视综合频道	NULL	2	4876
+7245	南方卫视TVS3综艺频道	NULL	2	4876
+7246	神话组合全体	NULL	2	4875
+7247	JTBC电视台	NULL	2	4876
+7248	李池湘	NULL	2	4875
+7249	刘汗	NULL	2	4875
+7250	刘嘉颖	NULL	2	4875
+7251	麦倩怡	NULL	2	4875
+7252	其内地	NULL	2	4877
+7253	翁航融	NULL	2	4875
+7254	林涛	NULL	2	4875
+7255	肖浩强	NULL	2	4875
+7256	彭嘉志	NULL	2	4875
+7257	广东电视台	NULL	2	4876
+7258	郑达	NULL	2	4875
+7259	姚旭	NULL	2	4875
+7260	再丽	NULL	2	4875
+7261	台湾年代综合台	NULL	2	4876
+7262	董彬	NULL	2	4875
+7263	王居蔚	NULL	2	4875
+7264	广州电视台新闻频道	NULL	2	4876
+7265	卫华	NULL	2	4875
+7266	台湾华视	NULL	2	4876
+7267	台视频道	NULL	2	4876
+7268	曾文瀚	NULL	2	4875
+7269	许燕玲	NULL	2	4875
+7270	柳熙烈	NULL	2	4875
+7271	KBS电视台	NULL	2	4876
+7272	CarsonDaly	NULL	2	4875
+7273	NBC	NULL	2	4876
+7274	赵琦鑫	NULL	2	4875
+7275	南方经视	NULL	2	4876
+7276	马里奥·洛佩兹	NULL	2	4875
+7277	NickCannon	NULL	2	4875
+7278	李明依	NULL	2	4875
+7279	东森综合台	NULL	2	4876
+7280	涂小丁	NULL	2	4875
+7281	南方都卫视	NULL	2	4876
+7282	东风37频道	NULL	2	4876
+7283	黄丽玲	NULL	2	4875
+7284	黄毅	NULL	2	4875
+7285	加拿大	NULL	2	4877
+7286	加拿大21娱乐集团公司	NULL	2	4876
+7287	CatDeeley	NULL	2	4875
+7288	FOX电视台	NULL	2	4876
+7289	珊珊	NULL	2	4875
+7290	RyanSeacrest	NULL	2	4875
+7291	福克斯	NULL	2	4876
+7292	李静雯	NULL	2	4875
+7293	小石	NULL	2	4875
+7294	彤彤	NULL	2	4875
+7295	成都电视台	NULL	2	4876
+7296	星空传媒	NULL	2	4876
+7297	刘俊纬(阿纬)	NULL	2	4875
+7298	廖亦崟	NULL	2	4875
+7299	卓在勋	NULL	2	4875
+7300	李起光	NULL	2	4875
+7301	华视EQ休闲频道	NULL	2	4876
+7302	戈登拉姆齐	NULL	2	4875
+7303	菲律宾	NULL	2	4877
+7304	珠江电影频道	NULL	2	4876
+7305	曾少宗	NULL	2	4875
+7306	乐活传媒	NULL	2	4876
+7307	董键	NULL	2	4875
+7308	张春妹	NULL	2	4875
+7309	冷志宏	NULL	2	4875
+7310	段旭明	NULL	2	4875
+7311	台视主频	NULL	2	4876
+7312	DarrenMcMullenTomShelly	NULL	2	4875
+7313	远藤章造	NULL	2	4875
+7314	田中直树	NULL	2	4875
+7315	菲尔·基欧汉	NULL	2	4875
+7316	哥伦比亚广播公司（CBS）	NULL	2	4876
+7317	钟惟德	NULL	2	4875
+7318	张小颖	NULL	2	4875
+7319	公共频道	NULL	2	4876
+7320	克里斯·安吉尔	NULL	2	4875
+7321	王炀	NULL	2	4875
+7322	田梦	NULL	2	4875
+7323	齐鲁频道	NULL	2	4876
+7324	JulieChen	NULL	2	4875
+7325	CBS	NULL	2	4876
+7326	中天电视台	NULL	2	4876
+7327	徐单	NULL	2	4875
+7328	张韬	NULL	2	4875
+7329	白羽	NULL	2	4875
+7330	重庆电视台时尚频道	NULL	2	4876
+7331	葉全真	NULL	2	4875
+7332	章耀明	NULL	2	4875
+7333	薛莹	NULL	2	4875
+7334	广州卫视	NULL	2	4876
+7335	佐罗	NULL	2	4875
+7336	MckenzieWestmore	NULL	2	4875
+7337	HeidiKlum	NULL	2	4875
+7338	刘兰芳	NULL	2	4875
+7339	许倩芸	NULL	2	4875
+7340	MarkKellerAnnouncer	NULL	2	4875
+7341	王羲	NULL	2	4875
+7342	齐鲁电视台	NULL	2	4876
+7343	王月心	NULL	2	4875
+7344	黄颖	NULL	2	4875
+7345	珠江卫视	NULL	2	4876
+7346	JamieOliver	NULL	2	4875
+7347	DermotO'Leary	NULL	2	4875
+7348	HollyWilloughby	NULL	2	4875
+7349	ITV1	NULL	2	4876
+7350	陈秋实	NULL	2	4875
+7351	悠悠	NULL	2	4875
+7352	文韬	NULL	2	4875
+7353	韦利	NULL	2	4875
+7354	汪东城	NULL	2	4875
+7355	北美崔哥	NULL	2	4875
+7356	王珏	NULL	2	4875
+7357	田宗琦	NULL	2	4875
+7358	刘钦	NULL	2	4875
+7359	我的伊克赛	NULL	2	4876
+7360	孙正平	NULL	2	4875
+7361	台湾JET综合台	NULL	2	4876
+7362	深圳广电娱乐频道	NULL	2	4876
+7363	李雨霏	NULL	2	4875
+7364	山东电视台影视频道	NULL	2	4876
+7365	PPTV	NULL	2	4876
+7366	于嘉	NULL	2	4875
+7367	亚丽	NULL	2	4875
+7368	费婕	NULL	2	4875
+7369	赵鹏	NULL	2	4875
+7370	雅丽	NULL	2	4875
+7371	张方	NULL	2	4875
+7372	杭州导视	NULL	2	4876
+7373	邱晓雨	NULL	2	4875
+7374	韩乔生	NULL	2	4875
+7375	杭州电视台少儿频道	NULL	2	4876
+7376	陶伟	NULL	2	4875
+7377	龚丽莉	NULL	2	4875
+7378	杭州电视台导视频道	NULL	2	4876
+7379	DC7号	NULL	2	4875
+7380	MISS哓寒	NULL	2	4875
+7381	劲爆体育频道	NULL	2	4876
+7382	赵昊	NULL	2	4875
+7383	舒中胜	NULL	2	4875
+7384	郑煜	NULL	2	4875
+7385	杨佑家	NULL	2	4875
+7386	刘菁	NULL	2	4875
+7387	小美	NULL	2	4875
+7388	雪倩	NULL	2	4875
+7389	浙江电视台公共新农村频道	NULL	2	4876
+7390	梁文道	NULL	2	4875
+7391	曹广随	NULL	2	4875
+7392	李毅	NULL	2	4875
+7393	杨强毛馨	NULL	2	4875
+7394	陈伟	NULL	2	4875
+7395	刘文蓉	NULL	2	4875
+7396	王浏芳	NULL	2	4875
+7397	郑浩	NULL	2	4875
+7398	金波	NULL	2	4875
+7399	陈海钢	NULL	2	4875
+7400	董飞	NULL	2	4875
+7401	殷爽	NULL	2	4875
+7402	王向群	NULL	2	4875
+7403	杨慧	NULL	2	4875
+7404	西湖明珠频道	NULL	2	4876
+7405	张晓北	NULL	2	4875
+7406	向杨	NULL	2	4875
+7407	李俊宇	NULL	2	4875
+7408	贺笑	NULL	2	4875
+7409	王翰涛	NULL	2	4875
+7410	臧雅菲	NULL	2	4875
+7411	西班牙	NULL	2	4877
+7412	意大利	NULL	2	4877
+7413	李天琼	NULL	2	4875
+7414	张贺	NULL	2	4875
+7415	阳光	NULL	2	4875
+7416	新苗	NULL	2	4875
+7417	浙江卫视教育科技频道	NULL	2	4876
+7418	席文	NULL	2	4875
+7419	何敏	NULL	2	4875
+7420	陈蔚波	NULL	2	4875
+7421	张琳	NULL	2	4875
+7422	杨莅	NULL	2	4875
+7423	陈文茜	NULL	2	4875
+7424	艺术人文频道	NULL	2	4876
+7425	张学庆	NULL	2	4875
+7426	曾媛	NULL	2	4875
+7427	陈怡蓉	NULL	2	4875
+7428	风行栏目组	NULL	2	4875
+7429	真子	NULL	2	4875
+7430	侯耀华	NULL	2	4875
+7431	李立群	NULL	2	4875
+7432	李欣	NULL	2	4875
+7433	新浪	NULL	2	4876
+7434	周葳	NULL	2	4875
+7435	风行	NULL	2	4876
+7436	娄晔	NULL	2	4875
+7437	于波	NULL	2	4875
+7438	老朱头子	NULL	2	4875
+7439	卡姐	NULL	2	4875
+7440	鲶鱼嘴	NULL	2	4875
+7441	月娥	NULL	2	4875
+7442	雷子	NULL	2	4875
+7443	桂兰	NULL	2	4875
+7444	大宝	NULL	2	4875
+7445	家明	NULL	2	4875
+7446	沈阳电视台	NULL	2	4876
+7447	银赫	NULL	2	4875
+7448	SBS	NULL	2	4876
+7449	赵天	NULL	2	4875
+7450	新浪网	NULL	2	4876
+7451	上海卫视艺术人文频道	NULL	2	4876
+7452	聂云	NULL	2	4875
+7453	陈赫	NULL	2	4875
+7454	孙艺洲	NULL	2	4875
+7455	张俪	NULL	2	4875
+7456	任重	NULL	2	4875
+7457	阎肃	NULL	2	4875
+7458	星瀚	NULL	2	4875
+7459	王凯蒂	NULL	2	4875
+7460	李娜	NULL	2	4875
+7461	纪连海	NULL	2	4875
+7462	高铭	NULL	2	4875
+7463	奇艺	NULL	2	4876
+7464	中国气象频道	NULL	2	4875
+7465	金美兰	NULL	2	4875
+7466	林依婷	NULL	2	4875
+7467	吴嘉星	NULL	2	4875
+7468	满江	NULL	2	4875
+7469	李浩林	NULL	2	4875
+7470	何戎	NULL	2	4875
+7471	龙斌	NULL	2	4875
+7472	全刑俊	NULL	2	4875
+7473	具俊晔	NULL	2	4875
+7474	56娱乐	NULL	2	4876
+7475	BTV-综艺	NULL	2	4876
+7476	鲍起静	NULL	2	4875
+7477	金泰恩	NULL	2	4875
+7478	成龙	NULL	2	4875
+7479	允世英	NULL	2	4875
+7480	南贤伊	NULL	2	4875
+7481	赵家班	NULL	2	4875
+7482	段建海	NULL	2	4875
+7483	扎西拉姆·多多	NULL	2	4875
+7484	詹子晴	NULL	2	4875
+7485	李京奎	NULL	2	4875
+7486	金国真	NULL	2	4875
+7487	金泰元	NULL	2	4875
+7488	李尹石	NULL	2	4875
+7489	金成珉（金成泽）	NULL	2	4875
+7490	李廷镇	NULL	2	4875
+7491	尹兴斌	NULL	2	4875
+7492	KBS2TV	NULL	2	4876
+7493	允儿	NULL	2	4875
+7494	李胜基	NULL	2	4875
+7495	凤凰卫视欧洲台	NULL	2	4876
+7496	雷剑涛	NULL	2	4875
+7497	王蕾	NULL	2	4875
+7498	关关	NULL	2	4875
+7499	梁秋予	NULL	2	4875
+7500	金玲	NULL	2	4875
+7501	陈欢科	NULL	2	4875
+7502	VLady	NULL	2	4875
+7503	金雨萍	NULL	2	4875
+7504	腾讯	NULL	2	4876
+7505	翁滋蔓	NULL	2	4875
+7506	腾讯卫视	NULL	2	4876
+7507	乔治·洛佩兹	NULL	2	4875
+7508	宋钟基	NULL	2	4875
+7509	秀智	NULL	2	4875
+7510	阿六头	NULL	2	4875
+7511	杭州卫视综合频道	NULL	2	4876
+7512	李素罗	NULL	2	4875
+7513	尹道贤	NULL	2	4875
+7514	黎芷珊	NULL	2	4875
+7515	金希澈	NULL	2	4875
+7516	琳娜-戈麦斯	NULL	2	4875
+7517	里克-罗斯	NULL	2	4875
+7518	乔纳-希尔	NULL	2	4875
+7519	以及赛斯-罗根	NULL	2	4875
+7520	高凌风	NULL	2	4875
+7521	吴亮	NULL	2	4875
+7522	林泓	NULL	2	4875
+7523	北京卫视7日7频道	NULL	2	4876
+7524	TBS	NULL	2	4876
+7525	文熙俊	NULL	2	4875
+7526	KBS	NULL	2	4876
+7527	德国	NULL	2	4877
+7528	本港台	NULL	2	4876
+7529	张晨光	NULL	2	4875
+7530	ABC	NULL	2	4876
+7531	瑞奇.热维斯	NULL	2	4875
+7532	杭州综合	NULL	2	4876
+7533	王淏	NULL	2	4875
+7534	岑永康	NULL	2	4875
+7535	于壹电视新闻台	NULL	2	4876
+7536	姜楠	NULL	2	4875
+7537	动画	NULL	2	4875
+7538	赵丽蓉	NULL	2	4875
+7539	裴秀智	NULL	2	4875
+7540	小敏	NULL	2	4875
+7541	李建华	NULL	2	4875
+7542	南非	NULL	2	4877
+7543	罗伯特希勒	NULL	2	4875
+7544	W.MarkSaltzman	NULL	2	4875
+7545	旭东	NULL	2	4875
+7546	北京电视台	NULL	2	4876
+7547	中国美食探	NULL	2	4875
+7548	季小军	NULL	2	4875
+7549	曹煊一	NULL	2	4875
+7550	孙虹钢	NULL	2	4875
+7551	Janet	NULL	2	4875
+7552	凯文·马克哈尔	NULL	2	4875
+7553	黄光熙	NULL	2	4875
+7554	孙智华	NULL	2	4875
+7555	迅雷网	NULL	2	4876
+7556	萌屿	NULL	2	4875
+7557	浙江经济生活	NULL	2	4876
+7558	洪天明	NULL	2	4875
+7559	香港TVB	NULL	2	4876
+7560	黎国辉	NULL	2	4875
+7561	查小欣	NULL	2	4875
+7562	庄思敏	NULL	2	4875
+7563	ChrisHardwick	NULL	2	4875
+7564	AMC	NULL	2	4876
+7565	董馨蔚	NULL	2	4875
+7566	姚雪松	NULL	2	4875
+7567	李潮	NULL	2	4875
+7568	中华龙舟大赛	NULL	2	4875
+7569	曲歌	NULL	2	4875
+7570	翟量	NULL	2	4875
+7571	刘玲华	NULL	2	4875
+7572	海薇	NULL	2	4875
+7573	中国教育台	NULL	2	4876
+7574	淡如田龙小强	NULL	2	4875
+7575	中国武术职业联赛	NULL	2	4875
+7576	AmyHungerford	NULL	2	4875
+7577	唐纳德卡根	NULL	2	4875
+7578	金秀路	NULL	2	4875
+7579	刘治平	NULL	2	4875
+7580	2PM	NULL	2	4875
+7581	林得荣	NULL	2	4875
+7582	郑婧婷	NULL	2	4875
+7583	陈志康	NULL	2	4875
+7584	温慧茵	NULL	2	4875
+7585	夏石镇	NULL	2	4875
+7586	柳时元	NULL	2	4875
+7587	诺珉宇	NULL	2	4875
+7588	李弘基	NULL	2	4875
+7589	BBC	NULL	2	4876
+7590	ChingHeHuang	NULL	2	4875
+7591	深圳电视台财经频道	NULL	2	4876
+7592	竺宇	NULL	2	4875
+7593	金正恩	NULL	2	4875
+7594	法国	NULL	2	4877
+7595	ChristineHayes	NULL	2	4875
+7596	SUPERJUNIOR	NULL	2	4875
+7597	ANNA	NULL	2	4875
+7598	ELVA	NULL	2	4875
+7599	Syfy	NULL	2	4876
+7600	高贤贞	NULL	2	4875
+7601	金永哲	NULL	2	4875
+7602	詹姆斯·弗兰科	NULL	2	4875
+7603	安妮·海瑟薇	NULL	2	4875
+7604	SHINee	NULL	2	4875
+7605	少女时代	NULL	2	4875
+7606	谢珊	NULL	2	4875
+7607	CNTV	NULL	2	4876
+7608	SISTAR	NULL	2	4875
+7609	MBLAQ	NULL	2	4875
+7610	冯巩	NULL	2	4875
+7611	Korea	NULL	2	4877
+7612	江西电视台都市频道	NULL	2	4876
+7613	FTV	NULL	2	4876
+7614	张佑赫	NULL	2	4875
+7615	MissA	NULL	2	4875
+7616	何东	NULL	2	4875
+7617	凤凰网	NULL	2	4876
+7618	T-ara	NULL	2	4875
+7619	欧阳靖	NULL	2	4875
+7620	TVN电视台	NULL	2	4876
+7621	曲蕃蕊	NULL	2	4875
+7622	那晴	NULL	2	4875
+7623	香港卫视	NULL	2	4876
+7624	孙涛	NULL	2	4875
+7625	Mnet电视台	NULL	2	4876
+7626	安七炫	NULL	2	4875
+7627	林俊逸	NULL	2	4875
+7628	韦杰彬	NULL	2	4875
+7629	彭伟华	NULL	2	4875
+7630	唐安麒	NULL	2	4875
+7631	江原来	NULL	2	4875
+7632	黄金时代	NULL	2	4875
+7633	侯宝林	NULL	2	4875
+7634	黄道林	NULL	2	4875
+7635	宋志云	NULL	2	4875
+7636	珍妮麦卡地	NULL	2	4875
+7637	PhilKeoghan	NULL	2	4875
+7638	徐艺菲	NULL	2	4875
+7639	鲁垚	NULL	2	4875
+7640	金炳万	NULL	2	4875
+7641	金妍儿	NULL	2	4875
+7642	金旻钟	NULL	2	4875
+7643	中央电视台国际频道	NULL	2	4876
+7644	李克勤	NULL	2	4875
+7645	小V	NULL	2	4875
+7646	华数TV	NULL	2	4876
+7647	苏民峰	NULL	2	4875
+7648	李咏等	NULL	2	4875
+7649	中国	NULL	2	4877
+7650	健磊	NULL	2	4875
+7651	张媛	NULL	2	4875
+7652	句号	NULL	2	4875
+7653	傅晓田	NULL	2	4875
+7654	马季	NULL	2	4875
+7655	王丝菲	NULL	2	4875
+7656	海南旅游卫视	NULL	2	4876
+7657	乔恩·斯图尔特	NULL	2	4875
+7658	金鹰纪实频道	NULL	2	4876
+7659	郎平	NULL	2	4875
+7660	刘钢	NULL	2	4875
+7661	姜颖	NULL	2	4875
+7662	张禹	NULL	2	4875
+7663	青岛电视台	NULL	2	4876
+7664	德国之声电视台	NULL	2	4876
+7665	伍思凯	NULL	2	4875
+7666	玛靡	NULL	2	4875
+7667	徐杰	NULL	2	4875
+7668	苏紫岩	NULL	2	4875
+7669	中国香港	NULL	2	4877
+7670	卓韵芝	NULL	2	4875
+7671	蒙嘉慧	NULL	2	4875
+7672	香港翡翠台	NULL	2	4876
+7673	李茜	NULL	2	4875
+7674	鞠鹏	NULL	2	4875
+7675	舒展	NULL	2	4875
+7676	JustinBieber	NULL	2	4875
+7677	池贤宇	NULL	2	4875
+7678	WonderGirls	NULL	2	4875
+7679	锦宜	NULL	2	4875
+7680	乐飞	NULL	2	4875
+7681	徐青	NULL	2	4875
+7682	美国探索频道	NULL	2	4876
+7683	徐莹	NULL	2	4875
+7684	元围棋频道	NULL	2	4876
+7685	张亚群	NULL	2	4875
+7686	王小利	NULL	2	4875
+7687	央视一套	NULL	2	4876
+7688	王佩	NULL	2	4875
+7689	华数互动电视	NULL	2	4876
+7690	鲁保罗	NULL	2	4875
+7691	马三立	NULL	2	4875
+7692	谢韵	NULL	2	4875
+7693	宋丹丹	NULL	2	4875
+7694	RobertRoode	NULL	2	4875
+7695	翡翠台	NULL	2	4876
+7696	胡冰	NULL	2	4875
+7697	徐彬斌	NULL	2	4875
+7698	宁欣	NULL	2	4875
+7699	TalBenShahar	NULL	2	4875
+7700	MC梦	NULL	2	4875
+7701	BenPolak	NULL	2	4875
+7702	Brian	NULL	2	4875
+7703	娴雅	NULL	2	4875
+7704	LangdonHammer	NULL	2	4875
+7705	康弘	NULL	2	4875
+7706	CraigWright	NULL	2	4875
+7707	陈茱莉	NULL	2	4875
+7708	李孝利	NULL	2	4875
+7709	美国Bravo电视台	NULL	2	4876
+7710	PaulH.Fry	NULL	2	4875
+7711	任秀娟	NULL	2	4875
+7712	任斌	NULL	2	4875
+7713	袁晨光	NULL	2	4875
+7714	流云	NULL	2	4875
+7715	赵建萍	NULL	2	4875
+7716	CUTV	NULL	2	4876
+7717	慧玲	NULL	2	4875
+7718	北京卡酷动画卫视	NULL	2	4876
+7719	金雅中	NULL	2	4875
+7720	巩汉林	NULL	2	4875
+7721	凯德科特立	NULL	2	4875
+7722	孙丹菲	NULL	2	4875
+7723	尼尔·帕特里克·哈里斯	NULL	2	4875
+7724	十八大	NULL	2	4875
+7725	方芳芳	NULL	2	4875
+7726	钟景辉	NULL	2	4875
+7727	金柳真	NULL	2	4875
+7728	郑容和	NULL	2	4875
+7729	林允儿	NULL	2	4875
+7730	徐帆	NULL	2	4875
+7731	陈佩斯	NULL	2	4875
+7732	朱时茂	NULL	2	4875
+7733	郑糠云	NULL	2	4875
+7734	IU	NULL	2	4875
+7735	姜素拉	NULL	2	4875
+7736	杨幂	NULL	2	4875
+7737	刘诗诗	NULL	2	4875
+7738	唐嫣	NULL	2	4875
+7739	孙鹤	NULL	2	4875
+7740	韩星	NULL	2	4875
+7741	MTV&Cyworld	NULL	2	4876
+7742	炎达	NULL	2	4875
+7743	叶念琛	NULL	2	4875
+7744	周秀娜	NULL	2	4875
+7745	TVB.com	NULL	2	4876
+7746	陈智燊	NULL	2	4875
+7747	龚嘉欣	NULL	2	4875
+7748	河智苑	NULL	2	4875
+7749	李旼赫	NULL	2	4875
+7750	陆星材	NULL	2	4875
+7751	刘俊	NULL	2	4875
+7752	沈鹏鸣	NULL	2	4875
+7753	刘容嘉	NULL	2	4875
+7754	林又立	NULL	2	4875
+7755	台湾东风卫视	NULL	2	4876
+7756	廖峻	NULL	2	4875
+7757	吴佳珊	NULL	2	4875
+7758	郑丽媛	NULL	2	4875
+7759	李辉在	NULL	2	4875
+7760	北京广播网	NULL	2	4876
+7761	尹汝贞	NULL	2	4875
+7762	刘俊相	NULL	2	4875
+7763	王江月	NULL	2	4875
+7764	老湿	NULL	2	4875
+7765	台视	NULL	2	4876
+7766	贾玲	NULL	2	4875
+7767	KK	NULL	2	4875
+7768	Boyfriend	NULL	2	4875
+7769	张铮	NULL	2	4875
+7770	青音	NULL	2	4875
+7771	张扬	NULL	2	4875
+7772	余天	NULL	2	4875
+7773	侯怡君	NULL	2	4875
+7774	盛夏	NULL	2	4875
+7775	爱纱	NULL	2	4875
+7776	刘品言	NULL	2	4875
+7777	龙勇	NULL	2	4875
+7778	大嘴巴组合	NULL	2	4875
+7779	陈力	NULL	2	4875
+7780	亦兵	NULL	2	4875
+7781	夏蓓蒂	NULL	2	4875
+7782	李方宇	NULL	2	4875
+7783	尹尚	NULL	2	4875
+7784	徐仁英	NULL	2	4875
+7785	梁耀燮	NULL	2	4875
+7786	蒂娜·菲	NULL	2	4875
+7787	王小牙	NULL	2	4875
+7788	HBO	NULL	2	4876
+7789	李英子	NULL	2	4875
+7790	金泰钧	NULL	2	4875
+7791	美国国家地理	NULL	2	4876
+7792	方静	NULL	2	4875
+7793	CCTV1	NULL	2	4876
+7794	李慧妍	NULL	2	4875
+7795	胡海泉	NULL	2	4875
+7796	国培源	NULL	2	4875
+7797	北京电视台新闻频道	NULL	2	4876
+7798	王瑀	NULL	2	4875
+7799	搜狐网	NULL	2	4876
+7800	张帆	NULL	2	4875
+7801	JTBC	NULL	2	4876
+7802	小黑	NULL	2	4875
+7803	李天舒	NULL	2	4875
+7804	DavidAdams	NULL	2	4875
+7805	河北视频	NULL	2	4876
+7806	沈昌珉	NULL	2	4875
+7807	郑在型	NULL	2	4875
+7808	爱奇艺出品	NULL	2	4876
+7809	胡盈祯	NULL	2	4875
+7810	深圳傲影	NULL	2	4876
+7811	孙潇毅	NULL	2	4875
+7812	亚当·沙维奇	NULL	2	4875
+7813	杰米·海纳曼	NULL	2	4875
+7814	阿敏	NULL	2	4875
+7815	张敏健	NULL	2	4875
+7816	广西综艺频道	NULL	2	4876
+7817	刘同	NULL	2	4875
+7818	阿瑟	NULL	2	4875
+7819	美国ABC电视台	NULL	2	4876
+7820	佼佼	NULL	2	4875
+7821	席琳迪翁	NULL	2	4875
+7822	李玉刚	NULL	2	4875
+7823	景海鹏	NULL	2	4875
+7824	宋祖英	NULL	2	4875
+7825	王力宏	NULL	2	4875
+7826	张靓颖	NULL	2	4875
+7827	凤凰传奇	NULL	2	4875
+7828	赵丽	NULL	2	4875
+7829	张权	NULL	2	4875
+7830	艾伦	NULL	2	4875
+7831	孙俪	NULL	2	4875
+7832	王宏伟	NULL	2	4875
+7833	邓鸣贺	NULL	2	4875
+7834	邓鸣璐	NULL	2	4875
+7835	沈腾	NULL	2	4875
+7836	马丽	NULL	2	4875
+7837	孙楠	NULL	2	4875
+7838	曲婉婷	NULL	2	4875
+7839	李云迪	NULL	2	4875
+7840	秦海璐	NULL	2	4875
+7841	雅尼	NULL	2	4875
+7842	常静	NULL	2	4875
+7843	赵文卓	NULL	2	4875
+7844	刘大成	NULL	2	4875
+7845	蔡明	NULL	2	4875
+7846	毛阿敏	NULL	2	4875
+7847	刘云天	NULL	2	4875
+7848	阿普萨萨	NULL	2	4875
+7849	许艺娜	NULL	2	4875
+7850	郎朗	NULL	2	4875
+7851	候宏澜	NULL	2	4875
+7852	于魁智	NULL	2	4875
+7853	托马斯	NULL	2	4875
+7854	张杰	NULL	2	4875
+7855	林宥嘉	NULL	2	4875
+7856	谭晶	NULL	2	4875
+7857	沙宝亮	NULL	2	4875
+7858	徐千雅	NULL	2	4875
+7859	汪峰	NULL	2	4875
+7860	SHE	NULL	2	4875
+7861	赵炎	NULL	2	4875
+7862	程刚	NULL	2	4875
+7863	吴克群	NULL	2	4875
+7864	玖月奇迹	NULL	2	4875
+7865	李谷一	NULL	2	4875
+7866	张英席	NULL	2	4875
+7867	刘宏宇	NULL	2	4875
+7868	张静涛	NULL	2	4875
+7869	阚迪	NULL	2	4875
+7870	刘梦珂	NULL	2	4875
+7871	天文台	NULL	2	4875
+7872	JeffProbst	NULL	2	4875
+7873	CBS电视台	NULL	2	4876
+7874	新娱乐	NULL	2	4876
+7875	叶惠贤	NULL	2	4875
+7876	赵津生	NULL	2	4875
+7877	琦君	NULL	2	4875
+7878	欣奇	NULL	2	4875
+7879	中国大陆	NULL	2	4877
+7880	栾海	NULL	2	4875
+7881	闫峰杰	NULL	2	4875
+7882	李桂琴	NULL	2	4875
+7883	张宏伟	NULL	2	4875
+7884	苏云丽	NULL	2	4875
+7885	牛永华	NULL	2	4875
+7886	秦婧	NULL	2	4875
+7887	杨霓	NULL	2	4875
+7888	张燕	NULL	2	4875
+7889	武钢	NULL	2	4875
+7890	郑永辉	NULL	2	4875
+7891	艾红	NULL	2	4875
+7892	郭建学	NULL	2	4875
+7893	杨扬	NULL	2	4875
+7894	张翼	NULL	2	4875
+7895	于歌	NULL	2	4875
+7896	宋怀强	NULL	2	4875
+7897	林芝	NULL	2	4875
+7898	冬雨	NULL	2	4875
+7899	李日红	NULL	2	4875
+7900	翟曼	NULL	2	4875
+7901	殷英	NULL	2	4875
+7902	童米	NULL	2	4875
+7903	董丽萍	NULL	2	4875
+7904	龚海	NULL	2	4875
+7905	周云	NULL	2	4875
+7906	韩学卿	NULL	2	4875
+7907	张浩	NULL	2	4875
+7908	林杨	NULL	2	4875
+7909	杨畅	NULL	2	4875
+7910	张美芝	NULL	2	4875
+7911	郑毅	NULL	2	4875
+7912	田甜	NULL	2	4875
+7913	吴清	NULL	2	4875
+7914	张为	NULL	2	4875
+7915	谢蕾	NULL	2	4875
+7916	佟瑶	NULL	2	4875
+7917	尹凡	NULL	2	4875
+7918	贾珍珍	NULL	2	4875
+7919	张歌	NULL	2	4875
+7920	吴震宇	NULL	2	4875
+7921	张圣镕玥	NULL	2	4875
+7922	中国教育电视台一套	NULL	2	4876
+7923	金喜善	NULL	2	4875
+7924	路瑶	NULL	2	4875
+7925	娜迪拉	NULL	2	4875
+7926	吕帅,徐婧	NULL	2	4875
+7927	郭平	NULL	2	4875
+7928	吴晓亮	NULL	2	4875
+7929	泰勒·斯威夫特	NULL	2	4875
+7930	贝蒂·怀特	NULL	2	4875
+7931	NBC卫视	NULL	2	4876
+7932	妙然	NULL	2	4875
+7933	邴吉	NULL	2	4875
+7934	刘派	NULL	2	4875
+7935	蒋煜	NULL	2	4875
+7936	杨锦	NULL	2	4875
+7937	金钊	NULL	2	4875
+7938	吕明	NULL	2	4875
+7939	申远	NULL	2	4875
+7940	半农	NULL	2	4875
+7941	金铭	NULL	2	4875
+7942	范奕	NULL	2	4875
+7943	李炜	NULL	2	4875
+7944	吕雪娇	NULL	2	4875
+7945	谢培君	NULL	2	4875
+7946	景伟健	NULL	2	4875
+7947	CCTV2	NULL	2	4876
+7948	孙佳仁	NULL	2	4875
+7949	朱勇勋	NULL	2	4875
+7950	上海生活时尚	NULL	2	4876
+7951	朱力安	NULL	2	4875
+7952	亚茹	NULL	2	4875
+7953	山东卫视公共频道	NULL	2	4876
+7954	娜奥米·坎贝尔	NULL	2	4875
+7955	卡罗莱娜·科库娃	NULL	2	4875
+7956	Oxygen电视台	NULL	2	4876
+7957	何亮亮	NULL	2	4875
+7958	NAVER	NULL	2	4876
+7959	徐浩平	NULL	2	4875
+7960	山东电视台综艺频道	NULL	2	4876
+7961	朴仁英	NULL	2	4875
+7962	朱桐	NULL	2	4875
+7963	曲梦	NULL	2	4875
+7964	Roseann	NULL	2	4875
+7965	Lake	NULL	2	4875
+7966	香港亚洲电视台	NULL	2	4876
+7967	子祯	NULL	2	4875
+7968	巧虎	NULL	2	4875
+7969	向日葵哥哥	NULL	2	4875
+7970	浙江少儿	NULL	2	4876
+7971	老马	NULL	2	4875
+7972	贺兆时	NULL	2	4875
+7973	张继聪	NULL	2	4875
+7974	商天娥	NULL	2	4875
+7975	中央人民广播电台	NULL	2	4876
+7976	JeremyClarkson	NULL	2	4875
+7977	RichardHammond	NULL	2	4875
+7978	文文	NULL	2	4875
+7979	浙江影视	NULL	2	4876
+7980	刘佳	NULL	2	4875
+7981	HTV-1	NULL	2	4876
+7982	汪聪	NULL	2	4875
+7983	星尚酷	NULL	2	4876
+7984	沈洁	NULL	2	4875
+7985	江苏体育频道	NULL	2	4876
+7986	史正涵	NULL	2	4875
+7987	江苏卫视体育休闲频道	NULL	2	4876
+7988	澳门	NULL	2	4877
+7989	徐莉婷	NULL	2	4875
+7990	熊夕侨	NULL	2	4875
+7991	王松青	NULL	2	4875
+7992	雷朋	NULL	2	4875
+7993	山东综艺频道	NULL	2	4876
+7994	杨鑫	NULL	2	4875
+7995	教育电视台卫星频道	NULL	2	4876
+7996	罗瑶	NULL	2	4875
+7997	任家萱	NULL	2	4875
+7998	超视33频道	NULL	2	4876
+7999	开心麻花	NULL	2	4875
+8000	张崇伟	NULL	2	4875
+8001	李扬	NULL	2	4875
+8002	香港卫视精品台	NULL	2	4876
+8003	王冲	NULL	2	4875
+8004	方清平	NULL	2	4875
+8005	佘雅静	NULL	2	4875
+8006	陈奕龙	NULL	2	4875
+8007	郑亚娟	NULL	2	4875
+8008	张雪倩	NULL	2	4875
+8009	爱奇艺综艺	NULL	2	4876
+8010	浙江	NULL	2	4876
+8011	郭津	NULL	2	4875
+8012	金贤重	NULL	2	4875
+8013	尹施允	NULL	2	4875
+8014	金范秀	NULL	2	4875
+8015	搜狐	NULL	2	4876
+8016	安宁	NULL	2	4875
+8017	CCTV发现之旅频道	NULL	2	4876
+8018	小妖精	NULL	2	4875
+8019	亚琼	NULL	2	4875
+8020	刘帆	NULL	2	4875
+8021	四川经济频道	NULL	2	4876
+8022	SCTV-2	NULL	2	4876
+8023	黄鹤	NULL	2	4875
+8024	四川电视台旅游文化频道	NULL	2	4876
+8025	田震	NULL	2	4875
+8026	李若萱	NULL	2	4875
+8027	李思	NULL	2	4875
+8028	快乐垂钓频道	NULL	2	4876
+8029	四川卫视第3频道	NULL	2	4876
+8030	央视	NULL	2	4876
+8031	中国教育电卫视	NULL	2	4876
+8032	山东齐鲁台	NULL	2	4876
+8033	尹卓	NULL	2	4875
+8034	杜文龙	NULL	2	4875
+8035	赵楚	NULL	2	4875
+8036	太平洋女性网	NULL	2	4876
+8037	SarahMurdoch	NULL	2	4875
+8038	TonyAn	NULL	2	4875
+8039	千明勋	NULL	2	4875
+8040	安信源	NULL	2	4875
+8041	QTV	NULL	2	4876
+8042	南航空姐	NULL	2	4875
+8043	梅冬	NULL	2	4875
+8044	未知	NULL	2	4875
+8045	张铁林	NULL	2	4875
+8046	宁静	NULL	2	4875
+8047	张一山	NULL	2	4875
+8048	广西电视台	NULL	2	4876
+8049	麦咭	NULL	2	4875
+8050	金鹰卡通卫视	NULL	2	4876
+8051	无	NULL	2	4875
+8052	殷硕	NULL	2	4875
+8053	宇欣	NULL	2	4875
+8054	小冉	NULL	2	4875
+8055	周月	NULL	2	4875
+8056	四川卫视文化旅游频道	NULL	2	4876
+8057	黄信慧	NULL	2	4875
+8058	超视	NULL	2	4876
+8059	MTV电视台	NULL	2	4876
+8060	郭宇峰	NULL	2	4875
+8061	赵子靓	NULL	2	4875
+8062	安徽电视台	NULL	2	4876
+8063	邱震海	NULL	2	4875
+8064	SCTV	NULL	2	4876
+8065	叶露	NULL	2	4875
+8066	丁元皓	NULL	2	4875
+8067	世袭时代	NULL	2	4876
+8068	糖豆网	NULL	2	4876
+8069	杨钰莹	NULL	2	4875
+8070	孙浩英	NULL	2	4875
+8071	金泰源	NULL	2	4875
+8072	CCTV5	NULL	2	4876
+8073	强春娟	NULL	2	4875
+8074	柏林	NULL	2	4875
+8075	湖南快乐垂钓频道	NULL	2	4876
+8076	陈帆	NULL	2	4875
+8077	虾米	NULL	2	4875
+8078	陈莉敏	NULL	2	4875
+8079	洛新	NULL	2	4875
+8080	MTV中文频道	NULL	2	4876
+8081	沙青	NULL	2	4875
+8082	凯比努尔	NULL	2	4875
+8083	新疆电视台	NULL	2	4876
+8084	西安电视台影视娱乐频道	NULL	2	4876
+8085	wasu	NULL	2	4875
+8086	宋茜	NULL	2	4875
+8087	Luna	NULL	2	4875
+8088	崔雪莉	NULL	2	4875
+8089	Amber	NULL	2	4875
+8090	Krystal	NULL	2	4875
+8091	MBCMUSIC	NULL	2	4876
+8092	优优宝贝	NULL	2	4875
+8093	龙峰	NULL	2	4875
+8094	江苏频道	NULL	2	4876
+8095	深圳卫视娱乐频道	NULL	2	4876
+8096	东北新闻网	NULL	2	4876
+8097	林岗	NULL	2	4875
+8098	万俊人	NULL	2	4875
+8099	李培林	NULL	2	4875
+8100	洪银兴	NULL	2	4875
+8101	石明然	NULL	2	4875
+8102	马梓涵	NULL	2	4875
+8103	刘杰	NULL	2	4875
+8104	山西广播电视台	NULL	2	4876
+8105	霍华德·斯特恩	NULL	2	4875
+8106	房哲镛	NULL	2	4875
+8107	柳秀永	NULL	2	4875
+8108	徐庆锡	NULL	2	4875
+8109	孙振英	NULL	2	4875
+8110	SamHamington	NULL	2	4875
+8111	风行娱乐频道	NULL	2	4876
+8112	赵瑜佩	NULL	2	4875
+8113	英国Y.N.G传媒	NULL	2	4876
+8114	阿进	NULL	2	4875
+8115	刘羽真	NULL	2	4875
+8116	安徽电视	NULL	2	4876
+8117	刘旭	NULL	2	4875
+8118	安徽科教频道	NULL	2	4876
+8119	阿达	NULL	2	4875
+8120	李耕	NULL	2	4875
+8121	第一视频	NULL	2	4876
+8122	郭松民	NULL	2	4875
+8123	瑶佳	NULL	2	4875
+8124	沈楠	NULL	2	4875
+8125	张样果而	NULL	2	4875
+8126	林然	NULL	2	4875
+8127	许天元	NULL	2	4875
+8128	李杨璐	NULL	2	4875
+8129	草蜢	NULL	2	4875
+8130	28频道	NULL	2	4876
+8131	农夫	NULL	2	4875
+8132	林晓峰	NULL	2	4875
+8133	谭咏麟	NULL	2	4875
+8134	Discovery	NULL	2	4875
+8135	黄心娣	NULL	2	4875
+8136	李明川	NULL	2	4875
+8137	劳埃德·格罗斯曼	NULL	2	4875
+8138	读书频道	NULL	2	4876
+8139	李顺载	NULL	2	4875
+8140	申久	NULL	2	4875
+8141	朴根滢	NULL	2	4875
+8142	白一燮	NULL	2	4875
+8143	tvN	NULL	2	4876
+8144	北京电视台科教卫视	NULL	2	4876
+8145	张颐武	NULL	2	4875
+8146	王小蜢	NULL	2	4875
+8147	浙江网络广播电视台	NULL	2	4876
+8148	林盛斌	NULL	2	4875
+8149	薛家燕	NULL	2	4875
+8150	呂慧仪	NULL	2	4875
+8151	周家蔚	NULL	2	4875
+8152	曾华倩	NULL	2	4875
+8153	李代沫	NULL	2	4875
+8154	河北电视台	NULL	2	4876
+8155	小月	NULL	2	4875
+8156	黄新惠	NULL	2	4875
+8157	GailSimmons	NULL	2	4875
+8158	佟迪	NULL	2	4875
+8159	JUNJIN	NULL	2	4875
+8160	詹姆斯·瑞森	NULL	2	4875
+8161	时代美食	NULL	2	4876
+8162	GordonRamsayGrah	NULL	2	4875
+8163	56影视	NULL	2	4875
+8164	李东方	NULL	2	4875
+8165	暴走漫画曹尼玛	NULL	2	4875
+8166	微栏目	NULL	2	4876
+8167	老豹	NULL	2	4875
+8168	宋恩儿	NULL	2	4875
+8169	金淑	NULL	2	4875
+8170	白宝蓝	NULL	2	4875
+8171	皇甫惠贞	NULL	2	4875
+8172	蔡思潘	NULL	2	4875
+8173	JaleelWhite	NULL	2	4875
+8174	美国SYFY电视台	NULL	2	4876
+8175	黄西	NULL	2	4875
+8176	日本$$韩国	NULL	2	4877
+8177	娱鸡	NULL	2	4875
+8178	暴走漫画	NULL	2	4875
+8179	江苏影视频道	NULL	2	4876
+8180	李玟雨	NULL	2	4875
+8181	权俞利	NULL	2	4875
+8182	金孝渊	NULL	2	4875
+8183	有线频道Mnet	NULL	2	4876
+8184	陈玲	NULL	2	4875
+8185	刘雨鑫	NULL	2	4875
+8186	孙夏	NULL	2	4875
+8187	韩红	NULL	2	4875
+8188	何泰然	NULL	2	4875
+8189	鳕熊	NULL	2	4875
+8190	YY语音平台	NULL	2	4876
+8191	周周	NULL	2	4875
+8192	丁丁	NULL	2	4875
+8193	今波	NULL	2	4875
+8194	毕祎	NULL	2	4875
+8195	小荷姐姐	NULL	2	4875
+8196	Eli	NULL	2	4875
+8197	ArirangTV	NULL	2	4876
+8198	丹尼尔	NULL	2	4875
+8199	PENIEL	NULL	2	4875
+8200	韩国阿里郎电台	NULL	2	4876
+8201	Hanbyul	NULL	2	4875
+8202	ERICNAM	NULL	2	4875
+8203	韩国阿里郎电视台	NULL	2	4876
+8204	壹读iRead	NULL	2	4875
+8205	Adam	NULL	2	4875
+8206	Savage	NULL	2	4875
+8207	Jamie	NULL	2	4875
+8208	Hyneman	NULL	2	4875
+8209	晓敏	NULL	2	4875
+8210	章珊	NULL	2	4875
+8211	史哲维	NULL	2	4875
+8212	江苏	NULL	2	4876
+8213	方亮	NULL	2	4875
+8214	佳妮	NULL	2	4875
+8215	芷晗	NULL	2	4875
+8216	王诺	NULL	2	4875
+8217	vice中国	NULL	2	4875
+8218	周文重	NULL	2	4875
+8219	刘孜	NULL	2	4875
+8220	CCTV-发现之旅频道	NULL	2	4876
+8221	徐光裕	NULL	2	4875
+8222	罗源	NULL	2	4875
+8223	连莲	NULL	2	4875
+8224	百克力	NULL	2	4875
+8225	古一彤	NULL	2	4875
+8226	广东公共台	NULL	2	4876
+8227	王哲	NULL	2	4875
+8228	孙苗	NULL	2	4875
+8229	马长山	NULL	2	4875
+8230	李艳梅	NULL	2	4875
+8231	宋玉柱	NULL	2	4875
+8232	吉林电视台综艺文化频道	NULL	2	4876
+8233	孔雀哥哥	NULL	2	4875
+8234	中华男模网	NULL	2	4876
+8235	播报		2	4894
+8236	体育		2	4929
+8237	健康		2	4929
+8238	女性		2	4894
+8239	小品		2	4929
+8240	户外		2	4929
+8241	正在上映	Showing	3	1069
+8242	微电影		3	464
+8243	内容		1	0
+8244	用户		1	0
+8245	主讲人		1	0
+8246	机构		1	0
+8247	婴幼儿		2	8243
+8248	学校课程		2	8243
+8249	英语		2	8243
+8250	外语学习		2	8243
+8251	职业		2	8243
+8252	公开课		2	8243
+8253	家长儿童		2	8244
+8254	小学生		2	8244
+8255	初中生		2	8244
+8256	高中生		2	8244
+8257	大学生		2	8244
+8258	成年人		2	8244
+8259	国内大学		2	8246
+8260	国际名校		2	8246
+8261	其他机构		2	8246
+8262	益智		3	8247
+8263	语言		3	8247
+8264	才艺		3	8247
+8265	童话		3	8247
+8266	歌谣		3	8247
+8267	亲子		3	8247
+8268	动画		3	8247
+8269	语文		3	8248
+8270	数学		3	8248
+8271	物理		3	8248
+8272	化学		3	8248
+8273	历史		3	8248
+8274	地理		3	8248
+8275	生物		3	8248
+8276	思想品德		3	8248
+8277	政治		3	8248
+8278	音乐		3	8248
+8279	美术		3	8248
+8280	体育		3	8248
+8281	信息技术		3	8248
+8282	手工		3	8248
+8283	奥数		3	8248
+8284	小升初		3	8248
+8285	中考		3	8248
+8286	高考		3	8248
+8287	考研		3	8248
+8288	MBA		3	8248
+8289	留学		3	8248
+8290	经济学		3	8248
+8291	心理学		3	8248
+8292	管理学		3	8248
+8293	法律		3	8248
+8294	计算机		3	8248
+8295	少儿英语		3	8249
+8296	英语四级		3	8249
+8297	英语六级		3	8249
+8298	托福		3	8249
+8299	商务英语		3	8249
+8300	新概念		3	8249
+8301	职称英语		3	8249
+8302	公共英语		3	8249
+8303	雅思		3	8249
+8304	英语口语		3	8249
+8305	日语		3	8250
+8306	韩语		3	8250
+8307	法语		3	8250
+8308	德语		3	8250
+8309	方言		3	8250
+8310	IT		3	8251
+8311	财务		3	8251
+8312	职业资格		3	8251
+8313	公务员		3	8251
+8314	企业管理		3	8251
+8315	职场学习		3	8251
+8316	驾照		3	8251
+8317	运动		3	8251
+8318	美食		3	8251
+8319	时尚		3	8251
+8320	魔术		3	8251
+8321	人文科学		3	8252
+8322	自然科学		3	8252
+8323	社会科学		3	8252
+8324	一年级		3	8254
+8325	二年级		3	8254
+8326	三年级		3	8254
+8327	四年级		3	8254
+8328	五年级		3	8254
+8329	初一		3	8255
+8330	初二		3	8255
+8331	初三		3	8255
+8332	高一		3	8256
+8333	高二		3	8256
+8334	高三		3	8256
+8335	大一		3	8257
+8336	大二		3	8257
+8337	大三		3	8257
+8338	大四		3	8257
+8339	北京大学		3	8259
+8340	清华大学		3	8259
+8341	复旦大学		3	8259
+8342	中国人民大学		3	8259
+8343	浙江大学		3	8259
+8344	武汉大学		3	8259
+8345	南开大学		3	8259
+8346	北京航空航天大学		3	8259
+8347	哈佛大学		3	8260
+8348	斯坦福大学		3	8260
+8349	耶鲁大学		3	8260
+8350	牛津大学		3	8260
+8351	剑桥大学		3	8260
+8352	麻省理工学院		3	8260
+8353	巴黎高等商学院		3	8260
+8354	新东方		3	8261
+8355	疯狂英语		3	8261
+8356	宠物		2	4929
+8357	政治		2	4894
+8358	环保		2	4894
+8359	宴会		3	577
+8360	瘾君子		3	800
+8361	名媛		3	800
+8362	销售		3	800
+8363	翻译		3	800
+8364	快递员		3	800
+8365	警花		3	800
+8366	演出		3	82
+8367	内讧		3	82
+8368	刑训		3	82
+8370	娱乐		1	0
+8371	明星资讯		2	8370
+8372	影视资讯		2	8370
+8373	纪录片		1	0
+8374	人物		2	8373
+8375	社会		2	8373
+8376	军事纪录片		2	8373
+8378	历史纪录片		2	8373
+8379	文化		2	8373
+8380	自然		2	8373
+8381	古迹		2	8373
+8382	刑侦		2	8373
+8383	旅游纪录片		2	8373
+8384	美食		2	8373
+8385	音乐资讯		2	8370
+8386	时政		2	8373
+8387	科技纪录片		2	8373
+8388	重磅头条		2	8370
+8389	宗教		2	8373
+8390	搞笑		1	0
+8391	恶搞		2	8390
+8392	搞笑自拍		2	8390
+8393	百姓故事		3	8374
+8394	地理风光		3	8383
+8395	萌宠		2	8390
+8397	传奇人物		3	8374
+8398	童趣		2	8390
+8399	军政名人		3	8374
+8400	宇宙奥秘		3	8377
+8401	文物		3	8379
+8402	航空航天		3	8387
+8403	文明		3	8379
+8404	戏曲		1	0
+8405	体育片		2	8373
+8406	戏剧		2	8404
+8407	古墓		3	8379
+8408	外交		3	8386
+8409	文体明星		3	8374
+8410	战争		3	8376
+8411	电影传奇		3	8379
+8412	广告		1	0
+8413	创意广告		2	8412
+8414	二战		3	8376
+8415	公益广告		2	8412
+8416	汽车广告		2	8412
+8417	搞笑广告		2	8412
+8418	感人广告		2	8412
+8419	微电影/自制剧		1	0
+8420	京剧		3	8406
+8421	越剧		3	8406
+8422	黄梅		3	8406
+8423	评剧		3	8406
+8424	豫剧		3	8406
+8425	昆曲		3	8406
+8426	粤剧		3	8406
+8427	花鼓戏		3	8406
+8428	艺术		2	8404
+8429	魔术		2	8404
+8430	秦腔		3	8406
+8431	潮剧		3	8406
+8432	二人转		3	8406
+8433	淮剧		3	8406
+8434	沪剧		3	8406
+8435	锡剧		3	8406
+8436	川剧		3	8406
+8437	感人		2	8419
+8443	晋剧		3	8406
+8447	闽剧		3	8406
+8448	蒲剧		3	8406
+8449	河南坠子		3	8406
+8451	杂技		2	8404
+8452	话剧		2	8404
+8453	音乐		1	0
+8454	大陆		2	8453
+8455	港台		2	8453
+8456	相声小品		2	8404
+8457	欧美		2	8453
+8458	拉美		2	8453
+8459	评书		2	8404
+8460	非洲		2	8453
+8461	日韩		2	8453
+8462	乐队组合		2	8453
+8463	流行		2	8453
+8464	民谣		2	8453
+8465	摇滚		2	8453
+8466	Hip-Hop		2	8453
+8467	拉丁		2	8453
+8468	爵士		2	8453
+8469	乡村		2	8453
+8470	电子		2	8453
+8471	舞曲		2	8453
+8472	雷鬼		2	8453
+8473	R&B		2	8453
+8474	轻音乐		2	8453
+8475	古典		2	8453
+8476	音乐剧		2	8453
+8477	新世纪		2	8453
+8478	金属		2	8453
+8479	儿歌		3	8672
+8480	怀旧		2	8453
+8481	农业		1	0
+8482	致富经		2	8481
+8483	创业		2	8481
+8484	养殖技术		2	8481
+8485	种植技术		2	8481
+8486	拍客		1	0
+8487	明星拍客		2	8486
+8488	我在现场		2	8486
+8489	资讯/新闻		1	0
+8490	生活秀场		2	8486
+8491	宠物秀		3	0
+8493	美食秀		3	8490
+8494	最新资讯		2	8489
+8495	牛人		2	8486
+8496	创意		2	8419
+8497	混剪/配音		2	8419
+8498	动画		2	8419
+8499	最热资讯		2	8489
+8500	国内		2	8489
+8501	国际新闻		2	8489
+8502	军事新闻		2	8489
+8503	财经新闻		2	8489
+8504	社会新闻		2	8489
+8505	科技新闻		2	8489
+8506	新闻评论		2	8489
+8507	台海新闻		2	8489
+8508	舞蹈		1	0
+8509	广场舞		2	8508
+8510	古典舞		2	8508
+8511	芭蕾		2	8508
+8512	民族舞		2	8508
+8513	现代舞		2	8508
+8514	踢踏舞		2	8508
+8515	印度舞		2	8508
+8516	迪斯科		2	8508
+8517	街舞		2	8508
+8518	霹雳舞		3	8517
+8519	机械舞		3	8517
+8520	时尚		1	0
+8521	锁舞		3	8517
+8522	美妆		2	8520
+8523	自由舞		3	8517
+8524	服饰		2	8520
+8525	秀场		2	8520
+8526	街拍		2	8520
+8527	派对红毯		2	8520
+8528	男士		2	8520
+8529	乐活		2	8520
+8530	游戏		1	0
+8531	游戏资讯		2	8530
+8532	网络游戏		2	8530
+8533	电子竞技		2	8530
+8534	电影		1	0
+8535	单机游戏		2	8530
+8536	手机游戏		2	8530
+8537	预告片		2	8534
+8538	爵士舞		3	8517
+8539	网页游戏		2	8530
+8540	片花		2	8534
+8541	片段		2	8534
+8542	拉丁舞		2	8508
+8543	恰恰		3	8542
+8544	cosplay		2	8530
+8545	chinajoy		2	8530
+8546	花絮		2	8534
+8547	汽车		1	0
+8548	汽车资讯		2	8547
+8549	试驾		2	8547
+8550	养车		2	8547
+8551	改装		2	8547
+8552	赛车		2	8547
+8553	名车		2	8547
+8554	车模		2	8547
+8555	车广告		2	8547
+8556	学车		2	8547
+8557	飙车		2	8547
+8558	摩托车		2	8547
+8559	电视剧		1	0
+8560	科技		1	0
+8561	预告		2	8559
+8562	数码		2	8560
+8563	电视剧片花		2	8559
+8564	电视剧片段		2	8559
+8565	手机		2	8560
+8566	电视剧花絮		2	8559
+8567	电脑		2	8560
+8568	平板		2	8560
+8569	数码/玩物		2	8560
+8570	军事		1	0
+8571	大陆军情		2	8570
+8572	台海风云		2	8570
+8573	环球军力		2	8570
+8574	尖端武器		2	8570
+8575	军史秘闻		2	8570
+8576	历史		1	0
+8577	历史揭秘		2	8576
+8578	动漫		1	0
+8579	桑巴		3	1542
+8580	伦巴		3	8542
+8581	牛仔舞		3	8542
+8582	斗牛舞		3	8542
+8583	交谊舞		2	8508
+8584	肚皮舞		2	8508
+8585	亲子舞		2	8508
+8586	动漫预告片		2	8578
+8587	综艺		1	0
+8588	综艺预告		2	8587
+8589	美女		1	0
+8590	史实见证		2	8576
+8591	美女写真		2	8589
+8592	足球宝贝		2	8589
+8593	模特		2	8589
+8594	丝袜美女		2	8589
+8595	生活		0	1
+8596	旅游		1	0
+8597	休闲		2	8595
+8598	国内游		2	8596
+8599	出境游		2	8596
+8600	旅游攻略		2	8596
+8601	教育		1	0
+8602	潮品		2	8595
+8603	婚恋		2	8595
+8604	女性		2	8595
+8605	家居		2	8595
+8606	居家		2	8595
+8607	宠物		2	8595
+8608	聚会		2	8595
+8609	菜谱		2	8595
+8610	装修		2	8595
+8611	手工艺		2	8595
+8612	健身		1	0
+8613	公开课		2	8601
+8614	瘦身减肥		2	8612
+8615	瑜伽		2	8612
+8616	太极		2	8612
+8617	腹肌锻炼		2	8612
+8618	胸肌锻炼		2	8612
+8619	健康		1	0
+8620	TED	TED	3	8613
+8621	心理健康		2	8619
+8622	名医讲座		2	8619
+8623	养生宝典		2	8619
+8624	食疗药膳		2	8619
+8625	中医		2	8619
+8626	体育		1	0
+8627	体育资讯		2	8626
+8628	篮球		2	8626
+8629	足球		2	8626
+8630	英超		2	8626
+8631	极限运动		2	8626
+8632	跑酷		2	8626
+8633	自行车		2	8626
+8634	轮滑		2	8626
+8635	滑板		2	8626
+8636	武术		2	8626
+8637	格斗		2	8626
+8638	台球		2	8626
+8639	羽毛球		2	8626
+8640	网球		2	8626
+8641	田径		2	8626
+8642	水上项目		2	8626
+8643	力量项目		2	8626
+8644	冰雪项目		2	8626
+8645	射击		2	8626
+8646	竞技舞蹈		2	8626
+8647	棋牌		2	8626
+8648	模型		2	8626
+8649	奥运会		2	8626
+8650	欧洲杯		2	8626
+8651	啦啦队舞		2	8626
+8652	排球		2	8626
+8653	搏击		2	8626
+8665	外语		2	8601
+8666	雅思		3	8665
+8667	四级		3	8665
+8668	六级		3	8665
+8669	托福		3	8665
+8671	计算机		2	8601
+8672	幼儿教育		2	8601
+8674	童谣		3	8672
+8675	故事大全		3	8672
+8676	儿童舞蹈		3	8672
+8677	小学教育		2	8601
+8678	初中教育		2	8601
+8679	高中教育		2	8601
+8680	母婴		1	0
+8684	小升初		3	8677
+8685	中考		3	8678
+8686	备孕		2	8680
+8687	孕期		2	8680
+8688	产后		2	8680
+8689	育儿		2	8680
+8690	宝宝秀		2	8680
+8691	高考		3	8679
+8692	广场舞舞蹈队		3	8509
+8693	广场舞教学		3	8509
+8694	游戏美女		2	8589
+8695	体育花絮		2	8626
+8696	wwf		2	8626
+8697	世界杯		2	8626
+8698	球星		2	8626
+8699	进球集锦		2	8626
+8700	TVB		3	1069
